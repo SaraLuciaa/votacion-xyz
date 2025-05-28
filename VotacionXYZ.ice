@@ -1,11 +1,16 @@
 module VotacionXYZ {
     sequence<string> stringSeq;
 
+    struct Message {
+        string id;
+        string text;
+    };
+
     interface MesaVotacion {
         stringSeq listarCandidatos();
         void registrarVoto(long candidatoId);
         stringSeq obtenerResultados();
-    };
+    }
 
      interface AckService {
         void confirm(string messageId);
@@ -13,6 +18,6 @@ module VotacionXYZ {
 
     interface EstacionVotacion{
         stringSeq obtenerAcumuladoVotos();
-        void obtenerVoto();
+        void obtenerVoto(Message m, AckService* ack);
     }
 };

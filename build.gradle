@@ -43,14 +43,5 @@ subprojects {
             )
         }
     }
-
-    //
-    // Apply the application plugin only to specific subprojects
-    //
-    if (project.name == 'mesa') {
-        apply plugin: 'application'
-        application {
-            mainClass = 'MesaVotacion' // Asegúrate de que esta sea la clase correcta
-        }
-    }
+   
 }

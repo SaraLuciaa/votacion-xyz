@@ -2,7 +2,7 @@ import com.zeroc.Ice.Communicator;
 import com.zeroc.Ice.ObjectAdapter;
 import com.zeroc.Ice.Util;
 
-public class ControladorEstacionVotacion {
+public class Estacion {
 
      public static void main(String[] args) {
 
