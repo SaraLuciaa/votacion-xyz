@@ -16,11 +16,11 @@ public class Estacion {
 
             adapter.activate();
 
-            System.out.println("Servidor de estación de votación escuchando en el puerto 10020...");
+            System.out.println("Servidor de estacion de votacion escuchando en el puerto 10020...");
 
             communicator.waitForShutdown();
         } catch (Exception e) {
-            System.err.println("Error en la estación: " + e.getMessage());
+            System.err.println("Error en la estacion: " + e.getMessage());
             e.printStackTrace();
             System.exit(1);
         }

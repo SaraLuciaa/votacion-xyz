@@ -22,7 +22,7 @@ public class ResultadosLocales implements EstacionVotacion {
          {
         if (seen.contains(msg.id)) return;
 
-        System.out.println("Recibido: " + msg.text);
+        System.out.println("Recibido: " + msg.voto.nombreCandidato);
         seen.add(msg.id);
 
         ackProxy.confirm(msg.id);

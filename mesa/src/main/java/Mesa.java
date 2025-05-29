@@ -1,4 +1,6 @@
 import VotacionXYZ.EstacionVotacionPrx;
+import ackService.AckServiceI;
+
 import com.zeroc.Ice.Communicator;
 import com.zeroc.Ice.ObjectAdapter;
 import com.zeroc.Ice.Util;
@@ -26,27 +28,46 @@ public class Mesa {
 
             adapter.add(service, Util.stringToIdentity("mesa"));
             adapter.activate();
-
-            System.out.println("Mesa de votación lista en el puerto 10010");
-
-            System.out.println("\n=== Lista de candidatos ===");
-            String[] lista = service.listarCandidatos(null);
-            for (String item : lista) {
-                System.out.println(item);
-            }
-
-            Scanner scanner = new Scanner(System.in);
-            System.out.print("\nSeleccione el número del candidato: ");
-            int numero = scanner.nextInt();
-
-            service.registrarVoto(numero, null);
-            scanner.close();
-
+            
+            service.reenviarVotosPendientes();
+            service.iniciarReintentoPeriodico();
+            iniciarPrograma(service);
+        
             communicator.waitForShutdown();
         } catch (Exception e) {
             System.err.println("Error en la mesa: " + e.getMessage());
             e.printStackTrace();
             System.exit(1);
         }
+    }
+
+    private static void iniciarPrograma(ControladorMesaVotacion service) {
+        System.out.println("Bienvenido al sistema de votacion.");
+        System.out.println("Por favor, siga las instrucciones para votar.");
+        System.out.println("Mesa de votacion lista en el puerto 10010");
+
+        boolean votando = true;
+        Scanner scanner = new Scanner(System.in);
+
+        
+        while (votando){
+            System.out.println("\n=== Lista de candidatos ===");
+            String[] lista = service.listarCandidatos(null);
+            for (String item : lista) {
+                System.out.println(item);
+            }
+            System.out.print("\nSeleccione el numero del candidato: ");
+            int numero = scanner.nextInt();
+            service.registrarVoto(numero, null);
+            System.out.println("Desea registrar otro voto? (s/n)");
+            String respuesta = scanner.next();
+            if (respuesta.equalsIgnoreCase("n")) {
+                votando = false;
+                System.out.println("Cerrando el sistema de votacion...");
+            }
+
+        }
+        scanner.close();
+
     }
 }

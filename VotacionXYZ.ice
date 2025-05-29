@@ -1,9 +1,13 @@
 module VotacionXYZ {
     sequence<string> stringSeq;
 
+    struct Voto {
+        string nombreCandidato;
+    };
+
     struct Message {
         string id;
-        string text;
+        Voto voto;
     };
 
     interface MesaVotacion {
