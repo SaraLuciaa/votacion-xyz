@@ -24,8 +24,5 @@ public class Estacion {
             e.printStackTrace();
             System.exit(1);
         }
-    }
-
-    
-    
+    }    
 }

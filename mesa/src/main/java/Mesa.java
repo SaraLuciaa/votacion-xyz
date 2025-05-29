@@ -58,12 +58,13 @@ public class Mesa {
             }
             System.out.print("\nSeleccione el numero del candidato: ");
             int numero = scanner.nextInt();
-            service.registrarVoto(numero, null);
             System.out.println("Desea registrar otro voto? (s/n)");
             String respuesta = scanner.next();
             if (respuesta.equalsIgnoreCase("n")) {
-                votando = false;
-                System.out.println("Cerrando el sistema de votacion...");
+                System.out.println("Voto no registrado.");
+            } else {
+                service.registrarVoto(numero, null);
+                System.out.println("Voto registrado exitosamente.");
             }
 
         }

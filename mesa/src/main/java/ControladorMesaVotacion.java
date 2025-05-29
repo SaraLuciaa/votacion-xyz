@@ -9,14 +9,13 @@ import java.util.logging.Logger;
 import logger.AppLogger;
 import VotacionXYZ.Voto;
 
-
 public class ControladorMesaVotacion implements MesaVotacion {
     private List<String> candidatos;
     private EstacionVotacionPrx resultadosProxy;
-    private AckServicePrx ackServicePrx; 
+    private AckServicePrx ackServicePrx;
     private final GuardadoVotos guardado;
     private final Logger log;
-    private volatile boolean running = true; 
+    private volatile boolean running = true;
 
     public ControladorMesaVotacion(EstacionVotacionPrx resultadosProxy, AckServicePrx ackServicePrx) {
         this.candidatos = Arrays.asList("Candidato A", "Candidato B", "Candidato C");
@@ -24,7 +23,6 @@ public class ControladorMesaVotacion implements MesaVotacion {
         this.ackServicePrx = ackServicePrx;
         this.guardado = new GuardadoVotos();
         this.log = AppLogger.get();
-        
     }
 
     @Override
@@ -34,40 +32,35 @@ public class ControladorMesaVotacion implements MesaVotacion {
             lista[i] = (i + 1) + ". " + candidatos.get(i);
         }
         return lista;
-
     }
 
     @Override
-     public void registrarVoto(long candidatoIndex, Current current) {
-        if (candidatoIndex < 1 || candidatoIndex > Integer.MAX_VALUE) {
+    public void registrarVoto(long candidatoIndex, Current current) {
+        if (candidatoIndex < 1 || candidatoIndex > candidatos.size()) {
             log.warning("Indice de candidato fuera de rango: " + candidatoIndex);
-            throw new IllegalArgumentException("indice de candidato fuera de rango: " + candidatoIndex);
+            throw new IllegalArgumentException("Índice de candidato fuera de rango");
         }
 
         String nombreCandidato = getCandidatoPorNumero((int) candidatoIndex);
-        
         if (nombreCandidato == null) {
-            log.warning("Indice de candidato no valido: " + candidatoIndex);
-            throw new IllegalArgumentException("Candidato no valido.");
+            log.warning("Candidato inválido: " + candidatoIndex);
+            throw new IllegalArgumentException("Candidato no válido.");
         }
 
         Voto voto = new Voto(nombreCandidato);
         String uuid = UUID.randomUUID().toString();
-        VotacionXYZ.Message msg = new Message(uuid, voto);
+        Message msg = new Message(uuid, voto);
 
-        if (resultadosProxy != null && ackServicePrx != null) {
-            try {
+        try {
+            if (resultadosProxy != null && ackServicePrx != null) {
                 resultadosProxy.obtenerVoto(msg, ackServicePrx);
                 log.info("Voto enviado para: " + nombreCandidato + ", ID: " + uuid);
-            } catch (Exception e) {
-                log.severe("Error al enviar voto: " + e.getMessage());
-                guardado.add(msg);
-                log.warning("Guardando voto localmente debido a error: " + e.getMessage());
+            } else {
+                throw new IllegalStateException("Proxy no disponible");
             }
-        } else {
-            log.warning("No hay conexion con la estacion o el callback. Guardando voto localmente.");
-            guardado.add(msg); 
-            log.warning("Voto guardado localmente: " + msg.id);
+        } catch (Exception e) {
+            log.warning("Error al enviar voto. Guardando localmente: " + e.getMessage());
+            guardado.add(msg);
         }
     }
 
@@ -77,8 +70,8 @@ public class ControladorMesaVotacion implements MesaVotacion {
         }
         return null;
     }
-    
-     public void reenviarVotosPendientes() {
+
+    public void reenviarVotosPendientes() {
         List<Message> pendientes = guardado.getAll();
         if (pendientes.isEmpty()) {
             log.info("No hay votos pendientes para reenviar.");
@@ -90,9 +83,9 @@ public class ControladorMesaVotacion implements MesaVotacion {
                 if (resultadosProxy != null && ackServicePrx != null) {
                     resultadosProxy.obtenerVoto(msg, ackServicePrx);
                     guardado.remove(msg.id);
-                    log.info("Voto reenviado exitosamente: " + msg.id);
+                    log.info("Voto reenviado: " + msg.id);
                 } else {
-                    log.warning("No hay conexión con la estación o el callback. Voto retenido: " + msg.id);
+                    log.warning("Sin conexión. Voto retenido: " + msg.id);
                 }
             } catch (Exception e) {
                 log.warning("Error al reenviar voto: " + msg.id + " - " + e.getMessage());
@@ -100,29 +93,25 @@ public class ControladorMesaVotacion implements MesaVotacion {
         }
     }
 
-
-
     public void iniciarReintentoPeriodico() {
         Thread reintentoThread = new Thread(() -> {
             while (running) {
                 try {
-                    Thread.sleep(10000); 
+                    Thread.sleep(3000);
                     reenviarVotosPendientes();
                 } catch (InterruptedException e) {
-                    log.warning("Hilo de reintento interrumpido: " + e.getMessage());
+                    log.warning("Reintento interrumpido: " + e.getMessage());
                     break;
                 }
             }
         });
         reintentoThread.setDaemon(true);
         reintentoThread.start();
-        log.info("Hilo de reintento periodico iniciado.");
+        log.info("Hilo de reintento iniciado.");
     }
-
 
     @Override
     public String[] obtenerResultados(Current current) {
-
         return null;
     }
 }

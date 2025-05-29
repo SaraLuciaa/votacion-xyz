@@ -1,76 +1,46 @@
 package logger;
 
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
+import com.google.gson.GsonBuilder;
+import VotacionXYZ.Message;
+
 import java.io.*;
+import java.lang.reflect.Type;
 import java.util.ArrayList;
+import java.util.List;
 import java.util.logging.Logger;
 
-import VotacionXYZ.Message;
-import VotacionXYZ.Voto;
-
 public class GuardadoVotos {
-    private static final File FILE = new File("src/main/resources/votos_pendientes.json");
-    private final ArrayList<Message> pendingMessages = new ArrayList<>();
+    private static final File FILE = new File("mesa/src/main/resources/votos_pendientes.json");
+    private final List<Message> pendingMessages = new ArrayList<>();
     private final Logger log = AppLogger.get();
+    private final Gson gson;
 
     public GuardadoVotos() {
+        gson = new GsonBuilder().setPrettyPrinting().create();
         load();
     }
 
     private void load() {
         if (!FILE.exists()) return;
-
-        try (BufferedReader reader = new BufferedReader(new FileReader(FILE))) {
-            StringBuilder json = new StringBuilder();
-            String line;
-            while ((line = reader.readLine()) != null) {
-                json.append(line.trim());
-            }
-
-            String content = json.toString()
-                    .replaceAll("^\\[", "")
-                    .replaceAll("]$", "");
-
-            for (String entry : content.split("},")) {
-                if (!entry.trim().isEmpty()) {
-                    String cleanedEntry = entry.endsWith("}") ? entry : entry + "}";
-                    String[] parts = cleanedEntry.replaceAll("[{}\"]", "").split(",");
-                    String id = null, text = null;
-                    for (String part : parts) {
-                        String[] keyValue = part.split(":", 2);
-                        if (keyValue[0].trim().equals("id")) {
-                            id = keyValue[1].trim();
-                        } else if (keyValue[0].trim().equals("text")) {
-                            text = keyValue[1].trim();
-                        }
-                    }
-                    if (id != null && text != null) {
-                        Voto voto = new Voto(text);
-                        pendingMessages.add(new Message(id, voto));
-                    }
-                }
-            }
+        try (Reader reader = new FileReader(FILE)) {
+            Type listType = new TypeToken<ArrayList<Message>>() {}.getType();
+            List<Message> loaded = gson.fromJson(reader, listType);
+            if (loaded != null) pendingMessages.addAll(loaded);
+            log.info("Cargados " + pendingMessages.size() + " votos pendientes.");
         } catch (IOException e) {
-            log.severe("Error loading pending messages: " + e.getMessage());
+            log.severe("Error al cargar votos: " + e.getMessage());
         }
     }
 
     private void save() {
-        try (BufferedWriter writer = new BufferedWriter(new FileWriter(FILE))) {
-            writer.write("[\n");
-            int i = 0;
-            for (Message msg : pendingMessages) {
-                writer.write("  {\"id\": \"" + escape(msg.id) + "\", \"text\": \"" + escape(msg.voto.nombreCandidato) + "\"}");
-                if (i++ < pendingMessages.size() - 1) writer.write(",");
-                writer.write("\n");
-            }
-            writer.write("]\n");
+        try (Writer writer = new FileWriter(FILE)) {
+            gson.toJson(pendingMessages, writer);
+            log.info("Guardados " + pendingMessages.size() + " votos.");
         } catch (IOException e) {
-            log.severe("Error saving messages: " + e.getMessage());
+            log.severe("Error al guardar votos: " + e.getMessage());
         }
-    }
-
-    private String escape(String s) {
-        return s.replace("\"", "\\\"");
     }
 
     public synchronized void add(Message msg) {
@@ -79,11 +49,11 @@ public class GuardadoVotos {
     }
 
     public synchronized void remove(String id) {
-        pendingMessages.removeIf(msg -> msg.id.equals(id));
+        pendingMessages.removeIf(m -> m.id.equals(id));
         save();
     }
 
-    public ArrayList<Message> getAll() {
+    public synchronized List<Message> getAll() {
         return new ArrayList<>(pendingMessages);
     }
 }

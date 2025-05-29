@@ -8,13 +8,13 @@ public class AppLogger {
 
     static {
         try {
-            Handler fileHandler = new FileHandler("system.log", true);
+            Handler fileHandler = new FileHandler("mesa/src/main/resources/system.log", true);
             fileHandler.setFormatter(new SimpleFormatter());
 
             logger.addHandler(fileHandler);
             logger.setUseParentHandlers(false); // do not print to console
         } catch (IOException e) {
-            System.err.println(" Failed to initialize logger: " + e.getMessage());
+            System.err.println("Failed to initialize logger: " + e.getMessage());
         }
     }
 
