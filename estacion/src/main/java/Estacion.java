@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 import com.zeroc.Ice.Communicator;
 import com.zeroc.Ice.ObjectAdapter;
 import com.zeroc.Ice.Util;
@@ -7,8 +10,10 @@ public class Estacion {
      public static void main(String[] args) {
 
          try {
-            Communicator communicator = Util.initialize(args);
-            ObjectAdapter adapter = communicator.createObjectAdapterWithEndpoints("estacionVotacion", "default -p 10020");
+            List<String> extPar = new ArrayList<>();
+            Communicator communicator = Util.initialize(args, "resultadosLocales.cfg", extPar);
+
+            ObjectAdapter adapter = communicator.createObjectAdapter("resultadosLocales");
 
             ResultadosLocales object = new ResultadosLocales();
 

@@ -5,13 +5,19 @@ import com.zeroc.Ice.Communicator;
 import com.zeroc.Ice.ObjectAdapter;
 import com.zeroc.Ice.Util;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class Mesa {
 
     public static void main(String[] args) {
-        try (Communicator communicator = Util.initialize(args)) {
-            ObjectAdapter adapter = communicator.createObjectAdapterWithEndpoints("mesaVotacion", "default -p 10010");
+
+        try  {
+            List<String> extPar = new ArrayList<>();
+            Communicator communicator = Util.initialize(args, "mesaVotacion.cfg", extPar);
+
+            ObjectAdapter adapter = communicator.createObjectAdapter("mesaVotacion");
 
             AckServiceI ackService = new AckServiceI();
             adapter.add(ackService, Util.stringToIdentity("callback"));
@@ -21,8 +27,9 @@ public class Mesa {
             );
 
             EstacionVotacionPrx proxy = EstacionVotacionPrx.uncheckedCast(
-                communicator.stringToProxy("resultadosLocales:default -h localhost -p 10020")
+                communicator.propertyToProxy("estacionVotacion.Proxy")
             );
+
 
             ControladorMesaVotacion service = new ControladorMesaVotacion(proxy, ackServicePrx);
 
@@ -58,13 +65,21 @@ public class Mesa {
             }
             System.out.print("\nSeleccione el numero del candidato: ");
             int numero = scanner.nextInt();
-            System.out.println("Desea registrar otro voto? (s/n)");
+            System.out.println("Desea registrar el voto? (s/n)");
             String respuesta = scanner.next();
             if (respuesta.equalsIgnoreCase("n")) {
                 System.out.println("Voto no registrado.");
             } else {
                 service.registrarVoto(numero, null);
                 System.out.println("Voto registrado exitosamente.");
+            }
+            System.out.println("Desea registrar otro voto? (s/n)");
+            String respuesta_salida = scanner.next();
+            if(respuesta_salida.equalsIgnoreCase("n")) {
+                votando = false;
+                System.out.println("Gracias por participar en la votacion.");
+            } else {
+                System.out.println("Continuando con el registro de votos...");
             }
 
         }

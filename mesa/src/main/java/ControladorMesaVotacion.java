@@ -38,7 +38,7 @@ public class ControladorMesaVotacion implements MesaVotacion {
     public void registrarVoto(long candidatoIndex, Current current) {
         if (candidatoIndex < 1 || candidatoIndex > candidatos.size()) {
             log.warning("Indice de candidato fuera de rango: " + candidatoIndex);
-            throw new IllegalArgumentException("Índice de candidato fuera de rango");
+            throw new IllegalArgumentException("Indice de candidato fuera de rango");
         }
 
         String nombreCandidato = getCandidatoPorNumero((int) candidatoIndex);
