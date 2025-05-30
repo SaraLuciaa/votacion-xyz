@@ -1,0 +1,1996 @@
+May 30, 2025 3:54:27 PM services.RmSenderI send
+WARNING: Error al enviar voto. Guardando localmente: java.net.ConnectException: Connection refused
+May 30, 2025 3:54:27 PM utils.GuardadoVotos save
+SEVERE: Error al guardar votos: rm-service/src/main/resources/votos_pendientes.json (No such file or directory)
+May 30, 2025 3:57:01 PM services.RmSenderI send
+WARNING: Error al enviar voto. Guardando localmente: java.net.ConnectException: Connection refused
+May 30, 2025 3:57:01 PM utils.GuardadoVotos save
+SEVERE: Error al guardar votos: rm-service/src/main/resources/votos_pendientes.json (No such file or directory)
+May 30, 2025 3:57:34 PM services.RmSenderI send
+WARNING: Error al enviar voto. Guardando localmente: null
+May 30, 2025 3:57:34 PM utils.GuardadoVotos save
+SEVERE: Error al guardar votos: rm-service/src/main/resources/votos_pendientes.json (No such file or directory)
+May 30, 2025 3:57:52 PM services.RmSenderI send
+WARNING: Error al enviar voto. Guardando localmente: null
+May 30, 2025 3:57:52 PM utils.GuardadoVotos save
+SEVERE: Error al guardar votos: rm-service/src/main/resources/votos_pendientes.json (No such file or directory)
+May 30, 2025 3:59:53 PM services.RmSenderI retry
+INFO: Hilo de reintento iniciado.
+May 30, 2025 3:59:56 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+May 30, 2025 3:59:59 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+May 30, 2025 4:00:02 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+May 30, 2025 4:00:05 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+May 30, 2025 4:00:08 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+May 30, 2025 4:00:11 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+May 30, 2025 4:00:14 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+May 30, 2025 4:00:17 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+May 30, 2025 4:00:20 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+May 30, 2025 4:00:23 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+May 30, 2025 4:07:08 PM services.RmSenderI retry
+INFO: Hilo de reintento iniciado.
+May 30, 2025 4:07:11 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+May 30, 2025 4:07:14 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+May 30, 2025 4:07:17 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+May 30, 2025 4:07:20 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+May 30, 2025 4:07:23 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+May 30, 2025 4:07:26 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+May 30, 2025 4:07:29 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+May 30, 2025 4:07:32 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+May 30, 2025 4:07:35 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+May 30, 2025 4:07:38 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+May 30, 2025 4:07:41 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+May 30, 2025 4:07:44 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+May 30, 2025 4:07:47 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+May 30, 2025 4:07:50 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+May 30, 2025 4:07:53 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+May 30, 2025 4:07:56 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+May 30, 2025 4:07:59 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+May 30, 2025 4:08:02 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+May 30, 2025 4:08:05 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+May 30, 2025 4:08:08 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+May 30, 2025 4:08:11 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+May 30, 2025 4:08:14 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+May 30, 2025 4:08:17 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+May 30, 2025 4:08:20 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+May 30, 2025 4:08:23 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+May 30, 2025 4:08:26 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+May 30, 2025 4:08:29 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+May 30, 2025 4:08:32 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+May 30, 2025 4:08:35 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+May 30, 2025 4:08:38 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+May 30, 2025 4:08:41 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+May 30, 2025 4:08:44 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+May 30, 2025 4:08:47 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+May 30, 2025 4:08:50 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+May 30, 2025 4:08:53 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+May 30, 2025 4:08:56 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+May 30, 2025 4:08:59 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+May 30, 2025 4:09:02 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+May 30, 2025 4:09:05 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+May 30, 2025 4:09:08 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+May 30, 2025 4:09:11 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+May 30, 2025 4:09:14 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+May 30, 2025 4:09:17 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+May 30, 2025 4:09:20 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+May 30, 2025 4:09:23 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+May 30, 2025 4:09:26 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+May 30, 2025 4:09:29 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+May 30, 2025 4:09:32 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+May 30, 2025 4:09:35 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+May 30, 2025 4:09:38 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+May 30, 2025 4:09:41 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+May 30, 2025 4:09:42 PM services.RmSenderI send
+WARNING: Error al enviar voto. Guardando localmente: null
+May 30, 2025 4:09:42 PM utils.GuardadoVotos save
+INFO: Guardados 1 votos.
+May 30, 2025 4:09:44 PM services.RmSenderI resend
+WARNING: Error al reenviar voto: 64f8a2ca-939c-4cf9-88d4-309c90f09fe5 - null
+May 30, 2025 4:09:47 PM services.RmSenderI resend
+WARNING: Error al reenviar voto: 64f8a2ca-939c-4cf9-88d4-309c90f09fe5 - null
+May 30, 2025 4:09:50 PM services.RmSenderI resend
+WARNING: Error al reenviar voto: 64f8a2ca-939c-4cf9-88d4-309c90f09fe5 - null
+May 30, 2025 4:09:53 PM services.RmSenderI resend
+WARNING: Error al reenviar voto: 64f8a2ca-939c-4cf9-88d4-309c90f09fe5 - null
+May 30, 2025 4:09:56 PM services.RmSenderI resend
+WARNING: Error al reenviar voto: 64f8a2ca-939c-4cf9-88d4-309c90f09fe5 - null
+May 30, 2025 4:09:59 PM services.RmSenderI resend
+WARNING: Error al reenviar voto: 64f8a2ca-939c-4cf9-88d4-309c90f09fe5 - null
+May 30, 2025 4:10:02 PM services.RmSenderI resend
+WARNING: Error al reenviar voto: 64f8a2ca-939c-4cf9-88d4-309c90f09fe5 - null
+May 30, 2025 4:10:05 PM services.RmSenderI resend
+WARNING: Error al reenviar voto: 64f8a2ca-939c-4cf9-88d4-309c90f09fe5 - null
+May 30, 2025 4:10:08 PM services.RmSenderI resend
+WARNING: Error al reenviar voto: 64f8a2ca-939c-4cf9-88d4-309c90f09fe5 - null
+May 30, 2025 4:10:11 PM services.RmSenderI resend
+WARNING: Error al reenviar voto: 64f8a2ca-939c-4cf9-88d4-309c90f09fe5 - null
+May 30, 2025 4:10:14 PM services.RmSenderI resend
+WARNING: Error al reenviar voto: 64f8a2ca-939c-4cf9-88d4-309c90f09fe5 - null
+May 30, 2025 4:10:17 PM services.RmSenderI resend
+WARNING: Error al reenviar voto: 64f8a2ca-939c-4cf9-88d4-309c90f09fe5 - null
+May 30, 2025 4:10:20 PM services.RmSenderI resend
+WARNING: Error al reenviar voto: 64f8a2ca-939c-4cf9-88d4-309c90f09fe5 - null
+May 30, 2025 4:10:23 PM services.RmSenderI resend
+WARNING: Error al reenviar voto: 64f8a2ca-939c-4cf9-88d4-309c90f09fe5 - null
+May 30, 2025 4:10:26 PM services.RmSenderI resend
+WARNING: Error al reenviar voto: 64f8a2ca-939c-4cf9-88d4-309c90f09fe5 - null
+May 30, 2025 4:10:29 PM services.RmSenderI resend
+WARNING: Error al reenviar voto: 64f8a2ca-939c-4cf9-88d4-309c90f09fe5 - null
+May 30, 2025 4:10:32 PM services.RmSenderI resend
+WARNING: Error al reenviar voto: 64f8a2ca-939c-4cf9-88d4-309c90f09fe5 - null
+May 30, 2025 4:10:35 PM services.RmSenderI resend
+WARNING: Error al reenviar voto: 64f8a2ca-939c-4cf9-88d4-309c90f09fe5 - null
+May 30, 2025 4:10:38 PM services.RmSenderI resend
+WARNING: Error al reenviar voto: 64f8a2ca-939c-4cf9-88d4-309c90f09fe5 - null
+May 30, 2025 4:10:41 PM services.RmSenderI resend
+WARNING: Error al reenviar voto: 64f8a2ca-939c-4cf9-88d4-309c90f09fe5 - null
+May 30, 2025 4:10:44 PM services.RmSenderI resend
+WARNING: Error al reenviar voto: 64f8a2ca-939c-4cf9-88d4-309c90f09fe5 - null
+May 30, 2025 4:10:47 PM services.RmSenderI resend
+WARNING: Error al reenviar voto: 64f8a2ca-939c-4cf9-88d4-309c90f09fe5 - null
+May 30, 2025 4:10:50 PM services.RmSenderI resend
+WARNING: Error al reenviar voto: 64f8a2ca-939c-4cf9-88d4-309c90f09fe5 - null
+May 30, 2025 4:10:53 PM services.RmSenderI resend
+WARNING: Error al reenviar voto: 64f8a2ca-939c-4cf9-88d4-309c90f09fe5 - null
+May 30, 2025 4:10:56 PM services.RmSenderI resend
+WARNING: Error al reenviar voto: 64f8a2ca-939c-4cf9-88d4-309c90f09fe5 - null
+May 30, 2025 4:10:59 PM services.RmSenderI resend
+WARNING: Error al reenviar voto: 64f8a2ca-939c-4cf9-88d4-309c90f09fe5 - null
+May 30, 2025 4:11:02 PM services.RmSenderI resend
+WARNING: Error al reenviar voto: 64f8a2ca-939c-4cf9-88d4-309c90f09fe5 - null
+May 30, 2025 4:11:05 PM services.RmSenderI resend
+WARNING: Error al reenviar voto: 64f8a2ca-939c-4cf9-88d4-309c90f09fe5 - null
+May 30, 2025 4:11:08 PM services.RmSenderI resend
+WARNING: Error al reenviar voto: 64f8a2ca-939c-4cf9-88d4-309c90f09fe5 - null
+May 30, 2025 4:11:11 PM services.RmSenderI resend
+WARNING: Error al reenviar voto: 64f8a2ca-939c-4cf9-88d4-309c90f09fe5 - null
+May 30, 2025 4:11:14 PM services.RmSenderI resend
+WARNING: Error al reenviar voto: 64f8a2ca-939c-4cf9-88d4-309c90f09fe5 - null
+May 30, 2025 4:11:49 PM utils.GuardadoVotos load
+INFO: Cargados 1 votos pendientes.
+May 30, 2025 4:11:49 PM services.RmSenderI retry
+INFO: Hilo de reintento iniciado.
+May 30, 2025 4:11:53 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ConnectionRefusedException
+    error = 0
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:777)
+	at com.zeroc.IceInternal.Network.doFinishConnect(Network.java:536)
+	at com.zeroc.IceInternal.StreamSocket.connect(StreamSocket.java:92)
+	at com.zeroc.IceInternal.TcpTransceiver.initialize(TcpTransceiver.java:25)
+	at com.zeroc.Ice.ConnectionI.initialize(ConnectionI.java:2131)
+	at com.zeroc.Ice.ConnectionI.message(ConnectionI.java:1098)
+	at com.zeroc.IceInternal.ThreadPool.run(ThreadPool.java:410)
+	at com.zeroc.IceInternal.ThreadPool.access$500(ThreadPool.java:7)
+	at com.zeroc.IceInternal.ThreadPool$EventHandlerThread.run(ThreadPool.java:784)
+	... 1 more
+
+May 30, 2025 4:11:56 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ConnectionRefusedException
+    error = 0
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:777)
+	at com.zeroc.IceInternal.Network.doFinishConnect(Network.java:536)
+	at com.zeroc.IceInternal.StreamSocket.connect(StreamSocket.java:92)
+	at com.zeroc.IceInternal.TcpTransceiver.initialize(TcpTransceiver.java:25)
+	at com.zeroc.Ice.ConnectionI.initialize(ConnectionI.java:2131)
+	at com.zeroc.Ice.ConnectionI.message(ConnectionI.java:1098)
+	at com.zeroc.IceInternal.ThreadPool.run(ThreadPool.java:410)
+	at com.zeroc.IceInternal.ThreadPool.access$500(ThreadPool.java:7)
+	at com.zeroc.IceInternal.ThreadPool$EventHandlerThread.run(ThreadPool.java:784)
+	... 1 more
+
+May 30, 2025 4:11:56 PM services.RmSenderI send
+WARNING: Error al enviar voto. Guardando localmente: java.net.ConnectException: Connection refused
+May 30, 2025 4:11:56 PM utils.GuardadoVotos save
+INFO: Guardados 2 votos.
+May 30, 2025 4:11:59 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ConnectionRefusedException
+    error = 0
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:777)
+	at com.zeroc.IceInternal.Network.doFinishConnect(Network.java:536)
+	at com.zeroc.IceInternal.StreamSocket.connect(StreamSocket.java:92)
+	at com.zeroc.IceInternal.TcpTransceiver.initialize(TcpTransceiver.java:25)
+	at com.zeroc.Ice.ConnectionI.initialize(ConnectionI.java:2131)
+	at com.zeroc.Ice.ConnectionI.message(ConnectionI.java:1098)
+	at com.zeroc.IceInternal.ThreadPool.run(ThreadPool.java:410)
+	at com.zeroc.IceInternal.ThreadPool.access$500(ThreadPool.java:7)
+	at com.zeroc.IceInternal.ThreadPool$EventHandlerThread.run(ThreadPool.java:784)
+	... 1 more
+
+May 30, 2025 4:11:59 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ConnectionRefusedException
+    error = 0
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:777)
+	at com.zeroc.IceInternal.Network.doFinishConnect(Network.java:536)
+	at com.zeroc.IceInternal.StreamSocket.connect(StreamSocket.java:92)
+	at com.zeroc.IceInternal.TcpTransceiver.initialize(TcpTransceiver.java:25)
+	at com.zeroc.Ice.ConnectionI.initialize(ConnectionI.java:2131)
+	at com.zeroc.Ice.ConnectionI.message(ConnectionI.java:1098)
+	at com.zeroc.IceInternal.ThreadPool.run(ThreadPool.java:410)
+	at com.zeroc.IceInternal.ThreadPool.access$500(ThreadPool.java:7)
+	at com.zeroc.IceInternal.ThreadPool$EventHandlerThread.run(ThreadPool.java:784)
+	... 1 more
+
+May 30, 2025 4:12:02 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ConnectionRefusedException
+    error = 0
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:777)
+	at com.zeroc.IceInternal.Network.doFinishConnect(Network.java:536)
+	at com.zeroc.IceInternal.StreamSocket.connect(StreamSocket.java:92)
+	at com.zeroc.IceInternal.TcpTransceiver.initialize(TcpTransceiver.java:25)
+	at com.zeroc.Ice.ConnectionI.initialize(ConnectionI.java:2131)
+	at com.zeroc.Ice.ConnectionI.message(ConnectionI.java:1098)
+	at com.zeroc.IceInternal.ThreadPool.run(ThreadPool.java:410)
+	at com.zeroc.IceInternal.ThreadPool.access$500(ThreadPool.java:7)
+	at com.zeroc.IceInternal.ThreadPool$EventHandlerThread.run(ThreadPool.java:784)
+	... 1 more
+
+May 30, 2025 4:12:02 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ConnectionRefusedException
+    error = 0
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:777)
+	at com.zeroc.IceInternal.Network.doFinishConnect(Network.java:536)
+	at com.zeroc.IceInternal.StreamSocket.connect(StreamSocket.java:92)
+	at com.zeroc.IceInternal.TcpTransceiver.initialize(TcpTransceiver.java:25)
+	at com.zeroc.Ice.ConnectionI.initialize(ConnectionI.java:2131)
+	at com.zeroc.Ice.ConnectionI.message(ConnectionI.java:1098)
+	at com.zeroc.IceInternal.ThreadPool.run(ThreadPool.java:410)
+	at com.zeroc.IceInternal.ThreadPool.access$500(ThreadPool.java:7)
+	at com.zeroc.IceInternal.ThreadPool$EventHandlerThread.run(ThreadPool.java:784)
+	... 1 more
+
+May 30, 2025 4:12:05 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ConnectionRefusedException
+    error = 0
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:777)
+	at com.zeroc.IceInternal.Network.doFinishConnect(Network.java:536)
+	at com.zeroc.IceInternal.StreamSocket.connect(StreamSocket.java:92)
+	at com.zeroc.IceInternal.TcpTransceiver.initialize(TcpTransceiver.java:25)
+	at com.zeroc.Ice.ConnectionI.initialize(ConnectionI.java:2131)
+	at com.zeroc.Ice.ConnectionI.message(ConnectionI.java:1098)
+	at com.zeroc.IceInternal.ThreadPool.run(ThreadPool.java:410)
+	at com.zeroc.IceInternal.ThreadPool.access$500(ThreadPool.java:7)
+	at com.zeroc.IceInternal.ThreadPool$EventHandlerThread.run(ThreadPool.java:784)
+	... 1 more
+
+May 30, 2025 4:12:05 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ConnectionRefusedException
+    error = 0
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:777)
+	at com.zeroc.IceInternal.Network.doFinishConnect(Network.java:536)
+	at com.zeroc.IceInternal.StreamSocket.connect(StreamSocket.java:92)
+	at com.zeroc.IceInternal.TcpTransceiver.initialize(TcpTransceiver.java:25)
+	at com.zeroc.Ice.ConnectionI.initialize(ConnectionI.java:2131)
+	at com.zeroc.Ice.ConnectionI.message(ConnectionI.java:1098)
+	at com.zeroc.IceInternal.ThreadPool.run(ThreadPool.java:410)
+	at com.zeroc.IceInternal.ThreadPool.access$500(ThreadPool.java:7)
+	at com.zeroc.IceInternal.ThreadPool$EventHandlerThread.run(ThreadPool.java:784)
+	... 1 more
+
+May 30, 2025 4:12:08 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ConnectionRefusedException
+    error = 0
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:777)
+	at com.zeroc.IceInternal.Network.doFinishConnect(Network.java:536)
+	at com.zeroc.IceInternal.StreamSocket.connect(StreamSocket.java:92)
+	at com.zeroc.IceInternal.TcpTransceiver.initialize(TcpTransceiver.java:25)
+	at com.zeroc.Ice.ConnectionI.initialize(ConnectionI.java:2131)
+	at com.zeroc.Ice.ConnectionI.message(ConnectionI.java:1098)
+	at com.zeroc.IceInternal.ThreadPool.run(ThreadPool.java:410)
+	at com.zeroc.IceInternal.ThreadPool.access$500(ThreadPool.java:7)
+	at com.zeroc.IceInternal.ThreadPool$EventHandlerThread.run(ThreadPool.java:784)
+	... 1 more
+
+May 30, 2025 4:12:08 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ConnectionRefusedException
+    error = 0
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:777)
+	at com.zeroc.IceInternal.Network.doFinishConnect(Network.java:536)
+	at com.zeroc.IceInternal.StreamSocket.connect(StreamSocket.java:92)
+	at com.zeroc.IceInternal.TcpTransceiver.initialize(TcpTransceiver.java:25)
+	at com.zeroc.Ice.ConnectionI.initialize(ConnectionI.java:2131)
+	at com.zeroc.Ice.ConnectionI.message(ConnectionI.java:1098)
+	at com.zeroc.IceInternal.ThreadPool.run(ThreadPool.java:410)
+	at com.zeroc.IceInternal.ThreadPool.access$500(ThreadPool.java:7)
+	at com.zeroc.IceInternal.ThreadPool$EventHandlerThread.run(ThreadPool.java:784)
+	... 1 more
+
+May 30, 2025 4:12:11 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ConnectionRefusedException
+    error = 0
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:777)
+	at com.zeroc.IceInternal.Network.doFinishConnect(Network.java:536)
+	at com.zeroc.IceInternal.StreamSocket.connect(StreamSocket.java:92)
+	at com.zeroc.IceInternal.TcpTransceiver.initialize(TcpTransceiver.java:25)
+	at com.zeroc.Ice.ConnectionI.initialize(ConnectionI.java:2131)
+	at com.zeroc.Ice.ConnectionI.message(ConnectionI.java:1098)
+	at com.zeroc.IceInternal.ThreadPool.run(ThreadPool.java:410)
+	at com.zeroc.IceInternal.ThreadPool.access$500(ThreadPool.java:7)
+	at com.zeroc.IceInternal.ThreadPool$EventHandlerThread.run(ThreadPool.java:784)
+	... 1 more
+
+May 30, 2025 4:12:11 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ConnectionRefusedException
+    error = 0
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:777)
+	at com.zeroc.IceInternal.Network.doFinishConnect(Network.java:536)
+	at com.zeroc.IceInternal.StreamSocket.connect(StreamSocket.java:92)
+	at com.zeroc.IceInternal.TcpTransceiver.initialize(TcpTransceiver.java:25)
+	at com.zeroc.Ice.ConnectionI.initialize(ConnectionI.java:2131)
+	at com.zeroc.Ice.ConnectionI.message(ConnectionI.java:1098)
+	at com.zeroc.IceInternal.ThreadPool.run(ThreadPool.java:410)
+	at com.zeroc.IceInternal.ThreadPool.access$500(ThreadPool.java:7)
+	at com.zeroc.IceInternal.ThreadPool$EventHandlerThread.run(ThreadPool.java:784)
+	... 1 more
+
+May 30, 2025 4:12:14 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ConnectionRefusedException
+    error = 0
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:777)
+	at com.zeroc.IceInternal.Network.doFinishConnect(Network.java:536)
+	at com.zeroc.IceInternal.StreamSocket.connect(StreamSocket.java:92)
+	at com.zeroc.IceInternal.TcpTransceiver.initialize(TcpTransceiver.java:25)
+	at com.zeroc.Ice.ConnectionI.initialize(ConnectionI.java:2131)
+	at com.zeroc.Ice.ConnectionI.message(ConnectionI.java:1098)
+	at com.zeroc.IceInternal.ThreadPool.run(ThreadPool.java:410)
+	at com.zeroc.IceInternal.ThreadPool.access$500(ThreadPool.java:7)
+	at com.zeroc.IceInternal.ThreadPool$EventHandlerThread.run(ThreadPool.java:784)
+	... 1 more
+
+May 30, 2025 4:12:14 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ConnectionRefusedException
+    error = 0
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:777)
+	at com.zeroc.IceInternal.Network.doFinishConnect(Network.java:536)
+	at com.zeroc.IceInternal.StreamSocket.connect(StreamSocket.java:92)
+	at com.zeroc.IceInternal.TcpTransceiver.initialize(TcpTransceiver.java:25)
+	at com.zeroc.Ice.ConnectionI.initialize(ConnectionI.java:2131)
+	at com.zeroc.Ice.ConnectionI.message(ConnectionI.java:1098)
+	at com.zeroc.IceInternal.ThreadPool.run(ThreadPool.java:410)
+	at com.zeroc.IceInternal.ThreadPool.access$500(ThreadPool.java:7)
+	at com.zeroc.IceInternal.ThreadPool$EventHandlerThread.run(ThreadPool.java:784)
+	... 1 more
+
+May 30, 2025 4:12:17 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ConnectionRefusedException
+    error = 0
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:777)
+	at com.zeroc.IceInternal.Network.doFinishConnect(Network.java:536)
+	at com.zeroc.IceInternal.StreamSocket.connect(StreamSocket.java:92)
+	at com.zeroc.IceInternal.TcpTransceiver.initialize(TcpTransceiver.java:25)
+	at com.zeroc.Ice.ConnectionI.initialize(ConnectionI.java:2131)
+	at com.zeroc.Ice.ConnectionI.message(ConnectionI.java:1098)
+	at com.zeroc.IceInternal.ThreadPool.run(ThreadPool.java:410)
+	at com.zeroc.IceInternal.ThreadPool.access$500(ThreadPool.java:7)
+	at com.zeroc.IceInternal.ThreadPool$EventHandlerThread.run(ThreadPool.java:784)
+	... 1 more
+
+May 30, 2025 4:12:17 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ConnectionRefusedException
+    error = 0
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:777)
+	at com.zeroc.IceInternal.Network.doFinishConnect(Network.java:536)
+	at com.zeroc.IceInternal.StreamSocket.connect(StreamSocket.java:92)
+	at com.zeroc.IceInternal.TcpTransceiver.initialize(TcpTransceiver.java:25)
+	at com.zeroc.Ice.ConnectionI.initialize(ConnectionI.java:2131)
+	at com.zeroc.Ice.ConnectionI.message(ConnectionI.java:1098)
+	at com.zeroc.IceInternal.ThreadPool.run(ThreadPool.java:410)
+	at com.zeroc.IceInternal.ThreadPool.access$500(ThreadPool.java:7)
+	at com.zeroc.IceInternal.ThreadPool$EventHandlerThread.run(ThreadPool.java:784)
+	... 1 more
+
+May 30, 2025 4:12:20 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ConnectionRefusedException
+    error = 0
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:777)
+	at com.zeroc.IceInternal.Network.doFinishConnect(Network.java:536)
+	at com.zeroc.IceInternal.StreamSocket.connect(StreamSocket.java:92)
+	at com.zeroc.IceInternal.TcpTransceiver.initialize(TcpTransceiver.java:25)
+	at com.zeroc.Ice.ConnectionI.initialize(ConnectionI.java:2131)
+	at com.zeroc.Ice.ConnectionI.message(ConnectionI.java:1098)
+	at com.zeroc.IceInternal.ThreadPool.run(ThreadPool.java:410)
+	at com.zeroc.IceInternal.ThreadPool.access$500(ThreadPool.java:7)
+	at com.zeroc.IceInternal.ThreadPool$EventHandlerThread.run(ThreadPool.java:784)
+	... 1 more
+
+May 30, 2025 4:12:20 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ConnectionRefusedException
+    error = 0
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:777)
+	at com.zeroc.IceInternal.Network.doFinishConnect(Network.java:536)
+	at com.zeroc.IceInternal.StreamSocket.connect(StreamSocket.java:92)
+	at com.zeroc.IceInternal.TcpTransceiver.initialize(TcpTransceiver.java:25)
+	at com.zeroc.Ice.ConnectionI.initialize(ConnectionI.java:2131)
+	at com.zeroc.Ice.ConnectionI.message(ConnectionI.java:1098)
+	at com.zeroc.IceInternal.ThreadPool.run(ThreadPool.java:410)
+	at com.zeroc.IceInternal.ThreadPool.access$500(ThreadPool.java:7)
+	at com.zeroc.IceInternal.ThreadPool$EventHandlerThread.run(ThreadPool.java:784)
+	... 1 more
+
+May 30, 2025 4:12:23 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ObjectNotExistException
+    id.name = "RMService"
+    id.category = ""
+    facet = ""
+    operation = "receiveMessage"
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+May 30, 2025 4:12:23 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ObjectNotExistException
+    id.name = "RMService"
+    id.category = ""
+    facet = ""
+    operation = "receiveMessage"
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+May 30, 2025 4:12:26 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ObjectNotExistException
+    id.name = "RMService"
+    id.category = ""
+    facet = ""
+    operation = "receiveMessage"
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+May 30, 2025 4:12:26 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ObjectNotExistException
+    id.name = "RMService"
+    id.category = ""
+    facet = ""
+    operation = "receiveMessage"
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+May 30, 2025 4:12:29 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ObjectNotExistException
+    id.name = "RMService"
+    id.category = ""
+    facet = ""
+    operation = "receiveMessage"
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+May 30, 2025 4:12:29 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ObjectNotExistException
+    id.name = "RMService"
+    id.category = ""
+    facet = ""
+    operation = "receiveMessage"
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+May 30, 2025 4:12:32 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ObjectNotExistException
+    id.name = "RMService"
+    id.category = ""
+    facet = ""
+    operation = "receiveMessage"
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+May 30, 2025 4:12:32 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ObjectNotExistException
+    id.name = "RMService"
+    id.category = ""
+    facet = ""
+    operation = "receiveMessage"
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+May 30, 2025 4:12:35 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ObjectNotExistException
+    id.name = "RMService"
+    id.category = ""
+    facet = ""
+    operation = "receiveMessage"
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+May 30, 2025 4:12:35 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ObjectNotExistException
+    id.name = "RMService"
+    id.category = ""
+    facet = ""
+    operation = "receiveMessage"
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+May 30, 2025 4:12:38 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ObjectNotExistException
+    id.name = "RMService"
+    id.category = ""
+    facet = ""
+    operation = "receiveMessage"
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+May 30, 2025 4:12:38 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ObjectNotExistException
+    id.name = "RMService"
+    id.category = ""
+    facet = ""
+    operation = "receiveMessage"
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+May 30, 2025 4:12:41 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ObjectNotExistException
+    id.name = "RMService"
+    id.category = ""
+    facet = ""
+    operation = "receiveMessage"
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+May 30, 2025 4:12:41 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ObjectNotExistException
+    id.name = "RMService"
+    id.category = ""
+    facet = ""
+    operation = "receiveMessage"
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+May 30, 2025 4:12:44 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ObjectNotExistException
+    id.name = "RMService"
+    id.category = ""
+    facet = ""
+    operation = "receiveMessage"
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+May 30, 2025 4:12:44 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ObjectNotExistException
+    id.name = "RMService"
+    id.category = ""
+    facet = ""
+    operation = "receiveMessage"
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+May 30, 2025 4:12:47 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ObjectNotExistException
+    id.name = "RMService"
+    id.category = ""
+    facet = ""
+    operation = "receiveMessage"
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+May 30, 2025 4:12:47 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ObjectNotExistException
+    id.name = "RMService"
+    id.category = ""
+    facet = ""
+    operation = "receiveMessage"
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+May 30, 2025 4:12:50 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ObjectNotExistException
+    id.name = "RMService"
+    id.category = ""
+    facet = ""
+    operation = "receiveMessage"
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+May 30, 2025 4:12:50 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ObjectNotExistException
+    id.name = "RMService"
+    id.category = ""
+    facet = ""
+    operation = "receiveMessage"
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+May 30, 2025 4:12:53 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ObjectNotExistException
+    id.name = "RMService"
+    id.category = ""
+    facet = ""
+    operation = "receiveMessage"
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+May 30, 2025 4:12:53 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ObjectNotExistException
+    id.name = "RMService"
+    id.category = ""
+    facet = ""
+    operation = "receiveMessage"
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+May 30, 2025 4:12:56 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ObjectNotExistException
+    id.name = "RMService"
+    id.category = ""
+    facet = ""
+    operation = "receiveMessage"
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+May 30, 2025 4:12:56 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ObjectNotExistException
+    id.name = "RMService"
+    id.category = ""
+    facet = ""
+    operation = "receiveMessage"
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+May 30, 2025 4:12:59 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ObjectNotExistException
+    id.name = "RMService"
+    id.category = ""
+    facet = ""
+    operation = "receiveMessage"
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+May 30, 2025 4:12:59 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ObjectNotExistException
+    id.name = "RMService"
+    id.category = ""
+    facet = ""
+    operation = "receiveMessage"
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+May 30, 2025 4:13:02 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ObjectNotExistException
+    id.name = "RMService"
+    id.category = ""
+    facet = ""
+    operation = "receiveMessage"
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+May 30, 2025 4:13:02 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ObjectNotExistException
+    id.name = "RMService"
+    id.category = ""
+    facet = ""
+    operation = "receiveMessage"
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+May 30, 2025 4:13:05 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ObjectNotExistException
+    id.name = "RMService"
+    id.category = ""
+    facet = ""
+    operation = "receiveMessage"
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+May 30, 2025 4:13:05 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ObjectNotExistException
+    id.name = "RMService"
+    id.category = ""
+    facet = ""
+    operation = "receiveMessage"
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+May 30, 2025 4:13:08 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ObjectNotExistException
+    id.name = "RMService"
+    id.category = ""
+    facet = ""
+    operation = "receiveMessage"
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+May 30, 2025 4:13:08 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ObjectNotExistException
+    id.name = "RMService"
+    id.category = ""
+    facet = ""
+    operation = "receiveMessage"
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+May 30, 2025 4:13:11 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ObjectNotExistException
+    id.name = "RMService"
+    id.category = ""
+    facet = ""
+    operation = "receiveMessage"
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+May 30, 2025 4:13:11 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ObjectNotExistException
+    id.name = "RMService"
+    id.category = ""
+    facet = ""
+    operation = "receiveMessage"
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+May 30, 2025 4:13:14 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ObjectNotExistException
+    id.name = "RMService"
+    id.category = ""
+    facet = ""
+    operation = "receiveMessage"
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+May 30, 2025 4:13:14 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ObjectNotExistException
+    id.name = "RMService"
+    id.category = ""
+    facet = ""
+    operation = "receiveMessage"
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+May 30, 2025 4:13:17 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ObjectNotExistException
+    id.name = "RMService"
+    id.category = ""
+    facet = ""
+    operation = "receiveMessage"
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+May 30, 2025 4:13:17 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ObjectNotExistException
+    id.name = "RMService"
+    id.category = ""
+    facet = ""
+    operation = "receiveMessage"
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+May 30, 2025 4:13:20 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ObjectNotExistException
+    id.name = "RMService"
+    id.category = ""
+    facet = ""
+    operation = "receiveMessage"
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+May 30, 2025 4:13:20 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ObjectNotExistException
+    id.name = "RMService"
+    id.category = ""
+    facet = ""
+    operation = "receiveMessage"
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+May 30, 2025 4:13:23 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ObjectNotExistException
+    id.name = "RMService"
+    id.category = ""
+    facet = ""
+    operation = "receiveMessage"
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+May 30, 2025 4:13:23 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ObjectNotExistException
+    id.name = "RMService"
+    id.category = ""
+    facet = ""
+    operation = "receiveMessage"
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+May 30, 2025 4:13:26 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ObjectNotExistException
+    id.name = "RMService"
+    id.category = ""
+    facet = ""
+    operation = "receiveMessage"
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+May 30, 2025 4:13:26 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ObjectNotExistException
+    id.name = "RMService"
+    id.category = ""
+    facet = ""
+    operation = "receiveMessage"
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+May 30, 2025 4:13:29 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ObjectNotExistException
+    id.name = "RMService"
+    id.category = ""
+    facet = ""
+    operation = "receiveMessage"
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+May 30, 2025 4:13:29 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ObjectNotExistException
+    id.name = "RMService"
+    id.category = ""
+    facet = ""
+    operation = "receiveMessage"
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+May 30, 2025 4:13:32 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ObjectNotExistException
+    id.name = "RMService"
+    id.category = ""
+    facet = ""
+    operation = "receiveMessage"
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+May 30, 2025 4:13:32 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ObjectNotExistException
+    id.name = "RMService"
+    id.category = ""
+    facet = ""
+    operation = "receiveMessage"
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+May 30, 2025 4:13:35 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ConnectionRefusedException
+    error = 0
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:777)
+	at com.zeroc.IceInternal.Network.doFinishConnect(Network.java:536)
+	at com.zeroc.IceInternal.StreamSocket.connect(StreamSocket.java:92)
+	at com.zeroc.IceInternal.TcpTransceiver.initialize(TcpTransceiver.java:25)
+	at com.zeroc.Ice.ConnectionI.initialize(ConnectionI.java:2131)
+	at com.zeroc.Ice.ConnectionI.message(ConnectionI.java:1098)
+	at com.zeroc.IceInternal.ThreadPool.run(ThreadPool.java:410)
+	at com.zeroc.IceInternal.ThreadPool.access$500(ThreadPool.java:7)
+	at com.zeroc.IceInternal.ThreadPool$EventHandlerThread.run(ThreadPool.java:784)
+	... 1 more
+
+May 30, 2025 4:13:35 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ConnectionRefusedException
+    error = 0
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:777)
+	at com.zeroc.IceInternal.Network.doFinishConnect(Network.java:536)
+	at com.zeroc.IceInternal.StreamSocket.connect(StreamSocket.java:92)
+	at com.zeroc.IceInternal.TcpTransceiver.initialize(TcpTransceiver.java:25)
+	at com.zeroc.Ice.ConnectionI.initialize(ConnectionI.java:2131)
+	at com.zeroc.Ice.ConnectionI.message(ConnectionI.java:1098)
+	at com.zeroc.IceInternal.ThreadPool.run(ThreadPool.java:410)
+	at com.zeroc.IceInternal.ThreadPool.access$500(ThreadPool.java:7)
+	at com.zeroc.IceInternal.ThreadPool$EventHandlerThread.run(ThreadPool.java:784)
+	... 1 more
+
+May 30, 2025 4:13:49 PM utils.GuardadoVotos load
+INFO: Cargados 2 votos pendientes.
+May 30, 2025 4:13:49 PM services.RmSenderI retry
+INFO: Hilo de reintento iniciado.
+May 30, 2025 4:13:52 PM services.RmSenderI resend
+WARNING: Sin conexión. Voto retenido: 64f8a2ca-939c-4cf9-88d4-309c90f09fe5
+May 30, 2025 4:13:52 PM services.RmSenderI resend
+WARNING: Sin conexión. Voto retenido: 96b217a5-c779-4853-ad91-824802c9e9d7
+May 30, 2025 4:13:55 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ConnectionRefusedException
+    error = 0
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:777)
+	at com.zeroc.IceInternal.Network.doFinishConnect(Network.java:536)
+	at com.zeroc.IceInternal.StreamSocket.connect(StreamSocket.java:92)
+	at com.zeroc.IceInternal.TcpTransceiver.initialize(TcpTransceiver.java:25)
+	at com.zeroc.Ice.ConnectionI.initialize(ConnectionI.java:2131)
+	at com.zeroc.Ice.ConnectionI.message(ConnectionI.java:1098)
+	at com.zeroc.IceInternal.ThreadPool.run(ThreadPool.java:410)
+	at com.zeroc.IceInternal.ThreadPool.access$500(ThreadPool.java:7)
+	at com.zeroc.IceInternal.ThreadPool$EventHandlerThread.run(ThreadPool.java:784)
+	... 1 more
+
+May 30, 2025 4:13:55 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ConnectionRefusedException
+    error = 0
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:777)
+	at com.zeroc.IceInternal.Network.doFinishConnect(Network.java:536)
+	at com.zeroc.IceInternal.StreamSocket.connect(StreamSocket.java:92)
+	at com.zeroc.IceInternal.TcpTransceiver.initialize(TcpTransceiver.java:25)
+	at com.zeroc.Ice.ConnectionI.initialize(ConnectionI.java:2131)
+	at com.zeroc.Ice.ConnectionI.message(ConnectionI.java:1098)
+	at com.zeroc.IceInternal.ThreadPool.run(ThreadPool.java:410)
+	at com.zeroc.IceInternal.ThreadPool.access$500(ThreadPool.java:7)
+	at com.zeroc.IceInternal.ThreadPool$EventHandlerThread.run(ThreadPool.java:784)
+	... 1 more
+
+May 30, 2025 4:13:57 PM services.RmSenderI send
+WARNING: Error al enviar voto. Guardando localmente: java.net.ConnectException: Connection refused
+May 30, 2025 4:13:58 PM utils.GuardadoVotos save
+INFO: Guardados 3 votos.
+May 30, 2025 4:13:58 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ConnectionRefusedException
+    error = 0
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:777)
+	at com.zeroc.IceInternal.Network.doFinishConnect(Network.java:536)
+	at com.zeroc.IceInternal.StreamSocket.connect(StreamSocket.java:92)
+	at com.zeroc.IceInternal.TcpTransceiver.initialize(TcpTransceiver.java:25)
+	at com.zeroc.Ice.ConnectionI.initialize(ConnectionI.java:2131)
+	at com.zeroc.Ice.ConnectionI.message(ConnectionI.java:1098)
+	at com.zeroc.IceInternal.ThreadPool.run(ThreadPool.java:410)
+	at com.zeroc.IceInternal.ThreadPool.access$500(ThreadPool.java:7)
+	at com.zeroc.IceInternal.ThreadPool$EventHandlerThread.run(ThreadPool.java:784)
+	... 1 more
+
+May 30, 2025 4:13:58 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ConnectionRefusedException
+    error = 0
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:777)
+	at com.zeroc.IceInternal.Network.doFinishConnect(Network.java:536)
+	at com.zeroc.IceInternal.StreamSocket.connect(StreamSocket.java:92)
+	at com.zeroc.IceInternal.TcpTransceiver.initialize(TcpTransceiver.java:25)
+	at com.zeroc.Ice.ConnectionI.initialize(ConnectionI.java:2131)
+	at com.zeroc.Ice.ConnectionI.message(ConnectionI.java:1098)
+	at com.zeroc.IceInternal.ThreadPool.run(ThreadPool.java:410)
+	at com.zeroc.IceInternal.ThreadPool.access$500(ThreadPool.java:7)
+	at com.zeroc.IceInternal.ThreadPool$EventHandlerThread.run(ThreadPool.java:784)
+	... 1 more
+
+May 30, 2025 4:13:58 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ConnectionRefusedException
+    error = 0
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:777)
+	at com.zeroc.IceInternal.Network.doFinishConnect(Network.java:536)
+	at com.zeroc.IceInternal.StreamSocket.connect(StreamSocket.java:92)
+	at com.zeroc.IceInternal.TcpTransceiver.initialize(TcpTransceiver.java:25)
+	at com.zeroc.Ice.ConnectionI.initialize(ConnectionI.java:2131)
+	at com.zeroc.Ice.ConnectionI.message(ConnectionI.java:1098)
+	at com.zeroc.IceInternal.ThreadPool.run(ThreadPool.java:410)
+	at com.zeroc.IceInternal.ThreadPool.access$500(ThreadPool.java:7)
+	at com.zeroc.IceInternal.ThreadPool$EventHandlerThread.run(ThreadPool.java:784)
+	... 1 more
+
+May 30, 2025 4:14:01 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ConnectionRefusedException
+    error = 0
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:777)
+	at com.zeroc.IceInternal.Network.doFinishConnect(Network.java:536)
+	at com.zeroc.IceInternal.StreamSocket.connect(StreamSocket.java:92)
+	at com.zeroc.IceInternal.TcpTransceiver.initialize(TcpTransceiver.java:25)
+	at com.zeroc.Ice.ConnectionI.initialize(ConnectionI.java:2131)
+	at com.zeroc.Ice.ConnectionI.message(ConnectionI.java:1098)
+	at com.zeroc.IceInternal.ThreadPool.run(ThreadPool.java:410)
+	at com.zeroc.IceInternal.ThreadPool.access$500(ThreadPool.java:7)
+	at com.zeroc.IceInternal.ThreadPool$EventHandlerThread.run(ThreadPool.java:784)
+	... 1 more
+
+May 30, 2025 4:14:01 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ConnectionRefusedException
+    error = 0
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:777)
+	at com.zeroc.IceInternal.Network.doFinishConnect(Network.java:536)
+	at com.zeroc.IceInternal.StreamSocket.connect(StreamSocket.java:92)
+	at com.zeroc.IceInternal.TcpTransceiver.initialize(TcpTransceiver.java:25)
+	at com.zeroc.Ice.ConnectionI.initialize(ConnectionI.java:2131)
+	at com.zeroc.Ice.ConnectionI.message(ConnectionI.java:1098)
+	at com.zeroc.IceInternal.ThreadPool.run(ThreadPool.java:410)
+	at com.zeroc.IceInternal.ThreadPool.access$500(ThreadPool.java:7)
+	at com.zeroc.IceInternal.ThreadPool$EventHandlerThread.run(ThreadPool.java:784)
+	... 1 more
+
+May 30, 2025 4:14:01 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ConnectionRefusedException
+    error = 0
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:777)
+	at com.zeroc.IceInternal.Network.doFinishConnect(Network.java:536)
+	at com.zeroc.IceInternal.StreamSocket.connect(StreamSocket.java:92)
+	at com.zeroc.IceInternal.TcpTransceiver.initialize(TcpTransceiver.java:25)
+	at com.zeroc.Ice.ConnectionI.initialize(ConnectionI.java:2131)
+	at com.zeroc.Ice.ConnectionI.message(ConnectionI.java:1098)
+	at com.zeroc.IceInternal.ThreadPool.run(ThreadPool.java:410)
+	at com.zeroc.IceInternal.ThreadPool.access$500(ThreadPool.java:7)
+	at com.zeroc.IceInternal.ThreadPool$EventHandlerThread.run(ThreadPool.java:784)
+	... 1 more
+
+May 30, 2025 4:14:04 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ConnectionRefusedException
+    error = 0
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:777)
+	at com.zeroc.IceInternal.Network.doFinishConnect(Network.java:536)
+	at com.zeroc.IceInternal.StreamSocket.connect(StreamSocket.java:92)
+	at com.zeroc.IceInternal.TcpTransceiver.initialize(TcpTransceiver.java:25)
+	at com.zeroc.Ice.ConnectionI.initialize(ConnectionI.java:2131)
+	at com.zeroc.Ice.ConnectionI.message(ConnectionI.java:1098)
+	at com.zeroc.IceInternal.ThreadPool.run(ThreadPool.java:410)
+	at com.zeroc.IceInternal.ThreadPool.access$500(ThreadPool.java:7)
+	at com.zeroc.IceInternal.ThreadPool$EventHandlerThread.run(ThreadPool.java:784)
+	... 1 more
+
+May 30, 2025 4:14:04 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ConnectionRefusedException
+    error = 0
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:777)
+	at com.zeroc.IceInternal.Network.doFinishConnect(Network.java:536)
+	at com.zeroc.IceInternal.StreamSocket.connect(StreamSocket.java:92)
+	at com.zeroc.IceInternal.TcpTransceiver.initialize(TcpTransceiver.java:25)
+	at com.zeroc.Ice.ConnectionI.initialize(ConnectionI.java:2131)
+	at com.zeroc.Ice.ConnectionI.message(ConnectionI.java:1098)
+	at com.zeroc.IceInternal.ThreadPool.run(ThreadPool.java:410)
+	at com.zeroc.IceInternal.ThreadPool.access$500(ThreadPool.java:7)
+	at com.zeroc.IceInternal.ThreadPool$EventHandlerThread.run(ThreadPool.java:784)
+	... 1 more
+
+May 30, 2025 4:14:04 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ConnectionRefusedException
+    error = 0
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:777)
+	at com.zeroc.IceInternal.Network.doFinishConnect(Network.java:536)
+	at com.zeroc.IceInternal.StreamSocket.connect(StreamSocket.java:92)
+	at com.zeroc.IceInternal.TcpTransceiver.initialize(TcpTransceiver.java:25)
+	at com.zeroc.Ice.ConnectionI.initialize(ConnectionI.java:2131)
+	at com.zeroc.Ice.ConnectionI.message(ConnectionI.java:1098)
+	at com.zeroc.IceInternal.ThreadPool.run(ThreadPool.java:410)
+	at com.zeroc.IceInternal.ThreadPool.access$500(ThreadPool.java:7)
+	at com.zeroc.IceInternal.ThreadPool$EventHandlerThread.run(ThreadPool.java:784)
+	... 1 more
+
+May 30, 2025 4:14:07 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ConnectionRefusedException
+    error = 0
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:777)
+	at com.zeroc.IceInternal.Network.doFinishConnect(Network.java:536)
+	at com.zeroc.IceInternal.StreamSocket.connect(StreamSocket.java:92)
+	at com.zeroc.IceInternal.TcpTransceiver.initialize(TcpTransceiver.java:25)
+	at com.zeroc.Ice.ConnectionI.initialize(ConnectionI.java:2131)
+	at com.zeroc.Ice.ConnectionI.message(ConnectionI.java:1098)
+	at com.zeroc.IceInternal.ThreadPool.run(ThreadPool.java:410)
+	at com.zeroc.IceInternal.ThreadPool.access$500(ThreadPool.java:7)
+	at com.zeroc.IceInternal.ThreadPool$EventHandlerThread.run(ThreadPool.java:784)
+	... 1 more
+
+May 30, 2025 4:14:07 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ConnectionRefusedException
+    error = 0
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:777)
+	at com.zeroc.IceInternal.Network.doFinishConnect(Network.java:536)
+	at com.zeroc.IceInternal.StreamSocket.connect(StreamSocket.java:92)
+	at com.zeroc.IceInternal.TcpTransceiver.initialize(TcpTransceiver.java:25)
+	at com.zeroc.Ice.ConnectionI.initialize(ConnectionI.java:2131)
+	at com.zeroc.Ice.ConnectionI.message(ConnectionI.java:1098)
+	at com.zeroc.IceInternal.ThreadPool.run(ThreadPool.java:410)
+	at com.zeroc.IceInternal.ThreadPool.access$500(ThreadPool.java:7)
+	at com.zeroc.IceInternal.ThreadPool$EventHandlerThread.run(ThreadPool.java:784)
+	... 1 more
+
+May 30, 2025 4:14:07 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ConnectionRefusedException
+    error = 0
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:777)
+	at com.zeroc.IceInternal.Network.doFinishConnect(Network.java:536)
+	at com.zeroc.IceInternal.StreamSocket.connect(StreamSocket.java:92)
+	at com.zeroc.IceInternal.TcpTransceiver.initialize(TcpTransceiver.java:25)
+	at com.zeroc.Ice.ConnectionI.initialize(ConnectionI.java:2131)
+	at com.zeroc.Ice.ConnectionI.message(ConnectionI.java:1098)
+	at com.zeroc.IceInternal.ThreadPool.run(ThreadPool.java:410)
+	at com.zeroc.IceInternal.ThreadPool.access$500(ThreadPool.java:7)
+	at com.zeroc.IceInternal.ThreadPool$EventHandlerThread.run(ThreadPool.java:784)
+	... 1 more
+
+May 30, 2025 4:14:10 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ConnectionRefusedException
+    error = 0
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:777)
+	at com.zeroc.IceInternal.Network.doFinishConnect(Network.java:536)
+	at com.zeroc.IceInternal.StreamSocket.connect(StreamSocket.java:92)
+	at com.zeroc.IceInternal.TcpTransceiver.initialize(TcpTransceiver.java:25)
+	at com.zeroc.Ice.ConnectionI.initialize(ConnectionI.java:2131)
+	at com.zeroc.Ice.ConnectionI.message(ConnectionI.java:1098)
+	at com.zeroc.IceInternal.ThreadPool.run(ThreadPool.java:410)
+	at com.zeroc.IceInternal.ThreadPool.access$500(ThreadPool.java:7)
+	at com.zeroc.IceInternal.ThreadPool$EventHandlerThread.run(ThreadPool.java:784)
+	... 1 more
+
+May 30, 2025 4:14:10 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ConnectionRefusedException
+    error = 0
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:777)
+	at com.zeroc.IceInternal.Network.doFinishConnect(Network.java:536)
+	at com.zeroc.IceInternal.StreamSocket.connect(StreamSocket.java:92)
+	at com.zeroc.IceInternal.TcpTransceiver.initialize(TcpTransceiver.java:25)
+	at com.zeroc.Ice.ConnectionI.initialize(ConnectionI.java:2131)
+	at com.zeroc.Ice.ConnectionI.message(ConnectionI.java:1098)
+	at com.zeroc.IceInternal.ThreadPool.run(ThreadPool.java:410)
+	at com.zeroc.IceInternal.ThreadPool.access$500(ThreadPool.java:7)
+	at com.zeroc.IceInternal.ThreadPool$EventHandlerThread.run(ThreadPool.java:784)
+	... 1 more
+
+May 30, 2025 4:14:10 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ConnectionRefusedException
+    error = 0
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:777)
+	at com.zeroc.IceInternal.Network.doFinishConnect(Network.java:536)
+	at com.zeroc.IceInternal.StreamSocket.connect(StreamSocket.java:92)
+	at com.zeroc.IceInternal.TcpTransceiver.initialize(TcpTransceiver.java:25)
+	at com.zeroc.Ice.ConnectionI.initialize(ConnectionI.java:2131)
+	at com.zeroc.Ice.ConnectionI.message(ConnectionI.java:1098)
+	at com.zeroc.IceInternal.ThreadPool.run(ThreadPool.java:410)
+	at com.zeroc.IceInternal.ThreadPool.access$500(ThreadPool.java:7)
+	at com.zeroc.IceInternal.ThreadPool$EventHandlerThread.run(ThreadPool.java:784)
+	... 1 more
+
+May 30, 2025 4:14:13 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ConnectionRefusedException
+    error = 0
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:777)
+	at com.zeroc.IceInternal.Network.doFinishConnect(Network.java:536)
+	at com.zeroc.IceInternal.StreamSocket.connect(StreamSocket.java:92)
+	at com.zeroc.IceInternal.TcpTransceiver.initialize(TcpTransceiver.java:25)
+	at com.zeroc.Ice.ConnectionI.initialize(ConnectionI.java:2131)
+	at com.zeroc.Ice.ConnectionI.message(ConnectionI.java:1098)
+	at com.zeroc.IceInternal.ThreadPool.run(ThreadPool.java:410)
+	at com.zeroc.IceInternal.ThreadPool.access$500(ThreadPool.java:7)
+	at com.zeroc.IceInternal.ThreadPool$EventHandlerThread.run(ThreadPool.java:784)
+	... 1 more
+
+May 30, 2025 4:14:13 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ConnectionRefusedException
+    error = 0
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:777)
+	at com.zeroc.IceInternal.Network.doFinishConnect(Network.java:536)
+	at com.zeroc.IceInternal.StreamSocket.connect(StreamSocket.java:92)
+	at com.zeroc.IceInternal.TcpTransceiver.initialize(TcpTransceiver.java:25)
+	at com.zeroc.Ice.ConnectionI.initialize(ConnectionI.java:2131)
+	at com.zeroc.Ice.ConnectionI.message(ConnectionI.java:1098)
+	at com.zeroc.IceInternal.ThreadPool.run(ThreadPool.java:410)
+	at com.zeroc.IceInternal.ThreadPool.access$500(ThreadPool.java:7)
+	at com.zeroc.IceInternal.ThreadPool$EventHandlerThread.run(ThreadPool.java:784)
+	... 1 more
+
+May 30, 2025 4:14:13 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ConnectionRefusedException
+    error = 0
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:777)
+	at com.zeroc.IceInternal.Network.doFinishConnect(Network.java:536)
+	at com.zeroc.IceInternal.StreamSocket.connect(StreamSocket.java:92)
+	at com.zeroc.IceInternal.TcpTransceiver.initialize(TcpTransceiver.java:25)
+	at com.zeroc.Ice.ConnectionI.initialize(ConnectionI.java:2131)
+	at com.zeroc.Ice.ConnectionI.message(ConnectionI.java:1098)
+	at com.zeroc.IceInternal.ThreadPool.run(ThreadPool.java:410)
+	at com.zeroc.IceInternal.ThreadPool.access$500(ThreadPool.java:7)
+	at com.zeroc.IceInternal.ThreadPool$EventHandlerThread.run(ThreadPool.java:784)
+	... 1 more
+
+May 30, 2025 4:14:16 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ConnectionRefusedException
+    error = 0
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:777)
+	at com.zeroc.IceInternal.Network.doFinishConnect(Network.java:536)
+	at com.zeroc.IceInternal.StreamSocket.connect(StreamSocket.java:92)
+	at com.zeroc.IceInternal.TcpTransceiver.initialize(TcpTransceiver.java:25)
+	at com.zeroc.Ice.ConnectionI.initialize(ConnectionI.java:2131)
+	at com.zeroc.Ice.ConnectionI.message(ConnectionI.java:1098)
+	at com.zeroc.IceInternal.ThreadPool.run(ThreadPool.java:410)
+	at com.zeroc.IceInternal.ThreadPool.access$500(ThreadPool.java:7)
+	at com.zeroc.IceInternal.ThreadPool$EventHandlerThread.run(ThreadPool.java:784)
+	... 1 more
+
+May 30, 2025 4:14:16 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ConnectionRefusedException
+    error = 0
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:777)
+	at com.zeroc.IceInternal.Network.doFinishConnect(Network.java:536)
+	at com.zeroc.IceInternal.StreamSocket.connect(StreamSocket.java:92)
+	at com.zeroc.IceInternal.TcpTransceiver.initialize(TcpTransceiver.java:25)
+	at com.zeroc.Ice.ConnectionI.initialize(ConnectionI.java:2131)
+	at com.zeroc.Ice.ConnectionI.message(ConnectionI.java:1098)
+	at com.zeroc.IceInternal.ThreadPool.run(ThreadPool.java:410)
+	at com.zeroc.IceInternal.ThreadPool.access$500(ThreadPool.java:7)
+	at com.zeroc.IceInternal.ThreadPool$EventHandlerThread.run(ThreadPool.java:784)
+	... 1 more
+
+May 30, 2025 4:14:17 PM services.AckServiceI confirm
+INFO: ACK recibido: b9b9e323-25db-4367-a4bc-b4e6a6567933
+May 30, 2025 4:14:17 PM utils.GuardadoVotos save
+INFO: Guardados 2 votos.
+May 30, 2025 4:14:17 PM services.RmSenderI resend
+INFO: Voto reenviado: b9b9e323-25db-4367-a4bc-b4e6a6567933
+May 30, 2025 4:14:20 PM services.AckServiceI confirm
+INFO: ACK recibido: 64f8a2ca-939c-4cf9-88d4-309c90f09fe5
+May 30, 2025 4:14:20 PM utils.GuardadoVotos save
+INFO: Guardados 1 votos.
+May 30, 2025 4:14:20 PM services.RmSenderI resend
+INFO: Voto reenviado: 64f8a2ca-939c-4cf9-88d4-309c90f09fe5
+May 30, 2025 4:14:20 PM services.AckServiceI confirm
+INFO: ACK recibido: 96b217a5-c779-4853-ad91-824802c9e9d7
+May 30, 2025 4:14:20 PM utils.GuardadoVotos save
+INFO: Guardados 0 votos.
+May 30, 2025 4:14:20 PM services.RmSenderI resend
+INFO: Voto reenviado: 96b217a5-c779-4853-ad91-824802c9e9d7
+May 30, 2025 4:14:23 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+May 30, 2025 4:14:26 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+May 30, 2025 4:14:29 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+May 30, 2025 4:14:32 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+May 30, 2025 4:14:35 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+May 30, 2025 4:14:38 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+May 30, 2025 4:14:41 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+May 30, 2025 4:14:44 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+May 30, 2025 4:14:47 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+May 30, 2025 4:14:50 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+May 30, 2025 4:14:53 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.

@@ -1,8 +1,8 @@
-package ackService;
+package services;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.logging.Logger;
 
-import logger.AppLogger;
+import utils.AppLogger;
 
 public class AckServiceI implements VotacionXYZ.AckService{
     private final ConcurrentHashMap<String, Boolean> acks = new ConcurrentHashMap<>();

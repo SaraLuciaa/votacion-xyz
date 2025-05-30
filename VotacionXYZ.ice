@@ -1,6 +1,4 @@
 module VotacionXYZ {
-    sequence<string> stringSeq;
-
     struct Voto {
         string nombreCandidato;
     };
@@ -10,18 +8,16 @@ module VotacionXYZ {
         Voto voto;
     };
 
-    interface MesaVotacion {
-        stringSeq listarCandidatos();
-        void registrarVoto(long candidatoId);
-        stringSeq obtenerResultados();
-    }
-
-     interface AckService {
+    interface AckService {
         void confirm(string messageId);
     }
 
-    interface EstacionVotacion{
-        stringSeq obtenerAcumuladoVotos();
-        void obtenerVoto(Message m, AckService* ack);
+    interface RmReceiver {
+        void receiveMessage(Message m, AckService* ack);
+    }
+
+    interface RmSender {
+        void send(Message msg);
+        void setServerProxy(RmReceiver* receiver);
     }
 };

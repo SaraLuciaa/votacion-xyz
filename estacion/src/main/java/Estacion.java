@@ -1,27 +1,21 @@
-import java.util.ArrayList;
-import java.util.List;
-
 import com.zeroc.Ice.Communicator;
 import com.zeroc.Ice.ObjectAdapter;
 import com.zeroc.Ice.Util;
 
+import VotacionXYZ.*;
 public class Estacion {
 
      public static void main(String[] args) {
 
          try {
-            List<String> extPar = new ArrayList<>();
-            Communicator communicator = Util.initialize(args, "resultadosLocales.cfg", extPar);
+            Communicator communicator = Util.initialize();
 
-            ObjectAdapter adapter = communicator.createObjectAdapter("resultadosLocales");
+            RmReceiver receiver = new RmReceiverI();
 
-            ResultadosLocales object = new ResultadosLocales();
-
-            adapter.add(object, Util.stringToIdentity("resultadosLocales"));
-
+            ObjectAdapter adapter = communicator.createObjectAdapterWithEndpoints("Server", "tcp -h localhost -p 10012");
+            adapter.add(receiver, Util.stringToIdentity("RMService"));
             adapter.activate();
-
-            System.out.println("Servidor de estacion de votacion escuchando en el puerto 10020...");
+            System.out.println("Servidor de estacion de votacion escuchando en el puerto 10012...");
 
             communicator.waitForShutdown();
         } catch (Exception e) {

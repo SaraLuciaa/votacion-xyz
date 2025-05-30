@@ -1,44 +1,29 @@
-import VotacionXYZ.EstacionVotacionPrx;
-import ackService.AckServiceI;
+import java.util.Scanner;
 
 import com.zeroc.Ice.Communicator;
-import com.zeroc.Ice.ObjectAdapter;
 import com.zeroc.Ice.Util;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
+import VotacionXYZ.*;
 
 public class Mesa {
 
     public static void main(String[] args) {
 
         try  {
-            List<String> extPar = new ArrayList<>();
-            Communicator communicator = Util.initialize(args, "mesaVotacion.cfg", extPar);
+            Communicator communicator = Util.initialize();
 
-            ObjectAdapter adapter = communicator.createObjectAdapter("mesaVotacion");
-
-            AckServiceI ackService = new AckServiceI();
-            adapter.add(ackService, Util.stringToIdentity("callback"));
-
-            VotacionXYZ.AckServicePrx ackServicePrx = VotacionXYZ.AckServicePrx.uncheckedCast(
-                adapter.createProxy(Util.stringToIdentity("callback"))
+            RmSenderPrx sender = RmSenderPrx.checkedCast(
+                communicator.stringToProxy("RMSender:tcp -h localhost -p 10010")
             );
-
-            EstacionVotacionPrx proxy = EstacionVotacionPrx.uncheckedCast(
-                communicator.propertyToProxy("estacionVotacion.Proxy")
+            RmReceiverPrx receiver = RmReceiverPrx.uncheckedCast(
+                communicator.stringToProxy("RMService:tcp -h localhost -p 10012")
             );
+            System.out.println("Servidor de estacion de votacion escuchando en el puerto 10012...");
 
-
-            ControladorMesaVotacion service = new ControladorMesaVotacion(proxy, ackServicePrx);
-
-            adapter.add(service, Util.stringToIdentity("mesa"));
-            adapter.activate();
+            sender.setServerProxy(receiver);
             
-            service.reenviarVotosPendientes();
-            service.iniciarReintentoPeriodico();
-            iniciarPrograma(service);
+            Votacion service = new Votacion(sender);
+            start(service);
         
             communicator.waitForShutdown();
         } catch (Exception e) {
@@ -48,7 +33,7 @@ public class Mesa {
         }
     }
 
-    private static void iniciarPrograma(ControladorMesaVotacion service) {
+    private static void start(Votacion service) {
         System.out.println("Bienvenido al sistema de votacion.");
         System.out.println("Por favor, siga las instrucciones para votar.");
         System.out.println("Mesa de votacion lista en el puerto 10010");
@@ -56,7 +41,6 @@ public class Mesa {
         boolean votando = true;
         Scanner scanner = new Scanner(System.in);
 
-        
         while (votando){
             System.out.println("\n=== Lista de candidatos ===");
             String[] lista = service.listarCandidatos(null);
@@ -70,20 +54,10 @@ public class Mesa {
             if (respuesta.equalsIgnoreCase("n")) {
                 System.out.println("Voto no registrado.");
             } else {
-                service.registrarVoto(numero, null);
+                service.registrarVoto(numero);
                 System.out.println("Voto registrado exitosamente.");
             }
-            System.out.println("Desea registrar otro voto? (s/n)");
-            String respuesta_salida = scanner.next();
-            if(respuesta_salida.equalsIgnoreCase("n")) {
-                votando = false;
-                System.out.println("Gracias por participar en la votacion.");
-            } else {
-                System.out.println("Continuando con el registro de votos...");
-            }
-
         }
         scanner.close();
-
     }
 }

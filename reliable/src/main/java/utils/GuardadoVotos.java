@@ -1,4 +1,4 @@
-package logger;
+package utils;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
@@ -12,7 +12,7 @@ import java.util.List;
 import java.util.logging.Logger;
 
 public class GuardadoVotos {
-    private static final File FILE = new File("mesa/src/main/resources/votos_pendientes.json");
+    private static final File FILE = new File("reliable/src/main/resources/votos_pendientes.json");
     private final List<Message> pendingMessages = new ArrayList<>();
     private final Logger log = AppLogger.get();
     private final Gson gson;
