@@ -1994,3 +1994,333 @@ May 30, 2025 4:14:50 PM services.RmSenderI resend
 INFO: No hay votos pendientes para reenviar.
 May 30, 2025 4:14:53 PM services.RmSenderI resend
 INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:34:58 PM utils.GuardadoVotos load
+INFO: Cargados 0 votos pendientes.
+Jun 01, 2025 1:34:58 PM services.RmSenderI retry
+INFO: Hilo de reintento iniciado.
+Jun 01, 2025 1:35:01 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:35:04 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:35:07 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:35:08 PM services.RmSenderI send
+INFO: Voto enviado para: Candidato A, ID: b3ca0271-8666-4106-b164-c1058c144b8a
+Jun 01, 2025 1:35:08 PM services.AckServiceI confirm
+INFO: ACK recibido: b3ca0271-8666-4106-b164-c1058c144b8a
+Jun 01, 2025 1:35:10 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:35:11 PM services.RmSenderI send
+INFO: Voto enviado para: Candidato B, ID: a84c76a6-fc07-4d89-bdf9-9ad4463dc69c
+Jun 01, 2025 1:35:11 PM services.AckServiceI confirm
+INFO: ACK recibido: a84c76a6-fc07-4d89-bdf9-9ad4463dc69c
+Jun 01, 2025 1:35:13 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:35:16 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:35:19 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:35:22 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:35:22 PM services.RmSenderI send
+INFO: Voto enviado para: Candidato A, ID: ae9fabd7-379c-4c26-a59d-0c8a5f26eac5
+Jun 01, 2025 1:35:22 PM services.AckServiceI confirm
+INFO: ACK recibido: ae9fabd7-379c-4c26-a59d-0c8a5f26eac5
+Jun 01, 2025 1:35:25 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:35:28 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:35:31 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:35:34 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:35:37 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:35:40 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:35:43 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:35:46 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:35:49 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:35:52 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:35:55 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:35:58 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:36:01 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:36:04 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:36:07 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:36:10 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:36:13 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:36:16 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:36:19 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:36:22 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:36:25 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:36:28 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:36:31 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:36:34 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:36:37 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:36:40 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:36:43 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:36:46 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:36:49 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:36:52 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:36:55 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:36:58 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:37:01 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:37:04 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:37:07 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:37:10 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:37:13 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:37:16 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:37:19 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:37:22 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:37:25 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:37:28 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:37:31 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:37:34 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:37:37 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:37:40 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:37:43 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:37:46 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:37:49 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:37:50 PM services.RmSenderI send
+INFO: Voto enviado para: Candidato A, ID: bd1d4274-051a-481a-a922-85157487a673
+Jun 01, 2025 1:37:50 PM services.AckServiceI confirm
+INFO: ACK recibido: bd1d4274-051a-481a-a922-85157487a673
+Jun 01, 2025 1:37:52 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:37:55 PM services.RmSenderI send
+INFO: Voto enviado para: Candidato B, ID: b60b4d9e-cd08-41e8-b171-f3179b895549
+Jun 01, 2025 1:37:55 PM services.AckServiceI confirm
+INFO: ACK recibido: b60b4d9e-cd08-41e8-b171-f3179b895549
+Jun 01, 2025 1:37:55 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:37:58 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:38:01 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:38:04 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:38:07 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:38:08 PM services.RmSenderI send
+INFO: Voto enviado para: Candidato A, ID: 76954116-b4f6-46bb-bafa-420f55eddc85
+Jun 01, 2025 1:38:08 PM services.AckServiceI confirm
+INFO: ACK recibido: 76954116-b4f6-46bb-bafa-420f55eddc85
+Jun 01, 2025 1:38:10 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:38:13 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:38:16 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:38:19 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:38:22 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:38:25 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:38:25 PM services.RmSenderI send
+WARNING: Error al enviar voto. Guardando localmente: java.net.ConnectException: Connection refused
+Jun 01, 2025 1:38:25 PM utils.GuardadoVotos save
+INFO: Guardados 1 votos.
+Jun 01, 2025 1:38:28 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ConnectionRefusedException
+    error = 0
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at com.zeroc.IceInternal.Network.doFinishConnect(Network.java:536)
+	at com.zeroc.IceInternal.StreamSocket.connect(StreamSocket.java:92)
+	at com.zeroc.IceInternal.TcpTransceiver.initialize(TcpTransceiver.java:25)
+	at com.zeroc.Ice.ConnectionI.initialize(ConnectionI.java:2131)
+	at com.zeroc.Ice.ConnectionI.message(ConnectionI.java:1098)
+	at com.zeroc.IceInternal.ThreadPool.run(ThreadPool.java:410)
+	at com.zeroc.IceInternal.ThreadPool.access$500(ThreadPool.java:7)
+	at com.zeroc.IceInternal.ThreadPool$EventHandlerThread.run(ThreadPool.java:784)
+	... 1 more
+
+Jun 01, 2025 1:38:28 PM services.RmSenderI send
+WARNING: Error al enviar voto. Guardando localmente: java.net.ConnectException: Connection refused
+Jun 01, 2025 1:38:28 PM utils.GuardadoVotos save
+INFO: Guardados 2 votos.
+Jun 01, 2025 1:38:30 PM services.RmSenderI send
+WARNING: Error al enviar voto. Guardando localmente: java.net.ConnectException: Connection refused
+Jun 01, 2025 1:38:30 PM utils.GuardadoVotos save
+INFO: Guardados 3 votos.
+Jun 01, 2025 1:38:31 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ConnectionRefusedException
+    error = 0
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at com.zeroc.IceInternal.Network.doFinishConnect(Network.java:536)
+	at com.zeroc.IceInternal.StreamSocket.connect(StreamSocket.java:92)
+	at com.zeroc.IceInternal.TcpTransceiver.initialize(TcpTransceiver.java:25)
+	at com.zeroc.Ice.ConnectionI.initialize(ConnectionI.java:2131)
+	at com.zeroc.Ice.ConnectionI.message(ConnectionI.java:1098)
+	at com.zeroc.IceInternal.ThreadPool.run(ThreadPool.java:410)
+	at com.zeroc.IceInternal.ThreadPool.access$500(ThreadPool.java:7)
+	at com.zeroc.IceInternal.ThreadPool$EventHandlerThread.run(ThreadPool.java:784)
+	... 1 more
+
+Jun 01, 2025 1:38:31 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ConnectionRefusedException
+    error = 0
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at com.zeroc.IceInternal.Network.doFinishConnect(Network.java:536)
+	at com.zeroc.IceInternal.StreamSocket.connect(StreamSocket.java:92)
+	at com.zeroc.IceInternal.TcpTransceiver.initialize(TcpTransceiver.java:25)
+	at com.zeroc.Ice.ConnectionI.initialize(ConnectionI.java:2131)
+	at com.zeroc.Ice.ConnectionI.message(ConnectionI.java:1098)
+	at com.zeroc.IceInternal.ThreadPool.run(ThreadPool.java:410)
+	at com.zeroc.IceInternal.ThreadPool.access$500(ThreadPool.java:7)
+	at com.zeroc.IceInternal.ThreadPool$EventHandlerThread.run(ThreadPool.java:784)
+	... 1 more
+
+Jun 01, 2025 1:38:31 PM services.RmSenderI resend
+SEVERE: Error al reenviar voto: 
+com.zeroc.Ice.ConnectionRefusedException
+    error = 0
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponseOrUserEx(OutgoingAsync.java:140)
+	at com.zeroc.IceInternal.OutgoingAsync.waitForResponse(OutgoingAsync.java:112)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:27)
+	at VotacionXYZ.RmReceiverPrx.receiveMessage(RmReceiverPrx.java:22)
+	at services.RmSenderI.resend(RmSenderI.java:59)
+	at services.RmSenderI.lambda$retry$0(RmSenderI.java:77)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at com.zeroc.IceInternal.Network.doFinishConnect(Network.java:536)
+	at com.zeroc.IceInternal.StreamSocket.connect(StreamSocket.java:92)
+	at com.zeroc.IceInternal.TcpTransceiver.initialize(TcpTransceiver.java:25)
+	at com.zeroc.Ice.ConnectionI.initialize(ConnectionI.java:2131)
+	at com.zeroc.Ice.ConnectionI.message(ConnectionI.java:1098)
+	at com.zeroc.IceInternal.ThreadPool.run(ThreadPool.java:410)
+	at com.zeroc.IceInternal.ThreadPool.access$500(ThreadPool.java:7)
+	at com.zeroc.IceInternal.ThreadPool$EventHandlerThread.run(ThreadPool.java:784)
+	... 1 more
+
+Jun 01, 2025 1:38:34 PM utils.GuardadoVotos save
+INFO: Guardados 2 votos.
+Jun 01, 2025 1:38:34 PM services.RmSenderI resend
+INFO: Voto reenviado: dee5a78b-1fc2-4e41-a7c3-b68e7e37a62a
+Jun 01, 2025 1:38:34 PM utils.GuardadoVotos save
+INFO: Guardados 1 votos.
+Jun 01, 2025 1:38:34 PM services.RmSenderI resend
+INFO: Voto reenviado: c0e28554-e9f7-4b4d-bef9-5678687905a2
+Jun 01, 2025 1:38:34 PM utils.GuardadoVotos save
+INFO: Guardados 0 votos.
+Jun 01, 2025 1:38:34 PM services.RmSenderI resend
+INFO: Voto reenviado: 8f836dba-f96f-4a56-831d-c645250cbf2e
+Jun 01, 2025 1:38:34 PM services.AckServiceI confirm
+INFO: ACK recibido: c0e28554-e9f7-4b4d-bef9-5678687905a2
+Jun 01, 2025 1:38:34 PM services.AckServiceI confirm
+INFO: ACK recibido: dee5a78b-1fc2-4e41-a7c3-b68e7e37a62a
+Jun 01, 2025 1:38:34 PM services.AckServiceI confirm
+INFO: ACK recibido: 8f836dba-f96f-4a56-831d-c645250cbf2e
+Jun 01, 2025 1:38:37 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:38:40 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:38:43 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:38:46 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:38:49 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:38:50 PM services.RmSenderI send
+INFO: Voto enviado para: Candidato A, ID: 819602fa-e1c3-4768-ab6c-7a62e67ab1a8
+Jun 01, 2025 1:38:50 PM services.AckServiceI confirm
+INFO: ACK recibido: 819602fa-e1c3-4768-ab6c-7a62e67ab1a8
+Jun 01, 2025 1:38:52 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:38:55 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:38:58 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:39:01 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:39:04 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:39:07 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:39:10 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:39:13 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:39:16 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 01, 2025 1:39:19 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
