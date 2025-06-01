@@ -5,10 +5,12 @@ import VotacionXYZ.*;
 public class Votacion {
     private List<String> candidatos;
     private RmSenderPrx rmSender;
+    private AckServicePrx ackProxy;
 
-    public Votacion(RmSenderPrx rmSender) {
-        this.candidatos = Arrays.asList("Candidato A", "Candidato B", "Candidato C");
-        this.rmSender = rmSender;
+    public Votacion(RmSenderPrx rmSender, AckServicePrx ackProxy) {
+    this.candidatos = Arrays.asList("Candidato A", "Candidato B", "Candidato C");
+    this.rmSender = rmSender;
+    this.ackProxy = ackProxy;
     }
 
     public String[] listarCandidatos(Current current) {
@@ -35,8 +37,10 @@ public class Votacion {
         String uuid = UUID.randomUUID().toString();
         Message msg = new Message(uuid, voto);
 
-        rmSender.send(msg);
+        System.out.println("[VOTACION] Enviando mensaje con ID: " + uuid + " para " + nombreCandidato);
+        rmSender.send(msg, ackProxy);  
     }
+
 
     public String getCandidatoPorNumero(int numero) {
         if (numero >= 1 && numero <= candidatos.size()) {

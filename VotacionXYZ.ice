@@ -17,7 +17,8 @@ module VotacionXYZ {
     }
 
     interface RmSender {
-        void send(Message msg);
+        void send(Message msg, AckService* ack);
         void setServerProxy(RmReceiver* receiver);
-    }
+    };
+
 };
