@@ -8,11 +8,11 @@ public class Central {
      public static void main(String[] args) {
 
          try {
-            Communicator communicator = Util.initialize();
+            Communicator communicator = Util.initialize(args, "central.cfg");
 
             RmReceiver receiver = new RmReceiverI();
 
-            ObjectAdapter adapter = communicator.createObjectAdapterWithEndpoints("Server", "tcp -h localhost -p 10012");
+            ObjectAdapter adapter = communicator.createObjectAdapter("Server");
             adapter.add(receiver, Util.stringToIdentity("RMService"));
             adapter.activate();
             System.out.println("Servidor central escuchando en el puerto 10012...");

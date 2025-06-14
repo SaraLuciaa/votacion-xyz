@@ -13,7 +13,7 @@ import VotacionXYZ.*;
 public class Reliable {
     public static void main(String[] args) {
         try {
-            Communicator communicator = Util.initialize(args, "realiable.cfg");
+            Communicator communicator = Util.initialize(args, "reliable.cfg");
 
             GuardadoVotos guardado = new GuardadoVotos();
             AckService ackService = new AckServiceI();

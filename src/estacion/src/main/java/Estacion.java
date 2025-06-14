@@ -10,13 +10,13 @@ public class Estacion {
     public static void main(String[] args) {
 
         try  {
-            Communicator communicator = Util.initialize();
+            Communicator communicator = Util.initialize(args, "estacion.cfg");
 
             RmSenderPrx sender = RmSenderPrx.checkedCast(
-                communicator.stringToProxy("RMSender:tcp -h localhost -p 10010")
+                communicator.propertyToProxy("Estacion.Sender")
             );
             RmReceiverPrx receiver = RmReceiverPrx.uncheckedCast(
-                communicator.stringToProxy("RMService:tcp -h localhost -p 10012")
+                communicator.propertyToProxy("Estacion.Receiver")
             );
             System.out.println("Servidor de estacion de votacion escuchando en el puerto 10012...");
 
