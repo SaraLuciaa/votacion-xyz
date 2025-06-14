@@ -1,0 +1,24 @@
+<icegrid>
+  <server-template id="ServidorCentralTemplate">
+    <parameter name="index"/>
+    <server id="ServidorCentral-${index}" exe="java" activation="on-demand">
+      <option>-jar</option>
+      <option>../central/build/libs/central-all.jar</option>
+      <adapter name="CentralAdapter" endpoints="tcp -h localhost">
+        <object identity="RMService-${index}" type="::VotacionXYZ::RmReceiver"/>
+        <object identity="QueryService-${index}" type="::VotacionXYZ::queryStation"/>
+      </adapter>
+    </server>
+  </server-template>
+
+  <server-template id="EstacionVotacionTemplate">
+    <parameter name="estacionId"/>
+    <server id="EstacionVotacion-${estacionId}" exe="java" activation="on-demand">
+      <option>-jar</option>
+      <option>../estacion/build/libs/estacion.jar</option>
+      <adapter name="EstacionAdapter" endpoints="tcp -h localhost">
+        <object identity="estacion-${estacionId}" type="::Votar::Estacion" property="Identity"/>
+      </adapter>
+    </server>
+  </server-template>
+</icegrid>

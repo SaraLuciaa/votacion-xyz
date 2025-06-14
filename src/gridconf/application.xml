@@ -1,0 +1,17 @@
+<icegrid>
+  <application name="SistemaVotacion">
+
+    <include file="templates.xml"/>
+
+    <node name="nodo-central">
+      <server-instance template="ServidorCentralTemplate" index="1"/>
+      <server-instance template="ServidorCentralTemplate" index="2"/>
+    </node>
+
+    <node name="nodo-estacion">
+      <server-instance template="EstacionVotacionTemplate" estacionId="A"/>
+      <server-instance template="EstacionVotacionTemplate" estacionId="B"/>
+    </node>
+
+  </application>
+</icegrid>

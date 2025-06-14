@@ -1,0 +1,10 @@
+# Configuration file (06/14/25 14:07:12.472)
+
+# Server configuration
+Ice.Admin.ServerId=ServidorCentral-2
+Ice.Admin.Endpoints=tcp -h localhost
+Ice.ProgramName=ServidorCentral-2
+# Object adapter CentralAdapter
+CentralAdapter.Endpoints=tcp -h localhost
+CentralAdapter.AdapterId=ServidorCentral-2.CentralAdapter
+Ice.Default.Locator=VotacionXYZIcegrid/Locator:default -h localhost -p 4061

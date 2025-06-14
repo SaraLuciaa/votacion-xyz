@@ -1,0 +1,12 @@
+# Configuration file (06/14/25 14:07:12.472)
+
+# Server configuration
+Ice.Admin.ServerId=EstacionVotacion-B
+Ice.Admin.Endpoints=tcp -h localhost
+Ice.ProgramName=EstacionVotacion-B
+# Object adapter EstacionAdapter
+EstacionAdapter.Endpoints=tcp -h localhost
+EstacionAdapter.AdapterId=EstacionVotacion-B.EstacionAdapter
+# Server descriptor properties
+Identity=estacion-B
+Ice.Default.Locator=VotacionXYZIcegrid/Locator:default -h localhost -p 4061
