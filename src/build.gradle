@@ -1,41 +1,28 @@
 plugins {
     id 'com.zeroc.gradle.ice-builder.slice' version '1.5.0' apply false
+    id 'com.github.johnrengelman.shadow' version '8.1.1' apply false
 }
 
 subprojects {
-    //
-    // Apply Java and Ice Builder plug-ins to all sub-projects
-    //
     apply plugin: 'java'
     apply plugin: 'com.zeroc.gradle.ice-builder.slice'
 
-    //
-    // Both Client and Server projects share the Printer.ice Slice definitions
-    //
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        implementation 'com.zeroc:ice:3.7.10'
+        implementation 'com.google.code.gson:gson:2.10.1'
+        implementation 'org.postgresql:postgresql:42.6.0'
+    }
+
     slice {
         java {
             files = [file("../VotacionXYZ.ice")]
         }
     }
 
-    //
-    // Use Ice JAR files from maven central repository
-    //
-    repositories {
-        mavenCentral()
-    }
-
-    //
-    // Both Client and Server depend only on Ice JAR
-    //
-    dependencies {
-        implementation 'com.zeroc:ice:3.7.10'
-        implementation 'com.google.code.gson:gson:2.10.1'
-    }
-
-    //
-    // Create a JAR file with the appropriate Main-Class and Class-Path attributes
-    //
     jar {
         manifest {
             attributes(
@@ -44,5 +31,21 @@ subprojects {
             )
         }
     }
-   
+}
+
+project(":central") {
+    apply plugin: 'com.github.johnrengelman.shadow'
+
+    shadowJar {
+        archiveBaseName.set("central-all")
+        archiveClassifier.set("")
+        archiveVersion.set("")
+        manifest {
+            attributes(
+                'Main-Class': 'Central'
+            )
+        }
+    }
+
+    build.dependsOn(shadowJar)
 }
