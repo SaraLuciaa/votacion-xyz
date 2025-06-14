@@ -2324,3 +2324,35 @@ Jun 01, 2025 1:39:16 PM services.RmSenderI resend
 INFO: No hay votos pendientes para reenviar.
 Jun 01, 2025 1:39:19 PM services.RmSenderI resend
 INFO: No hay votos pendientes para reenviar.
+Jun 13, 2025 7:13:13 PM utils.GuardadoVotos load
+INFO: Cargados 0 votos pendientes.
+Jun 13, 2025 7:13:14 PM services.RmSenderI retry
+INFO: Hilo de reintento iniciado.
+Jun 13, 2025 7:13:17 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 13, 2025 7:13:20 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 13, 2025 7:13:23 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 13, 2025 7:13:26 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 13, 2025 7:13:29 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 13, 2025 7:13:32 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 13, 2025 7:13:34 PM services.RmSenderI send
+INFO: Voto enviado para: Candidato A, ID: 86eea20f-7570-4513-8041-36945e5cb6fd
+Jun 13, 2025 7:13:34 PM services.AckServiceI confirm
+INFO: ACK recibido: 86eea20f-7570-4513-8041-36945e5cb6fd
+Jun 13, 2025 7:13:35 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 13, 2025 7:13:38 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 13, 2025 7:13:41 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+Jun 13, 2025 7:13:42 PM services.RmSenderI send
+INFO: Voto enviado para: Candidato C, ID: c493ea1b-615e-443d-b972-b4b773af426e
+Jun 13, 2025 7:13:42 PM services.AckServiceI confirm
+INFO: ACK recibido: c493ea1b-615e-443d-b972-b4b773af426e
+Jun 13, 2025 7:13:44 PM services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.

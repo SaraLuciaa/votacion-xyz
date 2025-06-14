@@ -3,7 +3,7 @@ import com.zeroc.Ice.ObjectAdapter;
 import com.zeroc.Ice.Util;
 
 import VotacionXYZ.*;
-public class Servidor {
+public class Central {
 
      public static void main(String[] args) {
 
@@ -15,7 +15,7 @@ public class Servidor {
             ObjectAdapter adapter = communicator.createObjectAdapterWithEndpoints("Server", "tcp -h localhost -p 10012");
             adapter.add(receiver, Util.stringToIdentity("RMService"));
             adapter.activate();
-            System.out.println("Servidor de estacion de votacion escuchando en el puerto 10012...");
+            System.out.println("Servidor central escuchando en el puerto 10012...");
 
             communicator.waitForShutdown();
         } catch (Exception e) {
@@ -23,5 +23,5 @@ public class Servidor {
             e.printStackTrace();
             System.exit(1);
         }
-    }    
+    }  
 }
