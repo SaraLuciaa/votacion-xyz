@@ -38,6 +38,22 @@
         <adapter name="RMAdapter" replica-group="RMGroup" endpoints="tcp"/>
         <adapter name="DistributionAdapter" replica-group="DataDistributionGroup" endpoints="tcp"/>
       </server>
+
+      <server id="ServidorCentral-3" exe="java" activation="always">
+        <option>-jar</option>
+        <option>../central/build/libs/central-all.jar</option>
+        <adapter name="QueryAdapter" replica-group="QueryGroup" endpoints="tcp"/>
+        <adapter name="RMAdapter" replica-group="RMGroup" endpoints="tcp"/>
+        <adapter name="DistributionAdapter" replica-group="DataDistributionGroup" endpoints="tcp"/>
+      </server>
+
+      <server id="ServidorCentral-4" exe="java" activation="always">
+        <option>-jar</option>
+        <option>../central/build/libs/central-all.jar</option>
+        <adapter name="QueryAdapter" replica-group="QueryGroup" endpoints="tcp"/>
+        <adapter name="RMAdapter" replica-group="RMGroup" endpoints="tcp"/>
+        <adapter name="DistributionAdapter" replica-group="DataDistributionGroup" endpoints="tcp"/>
+      </server>
     </node>
 
     <node name="nodo-reliable">
