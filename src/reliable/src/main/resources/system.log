@@ -2528,3 +2528,19 @@ Jun 13, 2025 7:44:07 PM services.RmSenderI resend
 INFO: No hay votos pendientes para reenviar.
 Jun 13, 2025 7:44:10 PM services.RmSenderI resend
 INFO: No hay votos pendientes para reenviar.
+Jun 14, 2025 9:12:47 PM utils.GuardadoVotos load
+INFO: Cargados 0 votos pendientes.
+Jun 14, 2025 9:29:30 PM utils.GuardadoVotos load
+INFO: Cargados 0 votos pendientes.
+Jun 14, 2025 9:29:30 PM services.RmSenderI retry
+INFO: Hilo de reintento iniciado.
+Jun 14, 2025 9:31:21 PM utils.GuardadoVotos load
+INFO: Cargados 0 votos pendientes.
+Jun 14, 2025 9:31:21 PM services.RmSenderI retry
+INFO: Hilo de reintento iniciado.
+Jun 14, 2025 9:45:12 PM utils.GuardadoVotos load
+INFO: Cargados 0 votos pendientes.
+Jun 14, 2025 9:45:22 PM utils.GuardadoVotos load
+INFO: Cargados 0 votos pendientes.
+Jun 14, 2025 9:48:51 PM utils.GuardadoVotos load
+INFO: Cargados 0 votos pendientes.
