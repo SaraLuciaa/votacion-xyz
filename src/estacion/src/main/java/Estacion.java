@@ -62,7 +62,13 @@ public class Estacion {
 
         // Llamar al servicio de distribución de datos al iniciar
         
-        distributor.sendData("mesa-123");
+        DatosMesa data = distributor.sendData("789");
+        Ciudadano[] ciudadanos = data.ciudadanos;
+        Candidato[] candidatos = data.candidatos;
+
+        for (Candidato c : candidatos) {
+            System.out.println("Candidato: " + c.nombre + " " + c.apellido);
+        }
 
         Scanner scanner = new Scanner(System.in);
         boolean votando = true;

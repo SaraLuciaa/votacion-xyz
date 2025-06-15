@@ -34,12 +34,15 @@ public class DataDistributionI implements DataDistribution {
                     rs.getInt("id"),
                     rs.getString("nombre"),
                     rs.getString("apellido"),
-                    rs.getString("partido")
+                    rs.getString("nombre_partido")
                 );
                 candidatos.add(c);
             }
         } catch (SQLException e) {
             e.printStackTrace();
+        }
+        for (Candidato c : candidatos) {
+            System.out.println("Candidato: " + c.nombre + " " + c.apellido);
         }
 
         return new DatosMesa(

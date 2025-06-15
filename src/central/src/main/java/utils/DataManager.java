@@ -71,7 +71,7 @@ public class DataManager {
 			PreparedStatement stmtVotantes = conexion.prepareStatement(sqlVotantes,
 												ResultSet.TYPE_SCROLL_INSENSITIVE,
 												ResultSet.CONCUR_READ_ONLY);
-			stmtVotantes.setString(1, idPuesto);
+			stmtVotantes.setInt(1, Integer.parseInt(idPuesto));
 			return stmtVotantes.executeQuery();
 
 		} catch (SQLException e) {
