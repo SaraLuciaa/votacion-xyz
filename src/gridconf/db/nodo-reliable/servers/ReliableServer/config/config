@@ -1,0 +1,10 @@
+# Configuration file (06/15/25 01:27:59.126)
+
+# Server configuration
+Ice.Admin.ServerId=ReliableServer
+Ice.Admin.Endpoints=tcp -h localhost
+Ice.ProgramName=ReliableServer
+# Object adapter RMSenderAdapter
+RMSenderAdapter.Endpoints=tcp
+RMSenderAdapter.AdapterId=ReliableServer.RMSenderAdapter
+Ice.Default.Locator=VotacionXYZIcegrid/Locator:default -h localhost -p 4061

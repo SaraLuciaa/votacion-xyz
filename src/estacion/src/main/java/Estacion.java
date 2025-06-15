@@ -10,28 +10,27 @@ public class Estacion {
 
     public static void main(String[] args) {
         try {
-            Communicator communicator = Util.initialize(args);
+            // 1. Inicializar ICE + Broker
+            Communicator communicator = Util.initialize(args, "estacion.cfg");
 
+            // 2. Crear el adapter local (por si se necesita exponer algo local)
             ObjectAdapter adapter = communicator.createObjectAdapter("EstacionAdapter");
 
+            // 3. Obtener el proxy al RMSender (ahora publicado por el módulo Reliable)
             RmSenderPrx sender = RmSenderPrx.checkedCast(
-                communicator.stringToProxy("RMService")
+                communicator.stringToProxy("RMSender")
             );
 
             if (sender == null) {
-                System.err.println("No se pudo obtener el proxy del servidor central.");
+                System.err.println("[ESTACION] No se pudo obtener el proxy del RMSender.");
                 return;
             }
 
-            RmReceiverPrx receptor = RmReceiverPrx.uncheckedCast(
-                communicator.stringToProxy("RMReceiver")
-            );
-
-            sender.setServerProxy(receptor);
-
+            // 4. Activar adaptador
             adapter.activate();
-            System.out.println("Estación de votación iniciada y registrada.");
+            System.out.println("[ESTACION] Estación de votación iniciada y conectada al RMSender.");
 
+            // 5. Iniciar el flujo de votación
             Votacion service = new Votacion(sender);
             start(service);
 
