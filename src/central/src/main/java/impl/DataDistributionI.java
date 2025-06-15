@@ -12,13 +12,13 @@ import java.util.List;
 public class DataDistributionI implements DataDistribution {
 
     @Override
-    public DatosMesa getData(String mesaId, Current current) {
-        System.out.println("Distribuyendo datos de la mesa: " + mesaId);
+    public DatosMesa sendData(String puestoId, Current current) {
+        System.out.println("Distribuyendo datos del puesto de votación: " + puestoId);
 
         DataManager dm = DataManager.getInstance(current.adapter.getCommunicator());
 
         List<Ciudadano> ciudadanos = new ArrayList<>();
-        try (ResultSet rs = dm.obtenerCiudadanosPorPuesto(mesaId)) {
+        try (ResultSet rs = dm.obtenerCiudadanosPorPuesto(puestoId)) {
             while (rs != null && rs.next()) {
                 Ciudadano c = new Ciudadano(rs.getString("documento"));
                 ciudadanos.add(c);
@@ -34,7 +34,7 @@ public class DataDistributionI implements DataDistribution {
                     rs.getInt("id"),
                     rs.getString("nombre"),
                     rs.getString("apellido"),
-                    rs.getString("nombre_partido")
+                    rs.getString("partido")
                 );
                 candidatos.add(c);
             }
@@ -42,6 +42,9 @@ public class DataDistributionI implements DataDistribution {
             e.printStackTrace();
         }
 
-        return new DatosMesa(ciudadanos, candidatos);
+        return new DatosMesa(
+            ciudadanos.toArray(new Ciudadano[0]),
+            candidatos.toArray(new Candidato[0])
+        );
     }
-}
+} 

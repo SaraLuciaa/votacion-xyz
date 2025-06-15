@@ -8,6 +8,25 @@ module VotacionXYZ {
         Voto voto;
     };
 
+    struct Candidato {
+        int id;
+        string nombre;
+        string apellido;
+        string nombrePartido;
+    };
+
+    struct Ciudadano {
+        string documento;
+    };
+
+    sequence<Ciudadano> CiudadanoSeq;
+    sequence<Candidato> CandidatoSeq;
+
+    struct DatosMesa {
+        CiudadanoSeq ciudadanos;
+        CandidatoSeq candidatos;
+    };
+
     interface AckService {
         void confirm(string messageId);
     }
@@ -26,7 +45,7 @@ module VotacionXYZ {
     }
 
     interface DataDistribution{
-        void sendData(string mesaId);
+        DatosMesa sendData(string mesaId);
     }
 
     interface VoteStation{
