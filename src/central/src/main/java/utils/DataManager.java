@@ -10,6 +10,7 @@ import com.zeroc.Ice.Communicator;
 public class DataManager {
 
 	private static DataManager instance;
+	
 
 	private Connection conexion;
 	private final ConexionBD conexionBD;
@@ -56,4 +57,47 @@ public class DataManager {
 			return "Error al consultar el puesto de votación.";
 		}
 	}
+
+	public ResultSet obtenerCiudadanosPorPuesto(String idPuesto) {
+		if (conexion == null) {
+			conexion = conexionBD.conectarBaseDatos();
+		}
+
+		try {
+			String sqlVotantes = "SELECT c.documento " +
+								"FROM ciudadano c " +
+								"JOIN mesa_votacion mv ON c.mesa_id = mv.id " +
+								"WHERE mv.puesto_id = ?";
+			PreparedStatement stmtVotantes = conexion.prepareStatement(sqlVotantes,
+												ResultSet.TYPE_SCROLL_INSENSITIVE,
+												ResultSet.CONCUR_READ_ONLY);
+			stmtVotantes.setString(1, idPuesto);
+			return stmtVotantes.executeQuery();
+
+		} catch (SQLException e) {
+			e.printStackTrace();
+			return null;
+		}
+	}
+
+	public ResultSet obtenerCandidatosConPartido() {
+		if (conexion == null) {
+			conexion = conexionBD.conectarBaseDatos();
+		}
+
+		try {
+			String sqlCandidatos = "SELECT c.id, c.nombre, c.apellido, p.nombre AS nombre_partido " +
+								"FROM Candidato c " +
+								"JOIN partido p ON c.partido_id = p.id";
+			PreparedStatement stmtCandidatos = conexion.prepareStatement(sqlCandidatos,
+												ResultSet.TYPE_SCROLL_INSENSITIVE,
+												ResultSet.CONCUR_READ_ONLY);
+			return stmtCandidatos.executeQuery();
+
+		} catch (SQLException e) {
+			e.printStackTrace();
+			return null;
+		}
+	}
+
 }
