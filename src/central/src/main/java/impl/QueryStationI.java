@@ -16,6 +16,9 @@ public class QueryStationI implements queryStation {
 
     @Override
     public String query(String document, Current current) {
+        String adapterName = current.adapter.toString();
+        System.out.println("[" + adapterName + "] Atendiendo consulta de documento: " + document);
+        System.out.println("tinitn");
         return dataManager.obtenerInfoCompletaPorCedula(document);
     }
 }

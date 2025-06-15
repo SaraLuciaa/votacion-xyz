@@ -11,7 +11,7 @@ public class DataManager {
 
 	private static DataManager instance;
 
-	private final Connection conexion;
+	private Connection conexion;
 	private final ConexionBD conexionBD;
 
 	// Constructor privado
@@ -30,7 +30,7 @@ public class DataManager {
 
 	public String obtenerInfoCompletaPorCedula(String cedula) {
 		if (conexion == null) {
-			return "No se pudo establecer conexión con la base de datos.";
+			conexion = conexionBD.conectarBaseDatos();
 		}
 
 		String sql = "SELECT * FROM info_votante WHERE documento = ?";
@@ -54,8 +54,6 @@ public class DataManager {
 		} catch (SQLException e) {
 			e.printStackTrace();
 			return "Error al consultar el puesto de votación.";
-		} finally {
-			conexionBD.cerrarConexion();
 		}
 	}
 }
