@@ -15,45 +15,118 @@
 
 package VotacionXYZ;
 
-public interface DataDistributionPrx extends com.zeroc.Ice.ObjectPrx
+public interface MesaServicePrx extends com.zeroc.Ice.ObjectPrx
 {
-    default DatosMesa sendData(String mesaId)
+    default String obtenerCandidatos()
     {
-        return sendData(mesaId, com.zeroc.Ice.ObjectPrx.noExplicitContext);
+        return obtenerCandidatos(com.zeroc.Ice.ObjectPrx.noExplicitContext);
     }
 
-    default DatosMesa sendData(String mesaId, java.util.Map<String, String> context)
+    default String obtenerCandidatos(java.util.Map<String, String> context)
     {
-        return _iceI_sendDataAsync(mesaId, context, true).waitForResponse();
+        return _iceI_obtenerCandidatosAsync(context, true).waitForResponse();
     }
 
-    default java.util.concurrent.CompletableFuture<DatosMesa> sendDataAsync(String mesaId)
+    default java.util.concurrent.CompletableFuture<java.lang.String> obtenerCandidatosAsync()
     {
-        return _iceI_sendDataAsync(mesaId, com.zeroc.Ice.ObjectPrx.noExplicitContext, false);
+        return _iceI_obtenerCandidatosAsync(com.zeroc.Ice.ObjectPrx.noExplicitContext, false);
     }
 
-    default java.util.concurrent.CompletableFuture<DatosMesa> sendDataAsync(String mesaId, java.util.Map<String, String> context)
+    default java.util.concurrent.CompletableFuture<java.lang.String> obtenerCandidatosAsync(java.util.Map<String, String> context)
     {
-        return _iceI_sendDataAsync(mesaId, context, false);
+        return _iceI_obtenerCandidatosAsync(context, false);
     }
 
     /**
      * @hidden
-     * @param iceP_mesaId -
      * @param context -
      * @param sync -
      * @return -
      **/
-    default com.zeroc.IceInternal.OutgoingAsync<DatosMesa> _iceI_sendDataAsync(String iceP_mesaId, java.util.Map<String, String> context, boolean sync)
+    default com.zeroc.IceInternal.OutgoingAsync<java.lang.String> _iceI_obtenerCandidatosAsync(java.util.Map<String, String> context, boolean sync)
     {
-        com.zeroc.IceInternal.OutgoingAsync<DatosMesa> f = new com.zeroc.IceInternal.OutgoingAsync<>(this, "sendData", null, sync, null);
-        f.invoke(true, context, null, ostr -> {
-                     ostr.writeString(iceP_mesaId);
-                 }, istr -> {
-                     DatosMesa ret;
-                     ret = DatosMesa.ice_read(istr);
+        com.zeroc.IceInternal.OutgoingAsync<java.lang.String> f = new com.zeroc.IceInternal.OutgoingAsync<>(this, "obtenerCandidatos", null, sync, null);
+        f.invoke(true, context, null, null, istr -> {
+                     String ret;
+                     ret = istr.readString();
                      return ret;
                  });
+        return f;
+    }
+
+    default Ciudadano consultarCiudadanoPorId(String documento)
+    {
+        return consultarCiudadanoPorId(documento, com.zeroc.Ice.ObjectPrx.noExplicitContext);
+    }
+
+    default Ciudadano consultarCiudadanoPorId(String documento, java.util.Map<String, String> context)
+    {
+        return _iceI_consultarCiudadanoPorIdAsync(documento, context, true).waitForResponse();
+    }
+
+    default java.util.concurrent.CompletableFuture<Ciudadano> consultarCiudadanoPorIdAsync(String documento)
+    {
+        return _iceI_consultarCiudadanoPorIdAsync(documento, com.zeroc.Ice.ObjectPrx.noExplicitContext, false);
+    }
+
+    default java.util.concurrent.CompletableFuture<Ciudadano> consultarCiudadanoPorIdAsync(String documento, java.util.Map<String, String> context)
+    {
+        return _iceI_consultarCiudadanoPorIdAsync(documento, context, false);
+    }
+
+    /**
+     * @hidden
+     * @param iceP_documento -
+     * @param context -
+     * @param sync -
+     * @return -
+     **/
+    default com.zeroc.IceInternal.OutgoingAsync<Ciudadano> _iceI_consultarCiudadanoPorIdAsync(String iceP_documento, java.util.Map<String, String> context, boolean sync)
+    {
+        com.zeroc.IceInternal.OutgoingAsync<Ciudadano> f = new com.zeroc.IceInternal.OutgoingAsync<>(this, "consultarCiudadanoPorId", null, sync, null);
+        f.invoke(true, context, null, ostr -> {
+                     ostr.writeString(iceP_documento);
+                 }, istr -> {
+                     Ciudadano ret;
+                     ret = Ciudadano.ice_read(istr);
+                     return ret;
+                 });
+        return f;
+    }
+
+    default void registrarVoto(int candidato)
+    {
+        registrarVoto(candidato, com.zeroc.Ice.ObjectPrx.noExplicitContext);
+    }
+
+    default void registrarVoto(int candidato, java.util.Map<String, String> context)
+    {
+        _iceI_registrarVotoAsync(candidato, context, true).waitForResponse();
+    }
+
+    default java.util.concurrent.CompletableFuture<Void> registrarVotoAsync(int candidato)
+    {
+        return _iceI_registrarVotoAsync(candidato, com.zeroc.Ice.ObjectPrx.noExplicitContext, false);
+    }
+
+    default java.util.concurrent.CompletableFuture<Void> registrarVotoAsync(int candidato, java.util.Map<String, String> context)
+    {
+        return _iceI_registrarVotoAsync(candidato, context, false);
+    }
+
+    /**
+     * @hidden
+     * @param iceP_candidato -
+     * @param context -
+     * @param sync -
+     * @return -
+     **/
+    default com.zeroc.IceInternal.OutgoingAsync<Void> _iceI_registrarVotoAsync(int iceP_candidato, java.util.Map<String, String> context, boolean sync)
+    {
+        com.zeroc.IceInternal.OutgoingAsync<Void> f = new com.zeroc.IceInternal.OutgoingAsync<>(this, "registrarVoto", null, sync, null);
+        f.invoke(false, context, null, ostr -> {
+                     ostr.writeInt(iceP_candidato);
+                 }, null);
         return f;
     }
 
@@ -63,9 +136,9 @@ public interface DataDistributionPrx extends com.zeroc.Ice.ObjectPrx
      * @param obj The untyped proxy.
      * @return A proxy for this type, or null if the object does not support this type.
      **/
-    static DataDistributionPrx checkedCast(com.zeroc.Ice.ObjectPrx obj)
+    static MesaServicePrx checkedCast(com.zeroc.Ice.ObjectPrx obj)
     {
-        return com.zeroc.Ice.ObjectPrx._checkedCast(obj, ice_staticId(), DataDistributionPrx.class, _DataDistributionPrxI.class);
+        return com.zeroc.Ice.ObjectPrx._checkedCast(obj, ice_staticId(), MesaServicePrx.class, _MesaServicePrxI.class);
     }
 
     /**
@@ -75,9 +148,9 @@ public interface DataDistributionPrx extends com.zeroc.Ice.ObjectPrx
      * @param context The Context map to send with the invocation.
      * @return A proxy for this type, or null if the object does not support this type.
      **/
-    static DataDistributionPrx checkedCast(com.zeroc.Ice.ObjectPrx obj, java.util.Map<String, String> context)
+    static MesaServicePrx checkedCast(com.zeroc.Ice.ObjectPrx obj, java.util.Map<String, String> context)
     {
-        return com.zeroc.Ice.ObjectPrx._checkedCast(obj, context, ice_staticId(), DataDistributionPrx.class, _DataDistributionPrxI.class);
+        return com.zeroc.Ice.ObjectPrx._checkedCast(obj, context, ice_staticId(), MesaServicePrx.class, _MesaServicePrxI.class);
     }
 
     /**
@@ -87,9 +160,9 @@ public interface DataDistributionPrx extends com.zeroc.Ice.ObjectPrx
      * @param facet The name of the desired facet.
      * @return A proxy for this type, or null if the object does not support this type.
      **/
-    static DataDistributionPrx checkedCast(com.zeroc.Ice.ObjectPrx obj, String facet)
+    static MesaServicePrx checkedCast(com.zeroc.Ice.ObjectPrx obj, String facet)
     {
-        return com.zeroc.Ice.ObjectPrx._checkedCast(obj, facet, ice_staticId(), DataDistributionPrx.class, _DataDistributionPrxI.class);
+        return com.zeroc.Ice.ObjectPrx._checkedCast(obj, facet, ice_staticId(), MesaServicePrx.class, _MesaServicePrxI.class);
     }
 
     /**
@@ -100,9 +173,9 @@ public interface DataDistributionPrx extends com.zeroc.Ice.ObjectPrx
      * @param context The Context map to send with the invocation.
      * @return A proxy for this type, or null if the object does not support this type.
      **/
-    static DataDistributionPrx checkedCast(com.zeroc.Ice.ObjectPrx obj, String facet, java.util.Map<String, String> context)
+    static MesaServicePrx checkedCast(com.zeroc.Ice.ObjectPrx obj, String facet, java.util.Map<String, String> context)
     {
-        return com.zeroc.Ice.ObjectPrx._checkedCast(obj, facet, context, ice_staticId(), DataDistributionPrx.class, _DataDistributionPrxI.class);
+        return com.zeroc.Ice.ObjectPrx._checkedCast(obj, facet, context, ice_staticId(), MesaServicePrx.class, _MesaServicePrxI.class);
     }
 
     /**
@@ -110,9 +183,9 @@ public interface DataDistributionPrx extends com.zeroc.Ice.ObjectPrx
      * @param obj The untyped proxy.
      * @return A proxy for this type.
      **/
-    static DataDistributionPrx uncheckedCast(com.zeroc.Ice.ObjectPrx obj)
+    static MesaServicePrx uncheckedCast(com.zeroc.Ice.ObjectPrx obj)
     {
-        return com.zeroc.Ice.ObjectPrx._uncheckedCast(obj, DataDistributionPrx.class, _DataDistributionPrxI.class);
+        return com.zeroc.Ice.ObjectPrx._uncheckedCast(obj, MesaServicePrx.class, _MesaServicePrxI.class);
     }
 
     /**
@@ -121,9 +194,9 @@ public interface DataDistributionPrx extends com.zeroc.Ice.ObjectPrx
      * @param facet The name of the desired facet.
      * @return A proxy for this type.
      **/
-    static DataDistributionPrx uncheckedCast(com.zeroc.Ice.ObjectPrx obj, String facet)
+    static MesaServicePrx uncheckedCast(com.zeroc.Ice.ObjectPrx obj, String facet)
     {
-        return com.zeroc.Ice.ObjectPrx._uncheckedCast(obj, facet, DataDistributionPrx.class, _DataDistributionPrxI.class);
+        return com.zeroc.Ice.ObjectPrx._uncheckedCast(obj, facet, MesaServicePrx.class, _MesaServicePrxI.class);
     }
 
     /**
@@ -132,9 +205,9 @@ public interface DataDistributionPrx extends com.zeroc.Ice.ObjectPrx
      * @return A proxy with the specified per-proxy context.
      **/
     @Override
-    default DataDistributionPrx ice_context(java.util.Map<String, String> newContext)
+    default MesaServicePrx ice_context(java.util.Map<String, String> newContext)
     {
-        return (DataDistributionPrx)_ice_context(newContext);
+        return (MesaServicePrx)_ice_context(newContext);
     }
 
     /**
@@ -143,9 +216,9 @@ public interface DataDistributionPrx extends com.zeroc.Ice.ObjectPrx
      * @return A proxy with the specified adapter ID.
      **/
     @Override
-    default DataDistributionPrx ice_adapterId(String newAdapterId)
+    default MesaServicePrx ice_adapterId(String newAdapterId)
     {
-        return (DataDistributionPrx)_ice_adapterId(newAdapterId);
+        return (MesaServicePrx)_ice_adapterId(newAdapterId);
     }
 
     /**
@@ -154,9 +227,9 @@ public interface DataDistributionPrx extends com.zeroc.Ice.ObjectPrx
      * @return A proxy with the specified endpoints.
      **/
     @Override
-    default DataDistributionPrx ice_endpoints(com.zeroc.Ice.Endpoint[] newEndpoints)
+    default MesaServicePrx ice_endpoints(com.zeroc.Ice.Endpoint[] newEndpoints)
     {
-        return (DataDistributionPrx)_ice_endpoints(newEndpoints);
+        return (MesaServicePrx)_ice_endpoints(newEndpoints);
     }
 
     /**
@@ -165,9 +238,9 @@ public interface DataDistributionPrx extends com.zeroc.Ice.ObjectPrx
      * @return A proxy with the specified locator cache timeout.
      **/
     @Override
-    default DataDistributionPrx ice_locatorCacheTimeout(int newTimeout)
+    default MesaServicePrx ice_locatorCacheTimeout(int newTimeout)
     {
-        return (DataDistributionPrx)_ice_locatorCacheTimeout(newTimeout);
+        return (MesaServicePrx)_ice_locatorCacheTimeout(newTimeout);
     }
 
     /**
@@ -176,9 +249,9 @@ public interface DataDistributionPrx extends com.zeroc.Ice.ObjectPrx
      * @return A proxy with the specified invocation timeout.
      **/
     @Override
-    default DataDistributionPrx ice_invocationTimeout(int newTimeout)
+    default MesaServicePrx ice_invocationTimeout(int newTimeout)
     {
-        return (DataDistributionPrx)_ice_invocationTimeout(newTimeout);
+        return (MesaServicePrx)_ice_invocationTimeout(newTimeout);
     }
 
     /**
@@ -187,9 +260,9 @@ public interface DataDistributionPrx extends com.zeroc.Ice.ObjectPrx
      * @return A proxy with the specified caching policy.
      **/
     @Override
-    default DataDistributionPrx ice_connectionCached(boolean newCache)
+    default MesaServicePrx ice_connectionCached(boolean newCache)
     {
-        return (DataDistributionPrx)_ice_connectionCached(newCache);
+        return (MesaServicePrx)_ice_connectionCached(newCache);
     }
 
     /**
@@ -198,9 +271,9 @@ public interface DataDistributionPrx extends com.zeroc.Ice.ObjectPrx
      * @return A proxy with the specified endpoint selection policy.
      **/
     @Override
-    default DataDistributionPrx ice_endpointSelection(com.zeroc.Ice.EndpointSelectionType newType)
+    default MesaServicePrx ice_endpointSelection(com.zeroc.Ice.EndpointSelectionType newType)
     {
-        return (DataDistributionPrx)_ice_endpointSelection(newType);
+        return (MesaServicePrx)_ice_endpointSelection(newType);
     }
 
     /**
@@ -211,9 +284,9 @@ public interface DataDistributionPrx extends com.zeroc.Ice.ObjectPrx
      * @return A proxy with the specified selection policy.
      **/
     @Override
-    default DataDistributionPrx ice_secure(boolean b)
+    default MesaServicePrx ice_secure(boolean b)
     {
-        return (DataDistributionPrx)_ice_secure(b);
+        return (MesaServicePrx)_ice_secure(b);
     }
 
     /**
@@ -222,9 +295,9 @@ public interface DataDistributionPrx extends com.zeroc.Ice.ObjectPrx
      * @return A proxy with the specified encoding version.
      **/
     @Override
-    default DataDistributionPrx ice_encodingVersion(com.zeroc.Ice.EncodingVersion e)
+    default MesaServicePrx ice_encodingVersion(com.zeroc.Ice.EncodingVersion e)
     {
-        return (DataDistributionPrx)_ice_encodingVersion(e);
+        return (MesaServicePrx)_ice_encodingVersion(e);
     }
 
     /**
@@ -235,9 +308,9 @@ public interface DataDistributionPrx extends com.zeroc.Ice.ObjectPrx
      * @return A proxy with the specified selection policy.
      **/
     @Override
-    default DataDistributionPrx ice_preferSecure(boolean b)
+    default MesaServicePrx ice_preferSecure(boolean b)
     {
-        return (DataDistributionPrx)_ice_preferSecure(b);
+        return (MesaServicePrx)_ice_preferSecure(b);
     }
 
     /**
@@ -246,9 +319,9 @@ public interface DataDistributionPrx extends com.zeroc.Ice.ObjectPrx
      * @return A proxy with the specified router.
      **/
     @Override
-    default DataDistributionPrx ice_router(com.zeroc.Ice.RouterPrx router)
+    default MesaServicePrx ice_router(com.zeroc.Ice.RouterPrx router)
     {
-        return (DataDistributionPrx)_ice_router(router);
+        return (MesaServicePrx)_ice_router(router);
     }
 
     /**
@@ -257,9 +330,9 @@ public interface DataDistributionPrx extends com.zeroc.Ice.ObjectPrx
      * @return A proxy with the specified locator.
      **/
     @Override
-    default DataDistributionPrx ice_locator(com.zeroc.Ice.LocatorPrx locator)
+    default MesaServicePrx ice_locator(com.zeroc.Ice.LocatorPrx locator)
     {
-        return (DataDistributionPrx)_ice_locator(locator);
+        return (MesaServicePrx)_ice_locator(locator);
     }
 
     /**
@@ -268,9 +341,9 @@ public interface DataDistributionPrx extends com.zeroc.Ice.ObjectPrx
      * @return A proxy with the specified collocation optimization.
      **/
     @Override
-    default DataDistributionPrx ice_collocationOptimized(boolean b)
+    default MesaServicePrx ice_collocationOptimized(boolean b)
     {
-        return (DataDistributionPrx)_ice_collocationOptimized(b);
+        return (MesaServicePrx)_ice_collocationOptimized(b);
     }
 
     /**
@@ -278,9 +351,9 @@ public interface DataDistributionPrx extends com.zeroc.Ice.ObjectPrx
      * @return A proxy that uses twoway invocations.
      **/
     @Override
-    default DataDistributionPrx ice_twoway()
+    default MesaServicePrx ice_twoway()
     {
-        return (DataDistributionPrx)_ice_twoway();
+        return (MesaServicePrx)_ice_twoway();
     }
 
     /**
@@ -288,9 +361,9 @@ public interface DataDistributionPrx extends com.zeroc.Ice.ObjectPrx
      * @return A proxy that uses oneway invocations.
      **/
     @Override
-    default DataDistributionPrx ice_oneway()
+    default MesaServicePrx ice_oneway()
     {
-        return (DataDistributionPrx)_ice_oneway();
+        return (MesaServicePrx)_ice_oneway();
     }
 
     /**
@@ -298,9 +371,9 @@ public interface DataDistributionPrx extends com.zeroc.Ice.ObjectPrx
      * @return A proxy that uses batch oneway invocations.
      **/
     @Override
-    default DataDistributionPrx ice_batchOneway()
+    default MesaServicePrx ice_batchOneway()
     {
-        return (DataDistributionPrx)_ice_batchOneway();
+        return (MesaServicePrx)_ice_batchOneway();
     }
 
     /**
@@ -308,9 +381,9 @@ public interface DataDistributionPrx extends com.zeroc.Ice.ObjectPrx
      * @return A proxy that uses datagram invocations.
      **/
     @Override
-    default DataDistributionPrx ice_datagram()
+    default MesaServicePrx ice_datagram()
     {
-        return (DataDistributionPrx)_ice_datagram();
+        return (MesaServicePrx)_ice_datagram();
     }
 
     /**
@@ -318,9 +391,9 @@ public interface DataDistributionPrx extends com.zeroc.Ice.ObjectPrx
      * @return A proxy that uses batch datagram invocations.
      **/
     @Override
-    default DataDistributionPrx ice_batchDatagram()
+    default MesaServicePrx ice_batchDatagram()
     {
-        return (DataDistributionPrx)_ice_batchDatagram();
+        return (MesaServicePrx)_ice_batchDatagram();
     }
 
     /**
@@ -329,9 +402,9 @@ public interface DataDistributionPrx extends com.zeroc.Ice.ObjectPrx
      * @return A proxy with the specified compression setting.
      **/
     @Override
-    default DataDistributionPrx ice_compress(boolean co)
+    default MesaServicePrx ice_compress(boolean co)
     {
-        return (DataDistributionPrx)_ice_compress(co);
+        return (MesaServicePrx)_ice_compress(co);
     }
 
     /**
@@ -340,9 +413,9 @@ public interface DataDistributionPrx extends com.zeroc.Ice.ObjectPrx
      * @return A proxy with the specified timeout.
      **/
     @Override
-    default DataDistributionPrx ice_timeout(int t)
+    default MesaServicePrx ice_timeout(int t)
     {
-        return (DataDistributionPrx)_ice_timeout(t);
+        return (MesaServicePrx)_ice_timeout(t);
     }
 
     /**
@@ -351,9 +424,9 @@ public interface DataDistributionPrx extends com.zeroc.Ice.ObjectPrx
      * @return A proxy with the specified connection ID.
      **/
     @Override
-    default DataDistributionPrx ice_connectionId(String connectionId)
+    default MesaServicePrx ice_connectionId(String connectionId)
     {
-        return (DataDistributionPrx)_ice_connectionId(connectionId);
+        return (MesaServicePrx)_ice_connectionId(connectionId);
     }
 
     /**
@@ -362,13 +435,13 @@ public interface DataDistributionPrx extends com.zeroc.Ice.ObjectPrx
      * @return A fixed proxy bound to the given connection.
      **/
     @Override
-    default DataDistributionPrx ice_fixed(com.zeroc.Ice.Connection connection)
+    default MesaServicePrx ice_fixed(com.zeroc.Ice.Connection connection)
     {
-        return (DataDistributionPrx)_ice_fixed(connection);
+        return (MesaServicePrx)_ice_fixed(connection);
     }
 
     static String ice_staticId()
     {
-        return "::VotacionXYZ::DataDistribution";
+        return "::VotacionXYZ::MesaService";
     }
 }

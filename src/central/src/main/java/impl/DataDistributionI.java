@@ -13,7 +13,6 @@ public class DataDistributionI implements DataDistribution {
 
     @Override
     public DatosMesa sendData(String puestoId, Current current) {
-        System.out.println("Distribuyendo datos del puesto de votación: " + puestoId);
 
         DataManager dm = DataManager.getInstance(current.adapter.getCommunicator());
 
@@ -40,9 +39,6 @@ public class DataDistributionI implements DataDistribution {
             }
         } catch (SQLException e) {
             e.printStackTrace();
-        }
-        for (Candidato c : candidatos) {
-            System.out.println("Candidato: " + c.nombre + " " + c.apellido);
         }
 
         return new DatosMesa(

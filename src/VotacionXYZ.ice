@@ -51,4 +51,10 @@ module VotacionXYZ {
     interface VoteStation{
         int vote(string document, int candidateId);
     }
+
+    interface MesaService {
+        string obtenerCandidatos();
+        Ciudadano consultarCiudadanoPorId(string documento);
+        void registrarVoto(int candidato);
+    }
 };

@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.UUID;
 
 import com.zeroc.Ice.Communicator;
 import com.zeroc.Ice.ObjectAdapter;
@@ -6,6 +7,7 @@ import com.zeroc.Ice.ObjectPrx;
 import com.zeroc.Ice.Util;
 
 import VotacionXYZ.*;
+import impl.MesaServiceI;
 
 public class Estacion {
 
@@ -38,6 +40,10 @@ public class Estacion {
                 return;
             }
 
+            // 5.Crear el servicio mesa
+            MesaServiceI mesaService = new MesaServiceI();
+            adapter.add(mesaService, Util.stringToIdentity("MesaService")); 
+
             // 5. Activar adaptador local
             adapter.activate();
             System.out.println("[ESTACION] Estación de votación iniciada y conectada al RMSender.");
@@ -56,44 +62,39 @@ public class Estacion {
     }
 
     private static void start(Votacion service, DataDistributionPrx distributor) {
+        Scanner scanner = new Scanner(System.in);
         System.out.println("Bienvenido al sistema de votación.");
-        System.out.println("Por favor, siga las instrucciones para votar.");
-        System.out.println("Mesa de votación lista.");
+        System.out.println("Por favor, ingrese el numero de identificacion de la estacion de votacion.");
+        String idEstacion = scanner.next();
 
-        // Llamar al servicio de distribución de datos al iniciar
+
         
-        DatosMesa data = distributor.sendData("789");
+        DatosMesa data = distributor.sendData(idEstacion);
         Ciudadano[] ciudadanos = data.ciudadanos;
         Candidato[] candidatos = data.candidatos;
 
-        for (Candidato c : candidatos) {
-            System.out.println("Candidato: " + c.nombre + " " + c.apellido);
-        }
+       
 
-        Scanner scanner = new Scanner(System.in);
-        boolean votando = true;
-
-        while (votando) {
-            System.out.println("\n=== Lista de candidatos ===");
-            String[] lista = service.listarCandidatos(null);
-            for (String item : lista) {
-                System.out.println(item);
-            }
-
-            System.out.print("\nSeleccione el número del candidato: ");
-            int numero = scanner.nextInt();
-
-            System.out.print("¿Desea registrar el voto? (s/n): ");
-            String respuesta = scanner.next();
-
-            if (respuesta.equalsIgnoreCase("n")) {
-                System.out.println("Voto no registrado.");
-            } else {
-                service.registrarVoto(numero);
-                System.out.println("Voto registrado exitosamente.");
-            }
-        }
 
         scanner.close();
+    }
+
+     public void registrarVoto(long candidatoIndex) {
+        if (candidatoIndex < 1 || candidatoIndex > candidatos.size()) {
+            System.out.println("Indice de candidato fuera de rango: " + candidatoIndex);
+            throw new IllegalArgumentException("Indice de candidato fuera de rango");
+        }
+
+        String nombreCandidato = getCandidatoPorNumero((int) candidatoIndex);
+        if (nombreCandidato == null) {
+            System.out.println("Candidato inválido: " + candidatoIndex);
+            throw new IllegalArgumentException("Candidato no válido.");
+        }
+
+        Voto voto = new Voto(nombreCandidato);
+        String uuid = UUID.randomUUID().toString();
+        Message msg = new Message(uuid, voto);
+
+        rmSender.send(msg);
     }
 }

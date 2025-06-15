@@ -17,7 +17,7 @@ package VotacionXYZ;
 
 public interface DataDistribution extends com.zeroc.Ice.Object
 {
-    void sendData(String mesaId, com.zeroc.Ice.Current current);
+    DatosMesa sendData(String mesaId, com.zeroc.Ice.Current current);
 
     /** @hidden */
     static final String[] _iceIds =
@@ -57,8 +57,11 @@ public interface DataDistribution extends com.zeroc.Ice.Object
         String iceP_mesaId;
         iceP_mesaId = istr.readString();
         inS.endReadParams();
-        obj.sendData(iceP_mesaId, current);
-        return inS.setResult(inS.writeEmptyParams());
+        DatosMesa ret = obj.sendData(iceP_mesaId, current);
+        com.zeroc.Ice.OutputStream ostr = inS.startWriteParams();
+        DatosMesa.ice_write(ostr, ret);
+        inS.endWriteParams(ostr);
+        return inS.setResult(ostr);
     }
 
     /** @hidden */
