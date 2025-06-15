@@ -11,7 +11,7 @@ public class Consulta {
         try (Communicator communicator = Util.initialize(args, "consulta.cfg")) {
 
             // Obtenemos el proxy del servicio remoto
-            ObjectPrx base = communicator.stringToProxy("QueryService:tcp -h localhost -p 10012");
+            ObjectPrx base = communicator.stringToProxy("QueryService");
             queryStationPrx query = queryStationPrx.checkedCast(base);
 
             if (query == null) {

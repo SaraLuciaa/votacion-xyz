@@ -1,25 +1,31 @@
+import com.zeroc.Ice.Communicator;
+import com.zeroc.Ice.ObjectAdapter;
+import com.zeroc.Ice.Util;
+
+import VotacionXYZ.RmReceiver;
+import VotacionXYZ.queryStation;
+import impl.QueryStationI;
+import impl.RmReceiverI;
+
 public class Central {
 
     public static void main(String[] args) {
         try {
-            Communicator communicator = Util.initialize(args);
+            Communicator communicator = Util.initialize(args, "central.cfg");
 
-            
-            String index = communicator.getProperties().getProperty("Central.Index");
-            if (index == null || index.isEmpty()) {
-                index = "1"; 
-            }
-
-            ObjectAdapter adapter = communicator.createObjectAdapter("CentralAdapter");
-
-            RmReceiver receiver = new RmReceiverI();
-            adapter.add(receiver, Util.stringToIdentity("RMService-" + index));
+            ObjectAdapter queryAdapter = communicator.createObjectAdapter("QueryAdapter");
+            ObjectAdapter rmAdapter = communicator.createObjectAdapter("RMAdapter");
 
             queryStation query = new QueryStationI(communicator);
-            adapter.add(query, Util.stringToIdentity("QueryService-" + index));
+            queryAdapter.add(query, Util.stringToIdentity("QueryService"));
 
-            adapter.activate();
-            System.out.println("Servidor central [" + index + "] en ejecución...");
+            RmReceiver receiver = new RmReceiverI();
+            rmAdapter.add(receiver, Util.stringToIdentity("RMService"));
+
+            queryAdapter.activate();
+            rmAdapter.activate();
+
+            System.out.println("Servidor central activo.");
 
             communicator.waitForShutdown();
 

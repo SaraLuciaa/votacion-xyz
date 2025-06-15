@@ -1,17 +1,35 @@
 <icegrid>
   <application name="SistemaVotacion">
 
-    <include file="templates.xml"/>
+    <replica-group id="QueryGroup">
+      <load-balancing type="round-robin"/>
+      <object identity="QueryService" type="::VotacionXYZ::queryStation"/>
+    </replica-group>
+
+    <replica-group id="RMGroup">
+      <load-balancing type="round-robin"/>
+      <object identity="RMService" type="::VotacionXYZ::RmReceiver"/>
+    </replica-group>
+
+    <replica-group id="EstacionGroup">
+      <load-balancing type="round-robin"/>
+      <object identity="EstacionService" type="::Votar::Estacion"/>
+    </replica-group>
 
     <node name="nodo-central">
-      <server-instance template="ServidorCentralTemplate" index="1"/>
-      <server-instance template="ServidorCentralTemplate" index="2"/>
-    </node>
+      <server id="ServidorCentral-1" exe="java" activation="always">
+        <option>-jar</option>
+        <option>../central/build/libs/central-all.jar</option>
+        <adapter name="QueryAdapter" replica-group="QueryGroup" endpoints="tcp"/>
+        <adapter name="RMAdapter" replica-group="RMGroup" endpoints="tcp"/>
+      </server>
 
-    <node name="nodo-estacion">
-      <server-instance template="EstacionVotacionTemplate" estacionId="A"/>
-      <server-instance template="EstacionVotacionTemplate" estacionId="B"/>
+      <server id="ServidorCentral-2" exe="java" activation="always">
+        <option>-jar</option>
+        <option>../central/build/libs/central-all.jar</option>
+        <adapter name="QueryAdapter" replica-group="QueryGroup" endpoints="tcp"/>
+        <adapter name="RMAdapter" replica-group="RMGroup" endpoints="tcp"/>
+      </server>
     </node>
-
   </application>
 </icegrid>

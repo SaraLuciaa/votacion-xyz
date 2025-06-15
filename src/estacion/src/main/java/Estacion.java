@@ -23,12 +23,11 @@ public class Estacion {
                 return;
             }
 
-            RmReceiverImpl receptor = new RmReceiverImpl();
-            adapter.add(receptor, Util.stringToIdentity("EstacionReceiver"));
+            RmReceiverPrx receptor = RmReceiverPrx.uncheckedCast(
+                communicator.stringToProxy("RMReceiver")
+            );
 
-            sender.setServerProxy(RmReceiverPrx.uncheckedCast(
-                adapter.createProxy(Util.stringToIdentity("EstacionReceiver"))
-            ));
+            sender.setServerProxy(receptor);
 
             adapter.activate();
             System.out.println("Estación de votación iniciada y registrada.");
