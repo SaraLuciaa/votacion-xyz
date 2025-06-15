@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 import com.zeroc.Ice.Communicator;
 import com.zeroc.Ice.ObjectPrx;
 import com.zeroc.Ice.Util;
@@ -19,15 +21,36 @@ public class Consulta {
                 return;
             }
 
-            // Documento a consultar
-            String documento = "787277031"; // puedes pedirlo por consola si lo deseas
-            String resultado = query.query(documento);
-
-            System.out.println(resultado);
-
+            consultar(query);
+            
         } catch (Exception e) {
             System.err.println("Error en cliente de consulta: " + e.getMessage());
             e.printStackTrace();
         }
+    }
+
+    private static void consultar(queryStationPrx query) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("=== CONSULTA DE PUESTO DE VOTACIÓN ===");
+        System.out.println("Escriba el número de documento o 'salir' para terminar.");
+
+        while (true) {
+            System.out.print("\nDocumento: ");
+            String documento = scanner.nextLine().trim();
+
+            if (documento.equalsIgnoreCase("salir")) {
+                System.out.println("Saliendo del sistema...");
+                break;
+            }
+
+            try {
+                String resultado = query.query(documento);
+                System.out.println("Resultado: " + resultado);
+            } catch (Exception e) {
+                System.out.println("Error al consultar: " + e.getMessage());
+            }
+        }
+
+        scanner.close();
     }
 }

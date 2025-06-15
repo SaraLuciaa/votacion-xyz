@@ -19,5 +19,4 @@ icegridnode --Ice.Config=nodeCentral.cfg &
 sleep 2
 
 
-
 echo "Todo listo. Puedes ejecutar tus clientes ahora."
