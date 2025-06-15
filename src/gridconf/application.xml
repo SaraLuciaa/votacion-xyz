@@ -16,12 +16,19 @@
       <object identity="EstacionService" type="::Votar::Estacion"/>
     </replica-group>
 
+    <replica-group id="DataDistributionGroup">
+      <load-balancing type="round-robin"/>
+      <object identity="DataDistributor" type="::VotacionXYZ::DataDistribution"/>
+    </replica-group>
+
+
     <node name="nodo-central">
       <server id="ServidorCentral-1" exe="java" activation="always">
         <option>-jar</option>
         <option>../central/build/libs/central-all.jar</option>
         <adapter name="QueryAdapter" replica-group="QueryGroup" endpoints="tcp"/>
         <adapter name="RMAdapter" replica-group="RMGroup" endpoints="tcp"/>
+        <adapter name="DistributionAdapter" replica-group="DataDistributionGroup" endpoints="tcp"/>
       </server>
 
       <server id="ServidorCentral-2" exe="java" activation="always">
@@ -29,6 +36,7 @@
         <option>../central/build/libs/central-all.jar</option>
         <adapter name="QueryAdapter" replica-group="QueryGroup" endpoints="tcp"/>
         <adapter name="RMAdapter" replica-group="RMGroup" endpoints="tcp"/>
+        <adapter name="DistributionAdapter" replica-group="DataDistributionGroup" endpoints="tcp"/>
       </server>
     </node>
 

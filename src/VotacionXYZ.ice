@@ -25,6 +25,10 @@ module VotacionXYZ {
         string query(string document);
     }
 
+    interface DataDistribution{
+        void sendData(string mesaId);
+    }
+
     interface VoteStation{
         int vote(string document, int candidateId);
     }

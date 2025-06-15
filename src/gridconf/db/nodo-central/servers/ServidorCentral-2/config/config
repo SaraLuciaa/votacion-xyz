@@ -1,4 +1,4 @@
-# Configuration file (06/15/25 02:40:18.956)
+# Configuration file (06/15/25 10:36:18.415)
 
 # Server configuration
 Ice.Admin.ServerId=ServidorCentral-2
@@ -12,4 +12,8 @@ QueryAdapter.ReplicaGroupId=QueryGroup
 RMAdapter.Endpoints=tcp
 RMAdapter.AdapterId=ServidorCentral-2.RMAdapter
 RMAdapter.ReplicaGroupId=RMGroup
+# Object adapter DistributionAdapter
+DistributionAdapter.Endpoints=tcp
+DistributionAdapter.AdapterId=ServidorCentral-2.DistributionAdapter
+DistributionAdapter.ReplicaGroupId=DataDistributionGroup
 Ice.Default.Locator=VotacionXYZIcegrid/Locator:default -h localhost -p 4061

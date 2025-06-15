@@ -29,13 +29,22 @@ public class Estacion {
                 return;
             }
 
-            // 4. Activar adaptador local
+             // 4. Obtener proxy al servicio DataDistribution (usando replica-group de ICEGrid)
+            ObjectPrx base = communicator.stringToProxy("DataDistributor");
+            DataDistributionPrx distributor = DataDistributionPrx.checkedCast(base);
+
+            if (distributor == null) {
+                System.err.println("[ESTACION] No se pudo obtener el proxy del DataDistributor.");
+                return;
+            }
+
+            // 5. Activar adaptador local
             adapter.activate();
             System.out.println("[ESTACION] Estación de votación iniciada y conectada al RMSender.");
 
-            // 5. Iniciar el flujo de votación
+            // 6. Iniciar el flujo de votación
             Votacion service = new Votacion(sender);
-            start(service);
+            start(service, distributor);
 
             communicator.waitForShutdown();
 
@@ -46,10 +55,14 @@ public class Estacion {
         }
     }
 
-    private static void start(Votacion service) {
+    private static void start(Votacion service, DataDistributionPrx distributor) {
         System.out.println("Bienvenido al sistema de votación.");
         System.out.println("Por favor, siga las instrucciones para votar.");
         System.out.println("Mesa de votación lista.");
+
+        // Llamar al servicio de distribución de datos al iniciar
+        
+        distributor.sendData("mesa-123");
 
         Scanner scanner = new Scanner(System.in);
         boolean votando = true;

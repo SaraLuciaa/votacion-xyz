@@ -6,6 +6,7 @@ import VotacionXYZ.RmReceiver;
 import VotacionXYZ.queryStation;
 import impl.QueryStationI;
 import impl.RmReceiverI;
+import impl.DataDistributionI;
 
 public class Central {
 
@@ -15,6 +16,7 @@ public class Central {
 
             ObjectAdapter queryAdapter = communicator.createObjectAdapter("QueryAdapter");
             ObjectAdapter rmAdapter = communicator.createObjectAdapter("RMAdapter");
+            ObjectAdapter dataDistributionAdapter = communicator.createObjectAdapter("DistributionAdapter");
 
             queryStation query = new QueryStationI(communicator);
             queryAdapter.add(query, Util.stringToIdentity("QueryService"));
@@ -22,8 +24,14 @@ public class Central {
             RmReceiver receiver = new RmReceiverI();
             rmAdapter.add(receiver, Util.stringToIdentity("RMService"));
 
+            DataDistributionI dataDistribution = new DataDistributionI();
+            dataDistributionAdapter.add(dataDistribution, Util.stringToIdentity("DataDistributor"));
+
+            
+
             queryAdapter.activate();
             rmAdapter.activate();
+            dataDistributionAdapter.activate();
 
             System.out.println("Servidor central activo.");
 
