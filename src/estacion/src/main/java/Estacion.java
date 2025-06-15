@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 import com.zeroc.Ice.Communicator;
 import com.zeroc.Ice.ObjectAdapter;
+import com.zeroc.Ice.ObjectPrx;
 import com.zeroc.Ice.Util;
 
 import VotacionXYZ.*;
@@ -10,15 +11,17 @@ public class Estacion {
 
     public static void main(String[] args) {
         try {
-            // 1. Inicializar ICE + Broker
+            // 1. Inicializar ICE con archivo de configuración
             Communicator communicator = Util.initialize(args, "estacion.cfg");
 
-            // 2. Crear el adapter local (por si se necesita exponer algo local)
+            // 2. Crear el adaptador local (no registramos ningún objeto, pero es obligatorio)
             ObjectAdapter adapter = communicator.createObjectAdapter("EstacionAdapter");
 
-            // 3. Obtener el proxy al RMSender (ahora publicado por el módulo Reliable)
+            // 3. Obtener el proxy al RMSender (expuesto localmente por el Reliable en el mismo nodo)
+            String proxyString = communicator.getProperties().getProperty("RMSender");
+
             RmSenderPrx sender = RmSenderPrx.checkedCast(
-                communicator.stringToProxy("RMSender")
+                communicator.stringToProxy(proxyString)
             );
 
             if (sender == null) {
@@ -26,7 +29,7 @@ public class Estacion {
                 return;
             }
 
-            // 4. Activar adaptador
+            // 4. Activar adaptador local
             adapter.activate();
             System.out.println("[ESTACION] Estación de votación iniciada y conectada al RMSender.");
 

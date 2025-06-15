@@ -7,8 +7,8 @@ pkill -f icegridadmin
 sleep 1
 
 echo "Eliminando datos previos de IceGrid..."
-rm -rf db/registry db/nodo-central db/nodo-reliable
-mkdir -p db/registry db/nodo-central db/nodo-reliable
+rm -rf db/registry db/nodo-central
+mkdir -p db/registry db/nodo-central
 
 echo "Iniciando IceGrid Registry..."
 icegridregistry --Ice.Config=grid.cfg &
@@ -16,10 +16,6 @@ sleep 2
 
 echo "Iniciando IceGrid Node..."
 icegridnode --Ice.Config=nodeCentral.cfg &
-sleep 2
-
-echo "Iniciando IceGrid Node..."
-icegridnode --Ice.Config=nodeReliable.cfg &
 sleep 2
 
 

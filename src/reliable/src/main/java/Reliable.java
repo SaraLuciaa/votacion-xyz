@@ -28,7 +28,7 @@ public class Reliable {
             AckServicePrx ackServicePrx = AckServicePrx.uncheckedCast(ackPrx);
 
             // 4. Obtener proxy del RMService remoto (expuesto por el servidor central)
-            RmReceiverPrx receptor = RmReceiverPrx.checkedCast(
+            RmReceiverPrx receptor = RmReceiverPrx.uncheckedCast(
                 communicator.stringToProxy("RMService") // este es el nombre lógico, registrado en RMGroup
             );
 
@@ -38,10 +38,10 @@ public class Reliable {
             }
 
             // 5. Crear y exponer el RMSender (lo consumen las estaciones)
-            RmSender sender = new RmSenderI(ackServicePrx, guardado);
-            sender.setServerProxy(receptor, null); // conexión al central
+            RmSenderI sender = new RmSenderI(ackServicePrx, guardado);
+            sender.setServerProxy(receptor); // conexión al central
 
-            adapter.add(sender, Util.stringToIdentity("RMSender")); // este es el nombre que verá la estación
+            adapter.add((RmSender) sender, Util.stringToIdentity("RMSender")); // este es el nombre que verá la estación
 
             // 6. Activar el adaptador
             adapter.activate();

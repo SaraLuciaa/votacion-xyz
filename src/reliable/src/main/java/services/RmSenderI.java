@@ -31,6 +31,10 @@ public class RmSenderI implements RmSender {
         this.service = service;
     }
 
+    public void setServerProxy(RmReceiverPrx service) {
+        this.service = service;
+    }
+
     @Override
     public void send(Message msg, Current current) {
         try {
