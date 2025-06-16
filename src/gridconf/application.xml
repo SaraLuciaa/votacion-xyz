@@ -39,16 +39,5 @@
         <adapter name="DistributionAdapter" replica-group="DataDistributionGroup" endpoints="tcp"/>
       </server>
     </node>
-
-    <node name="nodo-reliable">
-      <server id="ReliableServer" exe="java" activation="manual">
-        <option>-jar</option>
-        <option>../reliable/build/libs/reliable.jar</option>
-
-        <adapter name="RMSenderAdapter" endpoints="tcp" register-process="true">
-          <object identity="RMSender" type="::VotacionXYZ::RmSender"/>
-        </adapter>
-      </server>
-    </node>
   </application>
 </icegrid>

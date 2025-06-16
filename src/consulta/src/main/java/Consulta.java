@@ -102,6 +102,5 @@ public class Consulta {
         System.out.printf("Errores: %d%n", errorCount.get());
         System.out.printf("Duración total: %.2f s%n", durationSeconds);
         System.out.printf("Throughput: %.2f consultas/s%n", throughput);
-        System.out.printf("Latencia promedio: %.2f ms%n", avgLatency);
-    }
+        System.out.printf("Latencia promedio: %.2f ms%n", avgLatency);}
 }
