@@ -12,17 +12,18 @@ import VotacionXYZ.RmSenderPrx;
 import VotacionXYZ.VoteStation;
 import VotacionXYZ.Voto;
 import utils.Loader;
+import utils.VotosRealizadosStore;
 
 public class VoteStationI implements VoteStation {
     private List<Candidato> candidatos;
     private List<Ciudadano> ciudadanos;
-    private List<String> votos_realizados;
+    private VotosRealizadosStore store;
     private RmSenderPrx rmSender;
 
     public VoteStationI(RmSenderPrx rmSender) {
         this.candidatos = new Loader<>("estacion/src/main/resources/candidatos.json", Candidato.class).getAll();
         this.ciudadanos = new Loader<>("estacion/src/main/resources/ciudadanos.json", Ciudadano.class).getAll();
-        this.votos_realizados = new Loader<>("estacion/src/main/resources/votos_realizados.json", String.class).getAll();
+        this.store = new VotosRealizadosStore();
         this.rmSender = rmSender;
     }
 
@@ -39,7 +40,7 @@ public class VoteStationI implements VoteStation {
 
         for (Ciudadano ciudadano : ciudadanos) {
             if (ciudadano.documento.equals(documento)) {
-                if (votos_realizados.contains(documento)) {
+                if (store.yaVoto(documento)) {
                     System.out.println("[VoteStationI] Ciudadano ya ha votado: " + documento);
                     return 2; 
                 }
@@ -57,13 +58,14 @@ public class VoteStationI implements VoteStation {
     }
 
     @Override
-    public void registrarVoto(int candidato, String documento, Current current) {
-        Voto voto = new Voto(candidato);
+    public void registrarVoto(int candidato, String documento, int mesaId, Current current) {
+        Voto voto = new Voto(candidato, mesaId);
         String uuid = UUID.randomUUID().toString();
         Message msg = new Message(uuid, voto);
 
         rmSender.send(msg);
-        votos_realizados.add(documento);
+        store.registrar(documento, mesaId);
+        System.out.println("✔️ Voto registrado para " + documento + " en mesa " + mesaId);
     }
     
 }

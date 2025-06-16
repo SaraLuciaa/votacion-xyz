@@ -35612,3 +35612,23 @@ Jun 15, 2025 10:58:11 PM utils.Loader load
 INFO: Cargados 17622 elementos desde ciudadanos.json
 Jun 15, 2025 10:58:11 PM utils.Loader load
 INFO: Cargados 0 elementos desde votos_realizados.json
+jun 16, 2025 2:48:27 A. M. utils.Loader load
+INFO: Cargados 5 elementos desde candidatos.json
+jun 16, 2025 2:48:28 A. M. utils.Loader load
+INFO: Cargados 17622 elementos desde ciudadanos.json
+jun 16, 2025 2:48:28 A. M. utils.Loader load
+INFO: Cargados 0 elementos desde votos_realizados.json
+jun 16, 2025 3:00:45 A. M. utils.Loader load
+INFO: Cargados 5 elementos desde candidatos.json
+jun 16, 2025 3:00:45 A. M. utils.Loader load
+INFO: Cargados 17622 elementos desde ciudadanos.json
+jun 16, 2025 3:00:45 A. M. utils.VotosRealizadosStore cargar
+INFO: Cargados 0 votos realizados.
+jun 16, 2025 3:01:15 A. M. utils.VotosRealizadosStore guardar
+INFO: Guardados 1 votos realizados.
+jun 16, 2025 3:03:03 A. M. utils.Loader load
+INFO: Cargados 5 elementos desde candidatos.json
+jun 16, 2025 3:03:03 A. M. utils.Loader load
+INFO: Cargados 17622 elementos desde ciudadanos.json
+jun 16, 2025 3:03:03 A. M. utils.VotosRealizadosStore cargar
+INFO: Cargados 1 votos realizados.

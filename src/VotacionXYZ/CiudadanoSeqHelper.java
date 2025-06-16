@@ -39,7 +39,7 @@ public final class CiudadanoSeqHelper
     public static Ciudadano[] read(com.zeroc.Ice.InputStream istr)
     {
         final Ciudadano[] v;
-        final int len0 = istr.readAndCheckSeqSize(1);
+        final int len0 = istr.readAndCheckSeqSize(5);
         v = new Ciudadano[len0];
         for(int i0 = 0; i0 < len0; i0++)
         {

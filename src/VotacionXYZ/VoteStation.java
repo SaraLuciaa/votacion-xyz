@@ -17,7 +17,11 @@ package VotacionXYZ;
 
 public interface VoteStation extends com.zeroc.Ice.Object
 {
-    int vote(String document, int candidateId, com.zeroc.Ice.Current current);
+    Candidato[] obtenerCandidatos(com.zeroc.Ice.Current current);
+
+    int consultarCiudadanoPorId(String documento, int mesaId, com.zeroc.Ice.Current current);
+
+    void registrarVoto(int candidato, String documento, int mesaId, com.zeroc.Ice.Current current);
 
     /** @hidden */
     static final String[] _iceIds =
@@ -50,30 +54,72 @@ public interface VoteStation extends com.zeroc.Ice.Object
      * @param current -
      * @return -
     **/
-    static java.util.concurrent.CompletionStage<com.zeroc.Ice.OutputStream> _iceD_vote(VoteStation obj, final com.zeroc.IceInternal.Incoming inS, com.zeroc.Ice.Current current)
+    static java.util.concurrent.CompletionStage<com.zeroc.Ice.OutputStream> _iceD_obtenerCandidatos(VoteStation obj, final com.zeroc.IceInternal.Incoming inS, com.zeroc.Ice.Current current)
+    {
+        com.zeroc.Ice.Object._iceCheckMode(null, current.mode);
+        inS.readEmptyParams();
+        Candidato[] ret = obj.obtenerCandidatos(current);
+        com.zeroc.Ice.OutputStream ostr = inS.startWriteParams();
+        CandidatoSeqHelper.write(ostr, ret);
+        inS.endWriteParams(ostr);
+        return inS.setResult(ostr);
+    }
+
+    /**
+     * @hidden
+     * @param obj -
+     * @param inS -
+     * @param current -
+     * @return -
+    **/
+    static java.util.concurrent.CompletionStage<com.zeroc.Ice.OutputStream> _iceD_consultarCiudadanoPorId(VoteStation obj, final com.zeroc.IceInternal.Incoming inS, com.zeroc.Ice.Current current)
     {
         com.zeroc.Ice.Object._iceCheckMode(null, current.mode);
         com.zeroc.Ice.InputStream istr = inS.startReadParams();
-        String iceP_document;
-        int iceP_candidateId;
-        iceP_document = istr.readString();
-        iceP_candidateId = istr.readInt();
+        String iceP_documento;
+        int iceP_mesaId;
+        iceP_documento = istr.readString();
+        iceP_mesaId = istr.readInt();
         inS.endReadParams();
-        int ret = obj.vote(iceP_document, iceP_candidateId, current);
+        int ret = obj.consultarCiudadanoPorId(iceP_documento, iceP_mesaId, current);
         com.zeroc.Ice.OutputStream ostr = inS.startWriteParams();
         ostr.writeInt(ret);
         inS.endWriteParams(ostr);
         return inS.setResult(ostr);
     }
 
+    /**
+     * @hidden
+     * @param obj -
+     * @param inS -
+     * @param current -
+     * @return -
+    **/
+    static java.util.concurrent.CompletionStage<com.zeroc.Ice.OutputStream> _iceD_registrarVoto(VoteStation obj, final com.zeroc.IceInternal.Incoming inS, com.zeroc.Ice.Current current)
+    {
+        com.zeroc.Ice.Object._iceCheckMode(null, current.mode);
+        com.zeroc.Ice.InputStream istr = inS.startReadParams();
+        int iceP_candidato;
+        String iceP_documento;
+        int iceP_mesaId;
+        iceP_candidato = istr.readInt();
+        iceP_documento = istr.readString();
+        iceP_mesaId = istr.readInt();
+        inS.endReadParams();
+        obj.registrarVoto(iceP_candidato, iceP_documento, iceP_mesaId, current);
+        return inS.setResult(inS.writeEmptyParams());
+    }
+
     /** @hidden */
     final static String[] _iceOps =
     {
+        "consultarCiudadanoPorId",
         "ice_id",
         "ice_ids",
         "ice_isA",
         "ice_ping",
-        "vote"
+        "obtenerCandidatos",
+        "registrarVoto"
     };
 
     /** @hidden */
@@ -91,23 +137,31 @@ public interface VoteStation extends com.zeroc.Ice.Object
         {
             case 0:
             {
-                return com.zeroc.Ice.Object._iceD_ice_id(this, in, current);
+                return _iceD_consultarCiudadanoPorId(this, in, current);
             }
             case 1:
             {
-                return com.zeroc.Ice.Object._iceD_ice_ids(this, in, current);
+                return com.zeroc.Ice.Object._iceD_ice_id(this, in, current);
             }
             case 2:
             {
-                return com.zeroc.Ice.Object._iceD_ice_isA(this, in, current);
+                return com.zeroc.Ice.Object._iceD_ice_ids(this, in, current);
             }
             case 3:
             {
-                return com.zeroc.Ice.Object._iceD_ice_ping(this, in, current);
+                return com.zeroc.Ice.Object._iceD_ice_isA(this, in, current);
             }
             case 4:
             {
-                return _iceD_vote(this, in, current);
+                return com.zeroc.Ice.Object._iceD_ice_ping(this, in, current);
+            }
+            case 5:
+            {
+                return _iceD_obtenerCandidatos(this, in, current);
+            }
+            case 6:
+            {
+                return _iceD_registrarVoto(this, in, current);
             }
         }
 

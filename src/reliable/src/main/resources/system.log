@@ -9300,3 +9300,825 @@ Jun 15, 2025 10:58:14 PM services.RmSenderI resend
 INFO: No hay votos pendientes para reenviar.
 Jun 15, 2025 10:58:17 PM services.RmSenderI resend
 INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:48:03 A. M. utils.GuardadoVotos load
+INFO: Cargados 0 votos pendientes.
+jun 16, 2025 2:48:03 A. M. services.RmSenderI retry
+INFO: Hilo de reintento iniciado.
+jun 16, 2025 2:48:06 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:48:09 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:48:12 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:48:15 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:48:18 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:48:21 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:48:24 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:48:27 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:48:30 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:48:33 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:48:36 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:48:39 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:48:42 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:48:45 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:48:48 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:48:51 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:48:54 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:48:57 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:49:00 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:49:03 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:49:06 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:49:09 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:49:12 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:49:15 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:49:18 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:49:21 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:49:24 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:49:27 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:49:30 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:49:33 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:49:36 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:49:39 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:49:42 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:49:45 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:49:48 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:49:51 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:49:54 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:49:57 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:50:00 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:50:03 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:50:06 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:50:09 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:50:12 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:50:15 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:50:18 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:50:21 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:50:24 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:50:27 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:50:30 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:50:33 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:50:36 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:50:39 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:50:42 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:50:45 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:50:48 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:50:51 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:50:54 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:50:57 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:51:00 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:51:03 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:51:06 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:51:09 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:51:12 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:51:15 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:51:18 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:51:21 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:51:24 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:51:27 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:51:30 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:51:33 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:51:36 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:51:39 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:51:42 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:51:45 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:51:48 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:51:51 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:51:53 A. M. services.RmSenderI send
+INFO: Voto enviado para: 1, ID: b50048c5-92aa-48d5-aeca-0a0a00a1b3e1
+jun 16, 2025 2:51:53 A. M. services.AckServiceI confirm
+INFO: ACK recibido: b50048c5-92aa-48d5-aeca-0a0a00a1b3e1
+jun 16, 2025 2:51:54 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:51:58 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:52:01 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:52:04 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:52:07 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:52:10 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:52:13 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:52:16 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:52:19 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:52:22 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:52:25 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:52:28 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:52:31 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:52:34 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:52:37 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:52:40 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:52:43 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:52:46 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:52:49 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:52:52 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:52:55 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:52:58 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:53:01 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:53:04 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:53:07 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:53:10 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:53:13 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:53:16 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:53:19 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:53:22 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:53:25 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:53:28 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:53:31 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:53:34 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:53:37 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:53:40 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:53:43 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:53:46 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:53:49 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:53:52 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:53:55 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:53:58 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:54:01 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:54:04 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:54:07 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:54:10 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:54:13 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:54:16 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:54:19 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:54:22 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:54:25 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:54:28 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:54:31 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:54:34 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:54:37 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:54:40 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:54:43 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:54:46 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:54:49 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:54:52 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:54:55 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:54:58 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:55:01 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:55:04 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:55:07 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:55:10 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:55:13 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:55:16 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:55:19 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:55:22 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:55:25 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:55:28 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:55:31 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:55:34 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:55:37 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:55:40 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:55:43 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:55:46 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:55:49 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:55:52 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:55:55 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:55:58 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:56:01 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:56:04 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:56:07 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:56:10 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:56:13 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:56:16 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:56:19 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:56:22 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:56:25 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:56:28 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:56:31 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:56:34 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:56:37 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:56:40 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:56:43 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:56:46 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:56:49 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:56:52 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:56:55 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:56:58 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:57:01 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:57:04 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:57:07 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:57:10 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:57:13 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:57:16 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:57:19 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:57:22 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:57:25 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:57:28 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:57:31 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:57:34 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:57:37 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:57:40 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:57:43 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:57:46 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:57:49 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:57:52 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:57:55 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:57:58 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:58:01 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:58:04 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:58:07 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:58:10 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:58:14 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:58:17 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:58:20 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:58:23 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:58:26 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:58:29 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:58:32 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:58:35 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:58:38 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:58:41 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:58:44 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:58:47 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:58:50 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:58:53 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:58:56 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:58:59 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:59:02 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:59:05 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:59:08 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:59:11 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:59:14 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:59:17 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:59:20 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:59:23 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:59:26 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:59:29 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:59:32 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:59:35 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:59:38 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:59:41 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:59:44 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:59:47 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:59:50 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:59:53 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:59:56 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 2:59:59 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:00:02 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:00:05 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:00:08 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:00:11 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:00:14 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:00:17 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:00:20 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:00:23 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:00:26 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:00:29 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:00:32 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:00:35 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:00:38 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:00:41 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:00:44 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:00:47 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:00:50 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:00:53 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:00:56 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:00:59 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:01:02 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:01:05 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:01:08 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:01:11 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:01:14 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:01:15 A. M. services.RmSenderI send
+INFO: Voto enviado para: 1, ID: 83dface9-7b01-4901-a51d-06acc855d8d0
+jun 16, 2025 3:01:15 A. M. services.AckServiceI confirm
+INFO: ACK recibido: 83dface9-7b01-4901-a51d-06acc855d8d0
+jun 16, 2025 3:01:17 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:01:20 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:01:23 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:01:26 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:01:29 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:01:32 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:01:35 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:01:38 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:01:41 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:01:44 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:01:47 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:01:50 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:01:53 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:01:56 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:01:59 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:02:02 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:02:05 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:02:08 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:02:11 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:02:14 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:02:17 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:02:20 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:02:23 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:02:26 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:02:29 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:02:32 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:02:35 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:02:38 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:02:41 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:02:44 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:02:47 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:02:50 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:02:55 A. M. utils.GuardadoVotos load
+INFO: Cargados 0 votos pendientes.
+jun 16, 2025 3:02:55 A. M. services.RmSenderI retry
+INFO: Hilo de reintento iniciado.
+jun 16, 2025 3:02:58 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:03:01 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:03:04 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:03:07 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:03:10 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:03:13 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:03:16 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:03:19 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:03:22 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:03:25 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:03:28 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:03:32 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:03:35 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:03:38 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:03:41 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:03:44 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:03:47 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:03:50 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:03:53 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:03:56 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:03:59 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:04:02 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:04:05 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:04:08 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:04:11 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:04:14 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:04:17 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:04:20 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:04:23 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:04:26 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:04:29 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:04:32 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:04:35 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:04:38 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:04:41 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:04:44 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:04:47 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:04:50 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:04:53 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:04:56 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:04:59 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:05:02 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:05:05 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:05:08 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:05:11 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:05:14 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:05:17 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:05:20 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:05:23 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:05:26 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:05:29 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:05:32 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:05:35 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:05:38 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:05:41 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:05:44 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:05:47 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:05:50 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:05:53 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:05:56 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:05:59 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:06:02 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:06:05 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:06:08 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:06:11 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:06:14 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:06:17 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:06:20 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:06:23 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:06:26 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:06:29 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:06:32 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:06:35 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:06:38 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:06:41 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:06:44 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:06:47 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:06:50 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:06:53 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:06:56 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:06:59 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:07:02 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:07:05 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:07:08 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:07:11 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:07:14 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:07:17 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:07:20 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:07:23 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:07:26 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:07:29 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:07:32 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:07:35 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:07:38 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:07:41 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:07:44 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:07:47 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:07:50 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:07:53 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:07:56 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:07:59 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:08:02 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:08:05 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:08:08 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:08:11 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:08:14 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:08:17 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.
+jun 16, 2025 3:08:20 A. M. services.RmSenderI resend
+INFO: No hay votos pendientes para reenviar.

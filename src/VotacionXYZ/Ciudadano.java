@@ -20,14 +20,17 @@ public class Ciudadano implements java.lang.Cloneable,
 {
     public String documento;
 
+    public int mesaId;
+
     public Ciudadano()
     {
         this.documento = "";
     }
 
-    public Ciudadano(String documento)
+    public Ciudadano(String documento, int mesaId)
     {
         this.documento = documento;
+        this.mesaId = mesaId;
     }
 
     public boolean equals(java.lang.Object rhs)
@@ -51,6 +54,10 @@ public class Ciudadano implements java.lang.Cloneable,
                     return false;
                 }
             }
+            if(this.mesaId != r.mesaId)
+            {
+                return false;
+            }
 
             return true;
         }
@@ -63,6 +70,7 @@ public class Ciudadano implements java.lang.Cloneable,
         int h_ = 5381;
         h_ = com.zeroc.IceInternal.HashUtil.hashAdd(h_, "::VotacionXYZ::Ciudadano");
         h_ = com.zeroc.IceInternal.HashUtil.hashAdd(h_, documento);
+        h_ = com.zeroc.IceInternal.HashUtil.hashAdd(h_, mesaId);
         return h_;
     }
 
@@ -83,11 +91,13 @@ public class Ciudadano implements java.lang.Cloneable,
     public void ice_writeMembers(com.zeroc.Ice.OutputStream ostr)
     {
         ostr.writeString(this.documento);
+        ostr.writeInt(this.mesaId);
     }
 
     public void ice_readMembers(com.zeroc.Ice.InputStream istr)
     {
         this.documento = istr.readString();
+        this.mesaId = istr.readInt();
     }
 
     static public void ice_write(com.zeroc.Ice.OutputStream ostr, Ciudadano v)
@@ -143,5 +153,5 @@ public class Ciudadano implements java.lang.Cloneable,
     private static final Ciudadano _nullMarshalValue = new Ciudadano();
 
     /** @hidden */
-    public static final long serialVersionUID = -966124658L;
+    public static final long serialVersionUID = 1345834654L;
 }
