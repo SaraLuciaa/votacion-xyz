@@ -35606,3 +35606,9 @@ Jun 15, 2025 10:46:13 PM utils.Loader load
 INFO: Cargados 17622 elementos desde ciudadanos.json
 Jun 15, 2025 10:46:13 PM utils.Loader load
 INFO: Archivo creado vacío: estacion/src/main/resources/votos_realizados.json
+Jun 15, 2025 10:58:11 PM utils.Loader load
+INFO: Cargados 5 elementos desde candidatos.json
+Jun 15, 2025 10:58:11 PM utils.Loader load
+INFO: Cargados 17622 elementos desde ciudadanos.json
+Jun 15, 2025 10:58:11 PM utils.Loader load
+INFO: Cargados 0 elementos desde votos_realizados.json
