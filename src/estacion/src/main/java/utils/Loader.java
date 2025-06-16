@@ -30,10 +30,20 @@ public class Loader<T> {
 
     private void load() {
         if (!file.exists()) {
-            log.warning("Archivo no existe: " + file.getPath());
+            try {
+                if (file.getParentFile() != null) {
+                    file.getParentFile().mkdirs(); 
+                }
+                try (Writer writer = new FileWriter(file)) {
+                    gson.toJson(Collections.emptyList(), writer);
+                }
+                log.info("Archivo creado vacío: " + file.getPath());
+            } catch (IOException e) {
+                log.severe("No se pudo crear el archivo: " + file.getPath() + " - " + e.getMessage());
+            }
             return;
         }
-
+    
         try (Reader reader = new FileReader(file)) {
             List<T> loaded = gson.fromJson(reader, listType);
             if (loaded != null) data.addAll(loaded);
@@ -42,6 +52,7 @@ public class Loader<T> {
             log.severe("Error al leer " + file.getName() + ": " + e.getMessage());
         }
     }
+    
 
     private void save() {
         try (Writer writer = new FileWriter(file)) {

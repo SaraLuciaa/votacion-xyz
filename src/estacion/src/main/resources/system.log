@@ -35292,3 +35292,317 @@ Jun 15, 2025 7:00:03 PM utils.Loader save
 INFO: Guardados 17621 elementos en ciudadanos.json
 Jun 15, 2025 7:00:03 PM utils.Loader save
 INFO: Guardados 17622 elementos en ciudadanos.json
+Jun 15, 2025 10:40:42 PM utils.Loader load
+INFO: Cargados 10 elementos desde candidatos.json
+Jun 15, 2025 10:40:42 PM utils.Loader load
+INFO: Cargados 17622 elementos desde ciudadanos.json
+Jun 15, 2025 10:40:42 PM utils.Loader load
+INFO: Archivo creado vacío: estacion/src/main/resources/votos_realizados.json
+Jun 15, 2025 10:40:56 PM utils.Loader load
+INFO: Cargados 10 elementos desde candidatos.json
+Jun 15, 2025 10:40:56 PM utils.Loader load
+INFO: Cargados 17622 elementos desde ciudadanos.json
+Jun 15, 2025 10:40:56 PM utils.Loader save
+INFO: Guardados 11 elementos en candidatos.json
+Jun 15, 2025 10:40:56 PM utils.Loader save
+INFO: Guardados 12 elementos en candidatos.json
+Jun 15, 2025 10:40:56 PM utils.Loader save
+INFO: Guardados 13 elementos en candidatos.json
+Jun 15, 2025 10:40:56 PM utils.Loader save
+INFO: Guardados 14 elementos en candidatos.json
+Jun 15, 2025 10:40:56 PM utils.Loader save
+INFO: Guardados 15 elementos en candidatos.json
+Jun 15, 2025 10:40:56 PM utils.Loader save
+INFO: Guardados 17623 elementos en ciudadanos.json
+Jun 15, 2025 10:40:56 PM utils.Loader save
+INFO: Guardados 17624 elementos en ciudadanos.json
+Jun 15, 2025 10:40:57 PM utils.Loader save
+INFO: Guardados 17625 elementos en ciudadanos.json
+Jun 15, 2025 10:40:57 PM utils.Loader save
+INFO: Guardados 17626 elementos en ciudadanos.json
+Jun 15, 2025 10:40:57 PM utils.Loader save
+INFO: Guardados 17627 elementos en ciudadanos.json
+Jun 15, 2025 10:40:57 PM utils.Loader save
+INFO: Guardados 17628 elementos en ciudadanos.json
+Jun 15, 2025 10:40:57 PM utils.Loader save
+INFO: Guardados 17629 elementos en ciudadanos.json
+Jun 15, 2025 10:40:57 PM utils.Loader save
+INFO: Guardados 17630 elementos en ciudadanos.json
+Jun 15, 2025 10:40:57 PM utils.Loader save
+INFO: Guardados 17631 elementos en ciudadanos.json
+Jun 15, 2025 10:40:58 PM utils.Loader save
+INFO: Guardados 17632 elementos en ciudadanos.json
+Jun 15, 2025 10:40:58 PM utils.Loader save
+INFO: Guardados 17633 elementos en ciudadanos.json
+Jun 15, 2025 10:40:58 PM utils.Loader save
+INFO: Guardados 17634 elementos en ciudadanos.json
+Jun 15, 2025 10:40:58 PM utils.Loader save
+INFO: Guardados 17635 elementos en ciudadanos.json
+Jun 15, 2025 10:40:58 PM utils.Loader save
+INFO: Guardados 17636 elementos en ciudadanos.json
+Jun 15, 2025 10:40:58 PM utils.Loader save
+INFO: Guardados 17637 elementos en ciudadanos.json
+Jun 15, 2025 10:40:58 PM utils.Loader save
+INFO: Guardados 17638 elementos en ciudadanos.json
+Jun 15, 2025 10:40:59 PM utils.Loader save
+INFO: Guardados 17639 elementos en ciudadanos.json
+Jun 15, 2025 10:40:59 PM utils.Loader save
+INFO: Guardados 17640 elementos en ciudadanos.json
+Jun 15, 2025 10:40:59 PM utils.Loader save
+INFO: Guardados 17641 elementos en ciudadanos.json
+Jun 15, 2025 10:40:59 PM utils.Loader save
+INFO: Guardados 17642 elementos en ciudadanos.json
+Jun 15, 2025 10:40:59 PM utils.Loader save
+INFO: Guardados 17643 elementos en ciudadanos.json
+Jun 15, 2025 10:40:59 PM utils.Loader save
+INFO: Guardados 17644 elementos en ciudadanos.json
+Jun 15, 2025 10:40:59 PM utils.Loader save
+INFO: Guardados 17645 elementos en ciudadanos.json
+Jun 15, 2025 10:40:59 PM utils.Loader save
+INFO: Guardados 17646 elementos en ciudadanos.json
+Jun 15, 2025 10:41:00 PM utils.Loader save
+INFO: Guardados 17647 elementos en ciudadanos.json
+Jun 15, 2025 10:41:00 PM utils.Loader save
+INFO: Guardados 17648 elementos en ciudadanos.json
+Jun 15, 2025 10:41:00 PM utils.Loader save
+INFO: Guardados 17649 elementos en ciudadanos.json
+Jun 15, 2025 10:41:00 PM utils.Loader save
+INFO: Guardados 17650 elementos en ciudadanos.json
+Jun 15, 2025 10:41:00 PM utils.Loader save
+INFO: Guardados 17651 elementos en ciudadanos.json
+Jun 15, 2025 10:41:00 PM utils.Loader save
+INFO: Guardados 17652 elementos en ciudadanos.json
+Jun 15, 2025 10:41:00 PM utils.Loader save
+INFO: Guardados 17653 elementos en ciudadanos.json
+Jun 15, 2025 10:41:00 PM utils.Loader save
+INFO: Guardados 17654 elementos en ciudadanos.json
+Jun 15, 2025 10:41:00 PM utils.Loader save
+INFO: Guardados 17655 elementos en ciudadanos.json
+Jun 15, 2025 10:41:01 PM utils.Loader save
+INFO: Guardados 17656 elementos en ciudadanos.json
+Jun 15, 2025 10:41:01 PM utils.Loader save
+INFO: Guardados 17657 elementos en ciudadanos.json
+Jun 15, 2025 10:41:01 PM utils.Loader save
+INFO: Guardados 17658 elementos en ciudadanos.json
+Jun 15, 2025 10:41:01 PM utils.Loader save
+INFO: Guardados 17659 elementos en ciudadanos.json
+Jun 15, 2025 10:41:01 PM utils.Loader save
+INFO: Guardados 17660 elementos en ciudadanos.json
+Jun 15, 2025 10:41:02 PM utils.Loader save
+INFO: Guardados 17661 elementos en ciudadanos.json
+Jun 15, 2025 10:41:02 PM utils.Loader save
+INFO: Guardados 17662 elementos en ciudadanos.json
+Jun 15, 2025 10:41:02 PM utils.Loader save
+INFO: Guardados 17663 elementos en ciudadanos.json
+Jun 15, 2025 10:41:02 PM utils.Loader save
+INFO: Guardados 17664 elementos en ciudadanos.json
+Jun 15, 2025 10:41:02 PM utils.Loader save
+INFO: Guardados 17665 elementos en ciudadanos.json
+Jun 15, 2025 10:41:02 PM utils.Loader save
+INFO: Guardados 17666 elementos en ciudadanos.json
+Jun 15, 2025 10:41:02 PM utils.Loader save
+INFO: Guardados 17667 elementos en ciudadanos.json
+Jun 15, 2025 10:41:02 PM utils.Loader save
+INFO: Guardados 17668 elementos en ciudadanos.json
+Jun 15, 2025 10:41:03 PM utils.Loader save
+INFO: Guardados 17669 elementos en ciudadanos.json
+Jun 15, 2025 10:41:03 PM utils.Loader save
+INFO: Guardados 17670 elementos en ciudadanos.json
+Jun 15, 2025 10:41:03 PM utils.Loader save
+INFO: Guardados 17671 elementos en ciudadanos.json
+Jun 15, 2025 10:41:03 PM utils.Loader save
+INFO: Guardados 17672 elementos en ciudadanos.json
+Jun 15, 2025 10:41:03 PM utils.Loader save
+INFO: Guardados 17673 elementos en ciudadanos.json
+Jun 15, 2025 10:41:03 PM utils.Loader save
+INFO: Guardados 17674 elementos en ciudadanos.json
+Jun 15, 2025 10:41:03 PM utils.Loader save
+INFO: Guardados 17675 elementos en ciudadanos.json
+Jun 15, 2025 10:41:03 PM utils.Loader save
+INFO: Guardados 17676 elementos en ciudadanos.json
+Jun 15, 2025 10:41:03 PM utils.Loader save
+INFO: Guardados 17677 elementos en ciudadanos.json
+Jun 15, 2025 10:41:04 PM utils.Loader save
+INFO: Guardados 17678 elementos en ciudadanos.json
+Jun 15, 2025 10:41:04 PM utils.Loader save
+INFO: Guardados 17679 elementos en ciudadanos.json
+Jun 15, 2025 10:41:04 PM utils.Loader save
+INFO: Guardados 17680 elementos en ciudadanos.json
+Jun 15, 2025 10:41:04 PM utils.Loader save
+INFO: Guardados 17681 elementos en ciudadanos.json
+Jun 15, 2025 10:41:04 PM utils.Loader save
+INFO: Guardados 17682 elementos en ciudadanos.json
+Jun 15, 2025 10:41:04 PM utils.Loader save
+INFO: Guardados 17683 elementos en ciudadanos.json
+Jun 15, 2025 10:41:04 PM utils.Loader save
+INFO: Guardados 17684 elementos en ciudadanos.json
+Jun 15, 2025 10:41:04 PM utils.Loader save
+INFO: Guardados 17685 elementos en ciudadanos.json
+Jun 15, 2025 10:41:04 PM utils.Loader save
+INFO: Guardados 17686 elementos en ciudadanos.json
+Jun 15, 2025 10:41:05 PM utils.Loader save
+INFO: Guardados 17687 elementos en ciudadanos.json
+Jun 15, 2025 10:41:05 PM utils.Loader save
+INFO: Guardados 17688 elementos en ciudadanos.json
+Jun 15, 2025 10:41:05 PM utils.Loader save
+INFO: Guardados 17689 elementos en ciudadanos.json
+Jun 15, 2025 10:41:05 PM utils.Loader save
+INFO: Guardados 17690 elementos en ciudadanos.json
+Jun 15, 2025 10:41:05 PM utils.Loader save
+INFO: Guardados 17691 elementos en ciudadanos.json
+Jun 15, 2025 10:41:05 PM utils.Loader save
+INFO: Guardados 17692 elementos en ciudadanos.json
+Jun 15, 2025 10:41:05 PM utils.Loader save
+INFO: Guardados 17693 elementos en ciudadanos.json
+Jun 15, 2025 10:41:05 PM utils.Loader save
+INFO: Guardados 17694 elementos en ciudadanos.json
+Jun 15, 2025 10:41:06 PM utils.Loader save
+INFO: Guardados 17695 elementos en ciudadanos.json
+Jun 15, 2025 10:41:06 PM utils.Loader save
+INFO: Guardados 17696 elementos en ciudadanos.json
+Jun 15, 2025 10:41:06 PM utils.Loader save
+INFO: Guardados 17697 elementos en ciudadanos.json
+Jun 15, 2025 10:41:06 PM utils.Loader save
+INFO: Guardados 17698 elementos en ciudadanos.json
+Jun 15, 2025 10:41:06 PM utils.Loader save
+INFO: Guardados 17699 elementos en ciudadanos.json
+Jun 15, 2025 10:41:07 PM utils.Loader save
+INFO: Guardados 17700 elementos en ciudadanos.json
+Jun 15, 2025 10:41:07 PM utils.Loader save
+INFO: Guardados 17701 elementos en ciudadanos.json
+Jun 15, 2025 10:41:07 PM utils.Loader save
+INFO: Guardados 17702 elementos en ciudadanos.json
+Jun 15, 2025 10:41:07 PM utils.Loader save
+INFO: Guardados 17703 elementos en ciudadanos.json
+Jun 15, 2025 10:41:07 PM utils.Loader save
+INFO: Guardados 17704 elementos en ciudadanos.json
+Jun 15, 2025 10:41:07 PM utils.Loader save
+INFO: Guardados 17705 elementos en ciudadanos.json
+Jun 15, 2025 10:41:07 PM utils.Loader save
+INFO: Guardados 17706 elementos en ciudadanos.json
+Jun 15, 2025 10:41:07 PM utils.Loader save
+INFO: Guardados 17707 elementos en ciudadanos.json
+Jun 15, 2025 10:41:08 PM utils.Loader save
+INFO: Guardados 17708 elementos en ciudadanos.json
+Jun 15, 2025 10:41:08 PM utils.Loader save
+INFO: Guardados 17709 elementos en ciudadanos.json
+Jun 15, 2025 10:41:08 PM utils.Loader save
+INFO: Guardados 17710 elementos en ciudadanos.json
+Jun 15, 2025 10:41:08 PM utils.Loader save
+INFO: Guardados 17711 elementos en ciudadanos.json
+Jun 15, 2025 10:41:08 PM utils.Loader save
+INFO: Guardados 17712 elementos en ciudadanos.json
+Jun 15, 2025 10:41:08 PM utils.Loader save
+INFO: Guardados 17713 elementos en ciudadanos.json
+Jun 15, 2025 10:41:09 PM utils.Loader save
+INFO: Guardados 17714 elementos en ciudadanos.json
+Jun 15, 2025 10:41:09 PM utils.Loader save
+INFO: Guardados 17715 elementos en ciudadanos.json
+Jun 15, 2025 10:41:09 PM utils.Loader save
+INFO: Guardados 17716 elementos en ciudadanos.json
+Jun 15, 2025 10:41:09 PM utils.Loader save
+INFO: Guardados 17717 elementos en ciudadanos.json
+Jun 15, 2025 10:41:09 PM utils.Loader save
+INFO: Guardados 17718 elementos en ciudadanos.json
+Jun 15, 2025 10:41:10 PM utils.Loader save
+INFO: Guardados 17719 elementos en ciudadanos.json
+Jun 15, 2025 10:41:10 PM utils.Loader save
+INFO: Guardados 17720 elementos en ciudadanos.json
+Jun 15, 2025 10:41:10 PM utils.Loader save
+INFO: Guardados 17721 elementos en ciudadanos.json
+Jun 15, 2025 10:41:10 PM utils.Loader save
+INFO: Guardados 17722 elementos en ciudadanos.json
+Jun 15, 2025 10:41:10 PM utils.Loader save
+INFO: Guardados 17723 elementos en ciudadanos.json
+Jun 15, 2025 10:41:10 PM utils.Loader save
+INFO: Guardados 17724 elementos en ciudadanos.json
+Jun 15, 2025 10:41:10 PM utils.Loader save
+INFO: Guardados 17725 elementos en ciudadanos.json
+Jun 15, 2025 10:41:11 PM utils.Loader save
+INFO: Guardados 17726 elementos en ciudadanos.json
+Jun 15, 2025 10:41:11 PM utils.Loader save
+INFO: Guardados 17727 elementos en ciudadanos.json
+Jun 15, 2025 10:41:11 PM utils.Loader save
+INFO: Guardados 17728 elementos en ciudadanos.json
+Jun 15, 2025 10:41:11 PM utils.Loader save
+INFO: Guardados 17729 elementos en ciudadanos.json
+Jun 15, 2025 10:41:11 PM utils.Loader save
+INFO: Guardados 17730 elementos en ciudadanos.json
+Jun 15, 2025 10:41:11 PM utils.Loader save
+INFO: Guardados 17731 elementos en ciudadanos.json
+Jun 15, 2025 10:41:11 PM utils.Loader save
+INFO: Guardados 17732 elementos en ciudadanos.json
+Jun 15, 2025 10:41:12 PM utils.Loader save
+INFO: Guardados 17733 elementos en ciudadanos.json
+Jun 15, 2025 10:41:12 PM utils.Loader save
+INFO: Guardados 17734 elementos en ciudadanos.json
+Jun 15, 2025 10:41:12 PM utils.Loader save
+INFO: Guardados 17735 elementos en ciudadanos.json
+Jun 15, 2025 10:41:12 PM utils.Loader save
+INFO: Guardados 17736 elementos en ciudadanos.json
+Jun 15, 2025 10:41:12 PM utils.Loader save
+INFO: Guardados 17737 elementos en ciudadanos.json
+Jun 15, 2025 10:41:12 PM utils.Loader save
+INFO: Guardados 17738 elementos en ciudadanos.json
+Jun 15, 2025 10:41:12 PM utils.Loader save
+INFO: Guardados 17739 elementos en ciudadanos.json
+Jun 15, 2025 10:41:13 PM utils.Loader save
+INFO: Guardados 17740 elementos en ciudadanos.json
+Jun 15, 2025 10:41:13 PM utils.Loader save
+INFO: Guardados 17741 elementos en ciudadanos.json
+Jun 15, 2025 10:41:13 PM utils.Loader save
+INFO: Guardados 17742 elementos en ciudadanos.json
+Jun 15, 2025 10:41:13 PM utils.Loader save
+INFO: Guardados 17743 elementos en ciudadanos.json
+Jun 15, 2025 10:41:13 PM utils.Loader save
+INFO: Guardados 17744 elementos en ciudadanos.json
+Jun 15, 2025 10:41:13 PM utils.Loader save
+INFO: Guardados 17745 elementos en ciudadanos.json
+Jun 15, 2025 10:41:14 PM utils.Loader save
+INFO: Guardados 17746 elementos en ciudadanos.json
+Jun 15, 2025 10:41:14 PM utils.Loader save
+INFO: Guardados 17747 elementos en ciudadanos.json
+Jun 15, 2025 10:41:14 PM utils.Loader save
+INFO: Guardados 17748 elementos en ciudadanos.json
+Jun 15, 2025 10:41:14 PM utils.Loader save
+INFO: Guardados 17749 elementos en ciudadanos.json
+Jun 15, 2025 10:41:15 PM utils.Loader save
+INFO: Guardados 17750 elementos en ciudadanos.json
+Jun 15, 2025 10:41:15 PM utils.Loader save
+INFO: Guardados 17751 elementos en ciudadanos.json
+Jun 15, 2025 10:41:15 PM utils.Loader save
+INFO: Guardados 17752 elementos en ciudadanos.json
+Jun 15, 2025 10:41:15 PM utils.Loader save
+INFO: Guardados 17753 elementos en ciudadanos.json
+Jun 15, 2025 10:41:15 PM utils.Loader save
+INFO: Guardados 17754 elementos en ciudadanos.json
+Jun 15, 2025 10:41:15 PM utils.Loader save
+INFO: Guardados 17755 elementos en ciudadanos.json
+Jun 15, 2025 10:41:16 PM utils.Loader save
+INFO: Guardados 17756 elementos en ciudadanos.json
+Jun 15, 2025 10:41:16 PM utils.Loader save
+INFO: Guardados 17757 elementos en ciudadanos.json
+Jun 15, 2025 10:41:16 PM utils.Loader save
+INFO: Guardados 17758 elementos en ciudadanos.json
+Jun 15, 2025 10:41:16 PM utils.Loader save
+INFO: Guardados 17759 elementos en ciudadanos.json
+Jun 15, 2025 10:41:16 PM utils.Loader save
+INFO: Guardados 17760 elementos en ciudadanos.json
+Jun 15, 2025 10:41:16 PM utils.Loader save
+INFO: Guardados 17761 elementos en ciudadanos.json
+Jun 15, 2025 10:41:16 PM utils.Loader save
+INFO: Guardados 17762 elementos en ciudadanos.json
+Jun 15, 2025 10:41:16 PM utils.Loader save
+INFO: Guardados 17763 elementos en ciudadanos.json
+Jun 15, 2025 10:41:17 PM utils.Loader save
+INFO: Guardados 17764 elementos en ciudadanos.json
+Jun 15, 2025 10:41:17 PM utils.Loader save
+INFO: Guardados 17765 elementos en ciudadanos.json
+Jun 15, 2025 10:41:17 PM utils.Loader save
+INFO: Guardados 17766 elementos en ciudadanos.json
+Jun 15, 2025 10:46:12 PM utils.Loader load
+INFO: Cargados 10 elementos desde candidatos.json
+Jun 15, 2025 10:46:13 PM utils.Loader load
+INFO: Cargados 17622 elementos desde ciudadanos.json
+Jun 15, 2025 10:46:13 PM utils.Loader load
+INFO: Archivo creado vacío: estacion/src/main/resources/votos_realizados.json

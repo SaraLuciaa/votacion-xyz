@@ -1,3 +1,4 @@
+import java.io.File;
 import java.util.Scanner;
 
 import com.zeroc.Ice.Communicator;
@@ -58,6 +59,14 @@ public class Estacion {
     }
 
     private static void cargarDatosDesdeDistribuidor(DataDistributionPrx distributor) {
+        File fileCandidatos = new File("estacion/src/main/resources/candidatos.json");
+        File fileCiudadanos = new File("estacion/src/main/resources/ciudadanos.json");
+
+        if (fileCandidatos.exists() && fileCiudadanos.exists()) {
+            System.out.println("Los archivos locales ya existen. No se solicitarán datos al distribuidor.");
+            return;
+        }
+
         Scanner scanner = new Scanner(System.in);
         System.out.print("Ingrese el ID de la estación de votación: ");
         String idEstacion = scanner.nextLine();
@@ -72,6 +81,7 @@ public class Estacion {
 
         System.out.println("Candidatos y ciudadanos cargados desde el distribuidor.\n");
     }
+
 
     // private static void mostrarMenuVotacion() {
     //     Scanner scanner = new Scanner(System.in);
