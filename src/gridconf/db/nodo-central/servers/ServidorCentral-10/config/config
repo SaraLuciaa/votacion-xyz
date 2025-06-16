@@ -1,0 +1,19 @@
+# Configuration file (06/16/25 03:05:17.244)
+
+# Server configuration
+Ice.Admin.ServerId=ServidorCentral-10
+Ice.Admin.Endpoints=tcp -h localhost
+Ice.ProgramName=ServidorCentral-10
+# Object adapter QueryAdapter
+QueryAdapter.Endpoints=tcp
+QueryAdapter.AdapterId=ServidorCentral-10.QueryAdapter
+QueryAdapter.ReplicaGroupId=QueryGroup
+# Object adapter RMAdapter
+RMAdapter.Endpoints=tcp
+RMAdapter.AdapterId=ServidorCentral-10.RMAdapter
+RMAdapter.ReplicaGroupId=RMGroup
+# Object adapter DistributionAdapter
+DistributionAdapter.Endpoints=tcp
+DistributionAdapter.AdapterId=ServidorCentral-10.DistributionAdapter
+DistributionAdapter.ReplicaGroupId=DataDistributionGroup
+Ice.Default.Locator=VotacionXYZIcegrid/Locator:default -h localhost -p 4061
