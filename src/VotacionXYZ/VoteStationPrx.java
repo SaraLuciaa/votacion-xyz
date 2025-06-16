@@ -17,45 +17,122 @@ package VotacionXYZ;
 
 public interface VoteStationPrx extends com.zeroc.Ice.ObjectPrx
 {
-    default int vote(String document, int candidateId)
+    default Candidato[] obtenerCandidatos()
     {
-        return vote(document, candidateId, com.zeroc.Ice.ObjectPrx.noExplicitContext);
+        return obtenerCandidatos(com.zeroc.Ice.ObjectPrx.noExplicitContext);
     }
 
-    default int vote(String document, int candidateId, java.util.Map<String, String> context)
+    default Candidato[] obtenerCandidatos(java.util.Map<String, String> context)
     {
-        return _iceI_voteAsync(document, candidateId, context, true).waitForResponse();
+        return _iceI_obtenerCandidatosAsync(context, true).waitForResponse();
     }
 
-    default java.util.concurrent.CompletableFuture<java.lang.Integer> voteAsync(String document, int candidateId)
+    default java.util.concurrent.CompletableFuture<Candidato[]> obtenerCandidatosAsync()
     {
-        return _iceI_voteAsync(document, candidateId, com.zeroc.Ice.ObjectPrx.noExplicitContext, false);
+        return _iceI_obtenerCandidatosAsync(com.zeroc.Ice.ObjectPrx.noExplicitContext, false);
     }
 
-    default java.util.concurrent.CompletableFuture<java.lang.Integer> voteAsync(String document, int candidateId, java.util.Map<String, String> context)
+    default java.util.concurrent.CompletableFuture<Candidato[]> obtenerCandidatosAsync(java.util.Map<String, String> context)
     {
-        return _iceI_voteAsync(document, candidateId, context, false);
+        return _iceI_obtenerCandidatosAsync(context, false);
     }
 
     /**
      * @hidden
-     * @param iceP_document -
-     * @param iceP_candidateId -
      * @param context -
      * @param sync -
      * @return -
      **/
-    default com.zeroc.IceInternal.OutgoingAsync<java.lang.Integer> _iceI_voteAsync(String iceP_document, int iceP_candidateId, java.util.Map<String, String> context, boolean sync)
+    default com.zeroc.IceInternal.OutgoingAsync<Candidato[]> _iceI_obtenerCandidatosAsync(java.util.Map<String, String> context, boolean sync)
     {
-        com.zeroc.IceInternal.OutgoingAsync<java.lang.Integer> f = new com.zeroc.IceInternal.OutgoingAsync<>(this, "vote", null, sync, null);
+        com.zeroc.IceInternal.OutgoingAsync<Candidato[]> f = new com.zeroc.IceInternal.OutgoingAsync<>(this, "obtenerCandidatos", null, sync, null);
+        f.invoke(true, context, null, null, istr -> {
+                     Candidato[] ret;
+                     ret = CandidatoSeqHelper.read(istr);
+                     return ret;
+                 });
+        return f;
+    }
+
+    default int consultarCiudadanoPorId(String documento, int mesaId)
+    {
+        return consultarCiudadanoPorId(documento, mesaId, com.zeroc.Ice.ObjectPrx.noExplicitContext);
+    }
+
+    default int consultarCiudadanoPorId(String documento, int mesaId, java.util.Map<String, String> context)
+    {
+        return _iceI_consultarCiudadanoPorIdAsync(documento, mesaId, context, true).waitForResponse();
+    }
+
+    default java.util.concurrent.CompletableFuture<java.lang.Integer> consultarCiudadanoPorIdAsync(String documento, int mesaId)
+    {
+        return _iceI_consultarCiudadanoPorIdAsync(documento, mesaId, com.zeroc.Ice.ObjectPrx.noExplicitContext, false);
+    }
+
+    default java.util.concurrent.CompletableFuture<java.lang.Integer> consultarCiudadanoPorIdAsync(String documento, int mesaId, java.util.Map<String, String> context)
+    {
+        return _iceI_consultarCiudadanoPorIdAsync(documento, mesaId, context, false);
+    }
+
+    /**
+     * @hidden
+     * @param iceP_documento -
+     * @param iceP_mesaId -
+     * @param context -
+     * @param sync -
+     * @return -
+     **/
+    default com.zeroc.IceInternal.OutgoingAsync<java.lang.Integer> _iceI_consultarCiudadanoPorIdAsync(String iceP_documento, int iceP_mesaId, java.util.Map<String, String> context, boolean sync)
+    {
+        com.zeroc.IceInternal.OutgoingAsync<java.lang.Integer> f = new com.zeroc.IceInternal.OutgoingAsync<>(this, "consultarCiudadanoPorId", null, sync, null);
         f.invoke(true, context, null, ostr -> {
-                     ostr.writeString(iceP_document);
-                     ostr.writeInt(iceP_candidateId);
+                     ostr.writeString(iceP_documento);
+                     ostr.writeInt(iceP_mesaId);
                  }, istr -> {
                      int ret;
                      ret = istr.readInt();
                      return ret;
                  });
+        return f;
+    }
+
+    default void registrarVoto(int candidato, String documento, int mesaId)
+    {
+        registrarVoto(candidato, documento, mesaId, com.zeroc.Ice.ObjectPrx.noExplicitContext);
+    }
+
+    default void registrarVoto(int candidato, String documento, int mesaId, java.util.Map<String, String> context)
+    {
+        _iceI_registrarVotoAsync(candidato, documento, mesaId, context, true).waitForResponse();
+    }
+
+    default java.util.concurrent.CompletableFuture<Void> registrarVotoAsync(int candidato, String documento, int mesaId)
+    {
+        return _iceI_registrarVotoAsync(candidato, documento, mesaId, com.zeroc.Ice.ObjectPrx.noExplicitContext, false);
+    }
+
+    default java.util.concurrent.CompletableFuture<Void> registrarVotoAsync(int candidato, String documento, int mesaId, java.util.Map<String, String> context)
+    {
+        return _iceI_registrarVotoAsync(candidato, documento, mesaId, context, false);
+    }
+
+    /**
+     * @hidden
+     * @param iceP_candidato -
+     * @param iceP_documento -
+     * @param iceP_mesaId -
+     * @param context -
+     * @param sync -
+     * @return -
+     **/
+    default com.zeroc.IceInternal.OutgoingAsync<Void> _iceI_registrarVotoAsync(int iceP_candidato, String iceP_documento, int iceP_mesaId, java.util.Map<String, String> context, boolean sync)
+    {
+        com.zeroc.IceInternal.OutgoingAsync<Void> f = new com.zeroc.IceInternal.OutgoingAsync<>(this, "registrarVoto", null, sync, null);
+        f.invoke(false, context, null, ostr -> {
+                     ostr.writeInt(iceP_candidato);
+                     ostr.writeString(iceP_documento);
+                     ostr.writeInt(iceP_mesaId);
+                 }, null);
         return f;
     }
 

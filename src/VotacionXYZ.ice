@@ -1,6 +1,7 @@
 module VotacionXYZ {
     struct Voto {
         int idCandidato;
+        int mesaId;  
     };
 
     struct Message {
@@ -52,6 +53,6 @@ module VotacionXYZ {
     interface VoteStation {
         CandidatoSeq obtenerCandidatos();
         int consultarCiudadanoPorId(string documento, int mesaId);
-        void registrarVoto(int candidato, string documento);
+        void registrarVoto(int candidato, string documento,int mesaId);
     }
 };
