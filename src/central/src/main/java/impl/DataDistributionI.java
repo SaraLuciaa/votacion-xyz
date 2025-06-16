@@ -19,7 +19,10 @@ public class DataDistributionI implements DataDistribution {
         List<Ciudadano> ciudadanos = new ArrayList<>();
         try (ResultSet rs = dm.obtenerCiudadanosPorPuesto(puestoId)) {
             while (rs != null && rs.next()) {
-                Ciudadano c = new Ciudadano(rs.getString("documento"));
+                Ciudadano c = new Ciudadano(
+                    rs.getString("documento"), 
+                    rs.getInt("mesa_id")                    
+                );
                 ciudadanos.add(c);
             }
         } catch (SQLException e) {

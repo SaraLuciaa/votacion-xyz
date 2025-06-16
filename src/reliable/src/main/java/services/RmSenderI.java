@@ -40,7 +40,7 @@ public class RmSenderI implements RmSender {
         try {
             if (service != null && ackServicePrx != null) {
                 service.receiveMessage(msg, ackServicePrx);
-                log.info("Voto enviado para: " + msg.voto.nombreCandidato + ", ID: " + msg.id);
+                log.info("Voto enviado para: " + msg.voto.idCandidato + ", ID: " + msg.id);
             } else {
                 throw new IllegalStateException("Proxy no disponible");
             }

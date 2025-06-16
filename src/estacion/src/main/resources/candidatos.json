@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "nombre": "Laura",
+    "apellido": "Ram¡rez",
+    "nombrePartido": "Partido Liberal"
+  },
+  {
+    "id": 2,
+    "nombre": "Carlos",
+    "apellido": "Torres",
+    "nombrePartido": "Partido Conservador"
+  },
+  {
+    "id": 3,
+    "nombre": "Diana",
+    "apellido": "G¢mez",
+    "nombrePartido": "Partido Verde"
+  },
+  {
+    "id": 4,
+    "nombre": "Juli n",
+    "apellido": "Mart¡nez",
+    "nombrePartido": "Partido Independiente"
+  },
+  {
+    "id": 5,
+    "nombre": "Voto",
+    "apellido": "en blanco",
+    "nombrePartido": "Voto en blanco"
+  },
+  {
+    "id": 1,
+    "nombre": "Laura",
+    "apellido": "Ram¡rez",
+    "nombrePartido": "Partido Liberal"
+  },
+  {
+    "id": 2,
+    "nombre": "Carlos",
+    "apellido": "Torres",
+    "nombrePartido": "Partido Conservador"
+  },
+  {
+    "id": 3,
+    "nombre": "Diana",
+    "apellido": "G¢mez",
+    "nombrePartido": "Partido Verde"
+  },
+  {
+    "id": 4,
+    "nombre": "Juli n",
+    "apellido": "Mart¡nez",
+    "nombrePartido": "Partido Independiente"
+  },
+  {
+    "id": 5,
+    "nombre": "Voto",
+    "apellido": "en blanco",
+    "nombrePartido": "Voto en blanco"
+  }
+]

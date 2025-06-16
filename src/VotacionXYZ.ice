@@ -1,6 +1,6 @@
 module VotacionXYZ {
     struct Voto {
-        string nombreCandidato;
+        int idCandidato;
     };
 
     struct Message {
@@ -17,6 +17,7 @@ module VotacionXYZ {
 
     struct Ciudadano {
         string documento;
+        int mesaId;
     };
 
     sequence<Ciudadano> CiudadanoSeq;
@@ -48,13 +49,9 @@ module VotacionXYZ {
         DatosMesa sendData(string mesaId);
     }
 
-    interface VoteStation{
-        int vote(string document, int candidateId);
-    }
-
-    interface MesaService {
-        string obtenerCandidatos();
-        Ciudadano consultarCiudadanoPorId(string documento);
-        void registrarVoto(int candidato);
+    interface VoteStation {
+        CandidatoSeq obtenerCandidatos();
+        int consultarCiudadanoPorId(string documento, int mesaId);
+        void registrarVoto(int candidato, string documento);
     }
 };

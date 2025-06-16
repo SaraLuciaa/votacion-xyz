@@ -64,7 +64,7 @@ public class DataManager {
 		}
 
 		try {
-			String sqlVotantes = "SELECT c.documento " +
+			String sqlVotantes = "SELECT c.documento, mesa_id " +
 								"FROM ciudadano c " +
 								"JOIN mesa_votacion mv ON c.mesa_id = mv.id " +
 								"WHERE mv.puesto_id = ?";

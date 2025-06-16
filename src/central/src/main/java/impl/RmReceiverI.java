@@ -29,7 +29,7 @@ public class RmReceiverI implements RmReceiver {
             ackExecutor.submit(() -> {
                 try {
                     ackProxy.confirm(msg.id);
-                    System.out.println("Recibido: " + msg.voto.nombreCandidato);
+                    System.out.println("Recibido: " + msg.voto.idCandidato);
                 } catch (Exception e) {
                     System.err.println("[RECEIVER] Error al confirmar ACK para ID " + msg.id + ": " + e.getMessage());
                     e.printStackTrace();

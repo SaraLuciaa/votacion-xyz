@@ -1,56 +1,52 @@
 import java.util.Scanner;
-import java.util.UUID;
 
 import com.zeroc.Ice.Communicator;
 import com.zeroc.Ice.ObjectAdapter;
 import com.zeroc.Ice.ObjectPrx;
 import com.zeroc.Ice.Util;
 
-import VotacionXYZ.*;
-import impl.MesaServiceI;
+import VotacionXYZ.Candidato;
+import VotacionXYZ.Ciudadano;
+import VotacionXYZ.DataDistributionPrx;
+import VotacionXYZ.DatosMesa;
+import VotacionXYZ.RmSenderPrx;
+import impl.VoteStationI;
+import utils.Loader;
 
 public class Estacion {
+    private static RmSenderPrx rmSender;
 
     public static void main(String[] args) {
         try {
-            // 1. Inicializar ICE con archivo de configuración
             Communicator communicator = Util.initialize(args, "estacion.cfg");
 
-            // 2. Crear el adaptador local (no registramos ningún objeto, pero es obligatorio)
             ObjectAdapter adapter = communicator.createObjectAdapter("EstacionAdapter");
 
-            // 3. Obtener el proxy al RMSender (expuesto localmente por el Reliable en el mismo nodo)
+            // Proxy RMSender
             String proxyString = communicator.getProperties().getProperty("RMSender");
-
-            RmSenderPrx sender = RmSenderPrx.checkedCast(
-                communicator.stringToProxy(proxyString)
-            );
-
-            if (sender == null) {
+            rmSender = RmSenderPrx.checkedCast(communicator.stringToProxy(proxyString));
+            if (rmSender == null) {
                 System.err.println("[ESTACION] No se pudo obtener el proxy del RMSender.");
                 return;
             }
 
-             // 4. Obtener proxy al servicio DataDistribution (usando replica-group de ICEGrid)
+            // Proxy DataDistributor (replica-group de ICEGrid)
             ObjectPrx base = communicator.stringToProxy("DataDistributor");
             DataDistributionPrx distributor = DataDistributionPrx.checkedCast(base);
-
             if (distributor == null) {
                 System.err.println("[ESTACION] No se pudo obtener el proxy del DataDistributor.");
                 return;
             }
 
-            // 5.Crear el servicio mesa
-            MesaServiceI mesaService = new MesaServiceI();
-            adapter.add(mesaService, Util.stringToIdentity("MesaService")); 
-
-            // 5. Activar adaptador local
+            // Registrar la estación de votación
+            VoteStationI voteStation = new VoteStationI(rmSender);
+            adapter.add(voteStation, Util.stringToIdentity("VoteStation"));
             adapter.activate();
-            System.out.println("[ESTACION] Estación de votación iniciada y conectada al RMSender.");
 
-            // 6. Iniciar el flujo de votación
-            Votacion service = new Votacion(sender);
-            start(service, distributor);
+            System.out.println("[ESTACION] Estación de votación iniciada.");
+
+            cargarDatosDesdeDistribuidor(distributor);
+            // mostrarMenuVotacion();
 
             communicator.waitForShutdown();
 
@@ -61,40 +57,54 @@ public class Estacion {
         }
     }
 
-    private static void start(Votacion service, DataDistributionPrx distributor) {
+    private static void cargarDatosDesdeDistribuidor(DataDistributionPrx distributor) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Bienvenido al sistema de votación.");
-        System.out.println("Por favor, ingrese el numero de identificacion de la estacion de votacion.");
-        String idEstacion = scanner.next();
+        System.out.print("Ingrese el ID de la estación de votación: ");
+        String idEstacion = scanner.nextLine();
 
-
-        
         DatosMesa data = distributor.sendData(idEstacion);
-        Ciudadano[] ciudadanos = data.ciudadanos;
-        Candidato[] candidatos = data.candidatos;
 
-       
+        Loader<Candidato> candidatosLoader = new Loader<>("estacion/src/main/resources/candidatos.json", Candidato.class);
+        Loader<Ciudadano> ciudadanosLoader = new Loader<>("estacion/src/main/resources/ciudadanos.json", Ciudadano.class);
 
+        for (Candidato c : data.candidatos) candidatosLoader.add(c);
+        for (Ciudadano c : data.ciudadanos) ciudadanosLoader.add(c);
 
-        scanner.close();
+        System.out.println("Candidatos y ciudadanos cargados desde el distribuidor.\n");
     }
 
-     public void registrarVoto(long candidatoIndex) {
-        if (candidatoIndex < 1 || candidatoIndex > candidatos.size()) {
-            System.out.println("Indice de candidato fuera de rango: " + candidatoIndex);
-            throw new IllegalArgumentException("Indice de candidato fuera de rango");
-        }
+    // private static void mostrarMenuVotacion() {
+    //     Scanner scanner = new Scanner(System.in);
+    //     while (true) {
+    //         System.out.println("\n=== MENU DE VOTACIÓN ===");
+    //         for (int i = 0; i < candidatos.size(); i++) {
+    //             System.out.printf("[%d] %s%n", i + 1, candidatos.get(i).nombre);
+    //         }
+    //         System.out.print("Seleccione el número del candidato (0 para salir): ");
 
-        String nombreCandidato = getCandidatoPorNumero((int) candidatoIndex);
-        if (nombreCandidato == null) {
-            System.out.println("Candidato inválido: " + candidatoIndex);
-            throw new IllegalArgumentException("Candidato no válido.");
-        }
+    //         long index = scanner.nextLong();
+    //         if (index == 0) break;
 
-        Voto voto = new Voto(nombreCandidato);
-        String uuid = UUID.randomUUID().toString();
-        Message msg = new Message(uuid, voto);
+    //         try {
+    //             registrarVoto(index);
+    //         } catch (IllegalArgumentException e) {
+    //             System.out.println("Error: " + e.getMessage());
+    //         }
+    //     }
+    //     scanner.close();
+    // }
 
-        rmSender.send(msg);
-    }
+    // private static void registrarVoto(long candidatoIndex) {
+    //     if (candidatoIndex < 1 || candidatoIndex > candidatos.size()) {
+    //         throw new IllegalArgumentException("Índice de candidato fuera de rango.");
+    //     }
+
+    //     String nombreCandidato = candidatos.get((int) candidatoIndex - 1).nombre;
+    //     Voto voto = new Voto(nombreCandidato);
+    //     String uuid = UUID.randomUUID().toString();
+    //     Message msg = new Message(uuid, voto);
+
+    //     rmSender.send(msg);
+    //     System.out.println("Voto enviado correctamente para: " + nombreCandidato);
+    // }
 }
