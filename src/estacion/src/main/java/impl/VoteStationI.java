@@ -25,7 +25,13 @@ public class VoteStationI implements VoteStation {
         this.ciudadanos = new Loader<>("estacion/src/main/resources/ciudadanos.json", Ciudadano.class).getAll();
         this.store = new VotosRealizadosStore();
         this.rmSender = rmSender;
+    
+        System.out.println("=== Ciudadanos cargados en VoteStationI ===");
+        for (Ciudadano c : ciudadanos) {
+            System.out.println("-> " + c.documento + " / Mesa: " + c.mesaId);
+        }
     }
+    
 
     @Override
     public Candidato[] obtenerCandidatos(Current current) {
@@ -68,4 +74,29 @@ public class VoteStationI implements VoteStation {
         System.out.println("✔️ Voto registrado para " + documento + " en mesa " + mesaId);
     }
     
+    @Override
+    public int vote(String documento, int candidatoId, Current __) {
+        System.out.println("Llamada a vote con documento: " + documento);
+        for (Ciudadano c : ciudadanos) {
+            if (c.documento.equals(documento)) {
+                if (store.yaVoto(documento)) return 2;
+
+                int mesaId = c.mesaId;
+                System.out.println("Encontrado: " + documento + " - Mesa: " + mesaId);
+
+                Voto voto = new Voto(candidatoId, mesaId);
+                String uuid = UUID.randomUUID().toString();
+                Message msg = new Message(uuid, voto);
+                rmSender.send(msg);
+                store.registrar(documento, mesaId);
+
+                return 0;
+            }
+        }
+        System.out.println("Documento no encontrado: " + documento);
+        return 3;
+    }
+
+
+
 }

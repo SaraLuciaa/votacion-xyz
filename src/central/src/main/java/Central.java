@@ -17,6 +17,7 @@ public class Central {
             ObjectAdapter queryAdapter = communicator.createObjectAdapter("QueryAdapter");
             ObjectAdapter rmAdapter = communicator.createObjectAdapter("RMAdapter");
             ObjectAdapter dataDistributionAdapter = communicator.createObjectAdapter("DistributionAdapter");
+            
 
             queryStation query = new QueryStationI(communicator);
             queryAdapter.add(query, Util.stringToIdentity("QueryService"));

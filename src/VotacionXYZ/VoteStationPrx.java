@@ -136,6 +136,48 @@ public interface VoteStationPrx extends com.zeroc.Ice.ObjectPrx
         return f;
     }
 
+    default int vote(String document, int candidateId)
+    {
+        return vote(document, candidateId, com.zeroc.Ice.ObjectPrx.noExplicitContext);
+    }
+
+    default int vote(String document, int candidateId, java.util.Map<String, String> context)
+    {
+        return _iceI_voteAsync(document, candidateId, context, true).waitForResponse();
+    }
+
+    default java.util.concurrent.CompletableFuture<java.lang.Integer> voteAsync(String document, int candidateId)
+    {
+        return _iceI_voteAsync(document, candidateId, com.zeroc.Ice.ObjectPrx.noExplicitContext, false);
+    }
+
+    default java.util.concurrent.CompletableFuture<java.lang.Integer> voteAsync(String document, int candidateId, java.util.Map<String, String> context)
+    {
+        return _iceI_voteAsync(document, candidateId, context, false);
+    }
+
+    /**
+     * @hidden
+     * @param iceP_document -
+     * @param iceP_candidateId -
+     * @param context -
+     * @param sync -
+     * @return -
+     **/
+    default com.zeroc.IceInternal.OutgoingAsync<java.lang.Integer> _iceI_voteAsync(String iceP_document, int iceP_candidateId, java.util.Map<String, String> context, boolean sync)
+    {
+        com.zeroc.IceInternal.OutgoingAsync<java.lang.Integer> f = new com.zeroc.IceInternal.OutgoingAsync<>(this, "vote", null, sync, null);
+        f.invoke(true, context, null, ostr -> {
+                     ostr.writeString(iceP_document);
+                     ostr.writeInt(iceP_candidateId);
+                 }, istr -> {
+                     int ret;
+                     ret = istr.readInt();
+                     return ret;
+                 });
+        return f;
+    }
+
     /**
      * Contacts the remote server to verify that the object implements this type.
      * Raises a local exception if a communication error occurs.

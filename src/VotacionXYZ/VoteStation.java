@@ -23,6 +23,8 @@ public interface VoteStation extends com.zeroc.Ice.Object
 
     void registrarVoto(int candidato, String documento, int mesaId, com.zeroc.Ice.Current current);
 
+    int vote(String document, int candidateId, com.zeroc.Ice.Current current);
+
     /** @hidden */
     static final String[] _iceIds =
     {
@@ -110,6 +112,29 @@ public interface VoteStation extends com.zeroc.Ice.Object
         return inS.setResult(inS.writeEmptyParams());
     }
 
+    /**
+     * @hidden
+     * @param obj -
+     * @param inS -
+     * @param current -
+     * @return -
+    **/
+    static java.util.concurrent.CompletionStage<com.zeroc.Ice.OutputStream> _iceD_vote(VoteStation obj, final com.zeroc.IceInternal.Incoming inS, com.zeroc.Ice.Current current)
+    {
+        com.zeroc.Ice.Object._iceCheckMode(null, current.mode);
+        com.zeroc.Ice.InputStream istr = inS.startReadParams();
+        String iceP_document;
+        int iceP_candidateId;
+        iceP_document = istr.readString();
+        iceP_candidateId = istr.readInt();
+        inS.endReadParams();
+        int ret = obj.vote(iceP_document, iceP_candidateId, current);
+        com.zeroc.Ice.OutputStream ostr = inS.startWriteParams();
+        ostr.writeInt(ret);
+        inS.endWriteParams(ostr);
+        return inS.setResult(ostr);
+    }
+
     /** @hidden */
     final static String[] _iceOps =
     {
@@ -119,7 +144,8 @@ public interface VoteStation extends com.zeroc.Ice.Object
         "ice_isA",
         "ice_ping",
         "obtenerCandidatos",
-        "registrarVoto"
+        "registrarVoto",
+        "vote"
     };
 
     /** @hidden */
@@ -162,6 +188,10 @@ public interface VoteStation extends com.zeroc.Ice.Object
             case 6:
             {
                 return _iceD_registrarVoto(this, in, current);
+            }
+            case 7:
+            {
+                return _iceD_vote(this, in, current);
             }
         }
 

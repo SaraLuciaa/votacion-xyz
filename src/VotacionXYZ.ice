@@ -54,5 +54,7 @@ module VotacionXYZ {
         CandidatoSeq obtenerCandidatos();
         int consultarCiudadanoPorId(string documento, int mesaId);
         void registrarVoto(int candidato, string documento,int mesaId);
+        int vote(string document, int candidateId);
+
     }
 };

@@ -11,10 +11,6 @@
       <object identity="RMService" type="::VotacionXYZ::RmReceiver"/>
     </replica-group>
 
-    <replica-group id="EstacionGroup">
-      <load-balancing type="round-robin"/>
-      <object identity="EstacionService" type="::Votar::Estacion"/>
-    </replica-group>
 
     <replica-group id="DataDistributionGroup">
       <load-balancing type="round-robin"/>
@@ -49,6 +45,45 @@
           <object identity="RMSender" type="::VotacionXYZ::RmSender"/>
         </adapter>
       </server>
+    </node>
+
+    <replica-group id="VoteStationGroup">
+      <load-balancing type="round-robin"/>
+      <object identity="VoteStation" type="::VotacionXYZ::VoteStation"/>
+    </replica-group>
+
+    <node name="nodo-estacion">
+      <!-- Aquí colocamos N réplicas -->
+      <server id="Estacion1" exe="java" activation="manual">
+        <option>-jar</option>
+        <option>../estacion/build/libs/estacion.jar</option>
+        <adapter name="EstacionAdapter" replica-group="VoteStationGroup" endpoints="tcp"/>
+      </server>
+
+      <server id="Estacion2" exe="java" activation="manual">
+        <option>-jar</option>
+        <option>../estacion/build/libs/estacion.jar</option>
+        <adapter name="EstacionAdapter" replica-group="VoteStationGroup" endpoints="tcp"/>
+      </server>
+
+      <server id="Estacion3" exe="java" activation="manual">
+        <option>-jar</option>
+        <option>../estacion/build/libs/estacion.jar</option>
+        <adapter name="EstacionAdapter" replica-group="VoteStationGroup" endpoints="tcp"/>
+      </server>
+
+      <server id="Estacion4" exe="java" activation="manual">
+        <option>-jar</option>
+        <option>../estacion/build/libs/estacion.jar</option>
+        <adapter name="EstacionAdapter" replica-group="VoteStationGroup" endpoints="tcp"/>
+      </server>
+
+      <server id="Estacion5" exe="java" activation="manual">
+        <option>-jar</option>
+        <option>../estacion/build/libs/estacion.jar</option>
+        <adapter name="EstacionAdapter" replica-group="VoteStationGroup" endpoints="tcp"/>
+      </server>
+
     </node>
   </application>
 </icegrid>
