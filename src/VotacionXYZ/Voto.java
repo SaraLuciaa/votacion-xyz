@@ -18,16 +18,18 @@ package VotacionXYZ;
 public class Voto implements java.lang.Cloneable,
                              java.io.Serializable
 {
-    public String nombreCandidato;
+    public int idCandidato;
+
+    public int mesaId;
 
     public Voto()
     {
-        this.nombreCandidato = "";
     }
 
-    public Voto(String nombreCandidato)
+    public Voto(int idCandidato, int mesaId)
     {
-        this.nombreCandidato = nombreCandidato;
+        this.idCandidato = idCandidato;
+        this.mesaId = mesaId;
     }
 
     public boolean equals(java.lang.Object rhs)
@@ -44,12 +46,13 @@ public class Voto implements java.lang.Cloneable,
 
         if(r != null)
         {
-            if(this.nombreCandidato != r.nombreCandidato)
+            if(this.idCandidato != r.idCandidato)
             {
-                if(this.nombreCandidato == null || r.nombreCandidato == null || !this.nombreCandidato.equals(r.nombreCandidato))
-                {
-                    return false;
-                }
+                return false;
+            }
+            if(this.mesaId != r.mesaId)
+            {
+                return false;
             }
 
             return true;
@@ -62,7 +65,8 @@ public class Voto implements java.lang.Cloneable,
     {
         int h_ = 5381;
         h_ = com.zeroc.IceInternal.HashUtil.hashAdd(h_, "::VotacionXYZ::Voto");
-        h_ = com.zeroc.IceInternal.HashUtil.hashAdd(h_, nombreCandidato);
+        h_ = com.zeroc.IceInternal.HashUtil.hashAdd(h_, idCandidato);
+        h_ = com.zeroc.IceInternal.HashUtil.hashAdd(h_, mesaId);
         return h_;
     }
 
@@ -82,12 +86,14 @@ public class Voto implements java.lang.Cloneable,
 
     public void ice_writeMembers(com.zeroc.Ice.OutputStream ostr)
     {
-        ostr.writeString(this.nombreCandidato);
+        ostr.writeInt(this.idCandidato);
+        ostr.writeInt(this.mesaId);
     }
 
     public void ice_readMembers(com.zeroc.Ice.InputStream istr)
     {
-        this.nombreCandidato = istr.readString();
+        this.idCandidato = istr.readInt();
+        this.mesaId = istr.readInt();
     }
 
     static public void ice_write(com.zeroc.Ice.OutputStream ostr, Voto v)
@@ -119,19 +125,18 @@ public class Voto implements java.lang.Cloneable,
 
     static public void ice_write(com.zeroc.Ice.OutputStream ostr, int tag, Voto v)
     {
-        if(ostr.writeOptional(tag, com.zeroc.Ice.OptionalFormat.FSize))
+        if(ostr.writeOptional(tag, com.zeroc.Ice.OptionalFormat.VSize))
         {
-            int pos = ostr.startSize();
+            ostr.writeSize(8);
             ice_write(ostr, v);
-            ostr.endSize(pos);
         }
     }
 
     static public java.util.Optional<Voto> ice_read(com.zeroc.Ice.InputStream istr, int tag)
     {
-        if(istr.readOptional(tag, com.zeroc.Ice.OptionalFormat.FSize))
+        if(istr.readOptional(tag, com.zeroc.Ice.OptionalFormat.VSize))
         {
-            istr.skip(4);
+            istr.skipSize();
             return java.util.Optional.of(Voto.ice_read(istr));
         }
         else
@@ -143,5 +148,5 @@ public class Voto implements java.lang.Cloneable,
     private static final Voto _nullMarshalValue = new Voto();
 
     /** @hidden */
-    public static final long serialVersionUID = -1310745036L;
+    public static final long serialVersionUID = 987741104L;
 }

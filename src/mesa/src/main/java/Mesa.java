@@ -35,7 +35,7 @@ public class Mesa {
                 switch (resultado) {
                     case 0:
                         System.out.println("Ciudadano habilitado para votar.");
-                        votar(documento, voteStation, scanner);
+                        votar(documento, mesaId, voteStation, scanner);
                         break;
                     case 1:
                         System.out.println("Ciudadano pertenece a otra mesa.");
@@ -64,7 +64,7 @@ public class Mesa {
         return Integer.parseInt(scanner.nextLine().trim());
     }
 
-    private static void votar(String documento, VoteStationPrx voteStation, Scanner scanner) {
+    private static void votar(String documento, int mesaId, VoteStationPrx voteStation, Scanner scanner) {
         Candidato[] candidatos = voteStation.obtenerCandidatos();
 
         System.out.println("\n=== Candidatos ===");
@@ -80,7 +80,7 @@ public class Mesa {
             return;
         }
 
-        voteStation.registrarVoto(opcion, documento);
+        voteStation.registrarVoto(opcion, documento, mesaId);
         System.out.println("Voto registrado exitosamente.");
     }
 }
