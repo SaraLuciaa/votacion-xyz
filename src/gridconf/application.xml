@@ -21,11 +21,10 @@
       <object identity="DataDistributor" type="::VotacionXYZ::DataDistribution"/>
     </replica-group>
 
-
-    <node name="nodo-central">
+    <node name="central-01">
       <server id="ServidorCentral-1" exe="java" activation="always">
         <option>-jar</option>
-        <option>../central/build/libs/central-all.jar</option>
+        <option>/home/swarch/GatitosRosados</option>
         <adapter name="QueryAdapter" replica-group="QueryGroup" endpoints="tcp"/>
         <adapter name="RMAdapter" replica-group="RMGroup" endpoints="tcp"/>
         <adapter name="DistributionAdapter" replica-group="DataDistributionGroup" endpoints="tcp"/>
@@ -33,21 +32,34 @@
 
       <server id="ServidorCentral-2" exe="java" activation="always">
         <option>-jar</option>
-        <option>../central/build/libs/central-all.jar</option>
+        <option>/home/swarch/GatitosRosados</option>
         <adapter name="QueryAdapter" replica-group="QueryGroup" endpoints="tcp"/>
         <adapter name="RMAdapter" replica-group="RMGroup" endpoints="tcp"/>
         <adapter name="DistributionAdapter" replica-group="DataDistributionGroup" endpoints="tcp"/>
       </server>
-    </node>
 
-    <node name="nodo-reliable">
-      <server id="ReliableServer" exe="java" activation="manual">
+      <server id="ServidorCentral-3" exe="java" activation="always">
         <option>-jar</option>
-        <option>../reliable/build/libs/reliable.jar</option>
+        <option>/home/swarch/GatitosRosados</option>
+        <adapter name="QueryAdapter" replica-group="QueryGroup" endpoints="tcp"/>
+        <adapter name="RMAdapter" replica-group="RMGroup" endpoints="tcp"/>
+        <adapter name="DistributionAdapter" replica-group="DataDistributionGroup" endpoints="tcp"/>
+      </server>
+      
+      <server id="ServidorCentral-4" exe="java" activation="always">
+        <option>-jar</option>
+        <option>/home/swarch/GatitosRosados</option>
+        <adapter name="QueryAdapter" replica-group="QueryGroup" endpoints="tcp"/>
+        <adapter name="RMAdapter" replica-group="RMGroup" endpoints="tcp"/>
+        <adapter name="DistributionAdapter" replica-group="DataDistributionGroup" endpoints="tcp"/>
+      </server>
 
-        <adapter name="RMSenderAdapter" endpoints="tcp" register-process="true">
-          <object identity="RMSender" type="::VotacionXYZ::RmSender"/>
-        </adapter>
+      <server id="ServidorCentral-5" exe="java" activation="always">
+        <option>-jar</option>
+        <option>/home/swarch/GatitosRosados</option>
+        <adapter name="QueryAdapter" replica-group="QueryGroup" endpoints="tcp"/>
+        <adapter name="RMAdapter" replica-group="RMGroup" endpoints="tcp"/>
+        <adapter name="DistributionAdapter" replica-group="DataDistributionGroup" endpoints="tcp"/>
       </server>
     </node>
   </application>

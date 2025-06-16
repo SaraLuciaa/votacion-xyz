@@ -1,0 +1,34 @@
+<state>
+  <timestamp value='1750046287228' />
+  <sourceSet name='default'>
+    <source name='/home/sara-lucia/Desktop/votacion-xyz/src/VotacionXYZ.ice'>
+      <file name='/home/sara-lucia/Desktop/votacion-xyz/src/estacion/build/generated-src/VotacionXYZ/Voto.java' />
+      <file name='/home/sara-lucia/Desktop/votacion-xyz/src/estacion/build/generated-src/VotacionXYZ/Message.java' />
+      <file name='/home/sara-lucia/Desktop/votacion-xyz/src/estacion/build/generated-src/VotacionXYZ/Candidato.java' />
+      <file name='/home/sara-lucia/Desktop/votacion-xyz/src/estacion/build/generated-src/VotacionXYZ/Ciudadano.java' />
+      <file name='/home/sara-lucia/Desktop/votacion-xyz/src/estacion/build/generated-src/VotacionXYZ/DatosMesa.java' />
+      <file name='/home/sara-lucia/Desktop/votacion-xyz/src/estacion/build/generated-src/VotacionXYZ/AckService.java' />
+      <file name='/home/sara-lucia/Desktop/votacion-xyz/src/estacion/build/generated-src/VotacionXYZ/RmReceiver.java' />
+      <file name='/home/sara-lucia/Desktop/votacion-xyz/src/estacion/build/generated-src/VotacionXYZ/RmSender.java' />
+      <file name='/home/sara-lucia/Desktop/votacion-xyz/src/estacion/build/generated-src/VotacionXYZ/queryStation.java' />
+      <file name='/home/sara-lucia/Desktop/votacion-xyz/src/estacion/build/generated-src/VotacionXYZ/DataDistribution.java' />
+      <file name='/home/sara-lucia/Desktop/votacion-xyz/src/estacion/build/generated-src/VotacionXYZ/VoteStation.java' />
+      <file name='/home/sara-lucia/Desktop/votacion-xyz/src/estacion/build/generated-src/VotacionXYZ/CiudadanoSeqHelper.java' />
+      <file name='/home/sara-lucia/Desktop/votacion-xyz/src/estacion/build/generated-src/VotacionXYZ/CandidatoSeqHelper.java' />
+      <file name='/home/sara-lucia/Desktop/votacion-xyz/src/estacion/build/generated-src/VotacionXYZ/AckServicePrx.java' />
+      <file name='/home/sara-lucia/Desktop/votacion-xyz/src/estacion/build/generated-src/VotacionXYZ/_AckServicePrxI.java' />
+      <file name='/home/sara-lucia/Desktop/votacion-xyz/src/estacion/build/generated-src/VotacionXYZ/RmReceiverPrx.java' />
+      <file name='/home/sara-lucia/Desktop/votacion-xyz/src/estacion/build/generated-src/VotacionXYZ/_RmReceiverPrxI.java' />
+      <file name='/home/sara-lucia/Desktop/votacion-xyz/src/estacion/build/generated-src/VotacionXYZ/RmSenderPrx.java' />
+      <file name='/home/sara-lucia/Desktop/votacion-xyz/src/estacion/build/generated-src/VotacionXYZ/_RmSenderPrxI.java' />
+      <file name='/home/sara-lucia/Desktop/votacion-xyz/src/estacion/build/generated-src/VotacionXYZ/queryStationPrx.java' />
+      <file name='/home/sara-lucia/Desktop/votacion-xyz/src/estacion/build/generated-src/VotacionXYZ/_queryStationPrxI.java' />
+      <file name='/home/sara-lucia/Desktop/votacion-xyz/src/estacion/build/generated-src/VotacionXYZ/DataDistributionPrx.java' />
+      <file name='/home/sara-lucia/Desktop/votacion-xyz/src/estacion/build/generated-src/VotacionXYZ/_DataDistributionPrxI.java' />
+      <file name='/home/sara-lucia/Desktop/votacion-xyz/src/estacion/build/generated-src/VotacionXYZ/VoteStationPrx.java' />
+      <file name='/home/sara-lucia/Desktop/votacion-xyz/src/estacion/build/generated-src/VotacionXYZ/_VoteStationPrxI.java' />
+    </source>
+    <arg value='/usr/bin/slice2java' />
+    <arg value='-I/usr/share/ice/slice' />
+  </sourceSet>
+</state>

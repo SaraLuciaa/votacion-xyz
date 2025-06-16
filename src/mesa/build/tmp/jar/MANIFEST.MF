@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Main-Class: Mesa
+Class-Path: file:/home/sara-lucia/.gradle/caches/modules-2/files-2.1/com
+ .zeroc/ice/3.7.10/ca45473c5e197ace9510c4718fe2dfa4d3fdba29/ice-3.7.10.j
+ ar file:/home/sara-lucia/.gradle/caches/modules-2/files-2.1/com.google.
+ code.gson/gson/2.10.1/b3add478d4382b78ea20b1671390a858002feb6c/gson-2.1
+ 0.1.jar file:/home/sara-lucia/.gradle/caches/modules-2/files-2.1/org.po
+ stgresql/postgresql/42.6.0/7614cfce466145b84972781ab0079b8dea49e363/pos
+ tgresql-42.6.0.jar file:/home/sara-lucia/.gradle/caches/modules-2/files
+ -2.1/org.checkerframework/checker-qual/3.31.0/eeefd4af42e2f4221d145c179
+ 1582f91868f99ab/checker-qual-3.31.0.jar
+

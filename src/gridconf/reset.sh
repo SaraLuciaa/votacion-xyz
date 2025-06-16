@@ -15,9 +15,7 @@ icegridregistry --Ice.Config=grid.cfg &
 sleep 2
 
 echo "Iniciando IceGrid Node..."
-icegridnode --Ice.Config=nodeCentral.cfg &
+icegridnode --Ice.Config=central-01.cfg &
 sleep 2
-
-
 
 echo "Todo listo. Puedes ejecutar tus clientes ahora."
